@@ -8,6 +8,10 @@ Planet interior structure code for astronomers, planetary scientists, mice, and 
 
 [➡️ Read the Docs](https://magrathea.readthedocs.io/en/latest/)&nbsp;&nbsp;&nbsp;&nbsp;[➡️ v1 Pub.](https://arxiv.org/abs/2201.03094)&nbsp;&nbsp;&nbsp;&nbsp;[➡️ v2 Pub.](https://arxiv.org/abs/2510.23733)
 
+## 实验复现分支 / Reproduction experiments
+
+[论文模型复现与已有实验输出](experiments/README.md)：Huang et al. (2022) 图 4 默认模型、结课练习、亚海王星文献构成试算，以及可在 Ubuntu/WSL 复跑的配置、脚本、原始剖面、日志和图表。
+
 ## What is this repository for? ##
 
 A 1D planet structure code written in C++ which considers the case of fully differentiated interiors. 
