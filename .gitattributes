@@ -63,3 +63,13 @@ tests/native_water_audit.cpp -text whitespace=cr-at-eol
 research/composition-constraints-20261112/verification/profile-empty.dat -whitespace
 research/composition-constraints-20261112/verification/query-empty.csv -whitespace
 research/composition-constraints-20261112/scripts/stageA-probe-final.py -whitespace
+
+# Additional raw candidate/mass profiles preserve exact terminal whitespace.
+research/composition-constraints-20261112/stageB/results/**/*.dat -whitespace
+research/composition-constraints-20261112/mass-slices/**/*.dat -whitespace
+
+# Frozen candidate/controller source retains original executed bytes, including legacy spaces.
+research/composition-constraints-20261112/stageB/candidate-src/* -whitespace
+research/composition-constraints-20261112/scripts/mass-controller.py -whitespace
+research/composition-constraints-20261112/scripts/plot-mass-slices.py -whitespace
+research/composition-constraints-20261112/scripts/verify-mass-slices.py -whitespace

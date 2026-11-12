@@ -1,0 +1,3 @@
+FAIL invalid low initial trial must not preclude later valid bracket
+FAIL known invalid hole cannot be crossed as valid bracket
+FAIL multiple sampled brackets reported ambiguous

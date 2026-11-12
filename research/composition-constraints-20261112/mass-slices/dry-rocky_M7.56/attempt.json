@@ -1,0 +1,33 @@
+{
+  "case": "dry-rocky_M7.56",
+  "stage": "C",
+  "family": "dry-rocky",
+  "mass_ME": 7.56,
+  "status": "COMPLETED",
+  "binary_sha256": "1fad237de60ab2fd029c9ea64e7d51b86b246e7b8a8caad14ce14f5751b939cd",
+  "config_sha256": "3a49046271c61a6c48dcb17b9365a7551983ed266ff5803d923d347062227431",
+  "exit_code": 0,
+  "seconds": 6.6538074016571045,
+  "model_exists": true,
+  "runtime": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 44584,
+      "Fo": 6635,
+      "Gas_hhe": 65999,
+      "Gas_hhe_iso100": 12360,
+      "Rwd": 7366,
+      "Si_PPv_Sakai": 6963,
+      "Si_Pv": 9055,
+      "Wds": 7161
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 8,
+      "Gas_hhe": 61602
+    }
+  },
+  "R_RE": 1.8522665,
+  "saved_rows": 648
+}

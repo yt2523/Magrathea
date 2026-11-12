@@ -1,0 +1,102 @@
+{
+  "status": "PASS_BOUNDED_MASS_SLICE_REPRESENTATIVES",
+  "points": {
+    "wet": {
+      "7.56": {
+        "R_RE": 2.3968001,
+        "model_sha256": "c7929b4edcf3dcb88dd3dd2040ac89c98bbf0cfe6f304bd1638439b4f8451819",
+        "max_saved_density_error": 6.664643071067202e-08,
+        "rows": 1229,
+        "case": "wet_M7.56"
+      },
+      "8.54": {
+        "R_RE": 2.4529772,
+        "model_sha256": "b59be1b20c71f316da92ef15174ad922f42a1d14586d7d6bde097228a2165cd4",
+        "max_saved_density_error": 6.805434138191408e-08,
+        "rows": 1206,
+        "case": "wet_M8.54"
+      },
+      "8.04": {
+        "R_RE": 2.4251107,
+        "case": "stageB/notp14",
+        "model_sha256": "c6c4c17c62febaffde0146e42d97531acbafa80c1fb83cb3d7aa1d869f7e9ded",
+        "reuse": "samecurrentELF/noTPAQUAparameters; savedbytesmatchverifiedStageA"
+      },
+      "mass_interpolation_holdout": {
+        "method": "endpointlinearM interpolation predicting independent centralmass run",
+        "predicted_R_RE": 2.424315414285714,
+        "actual_R_RE": 2.4251107,
+        "absolute_error_RE": 0.0007952857142856651,
+        "pass_local_0.01RE_target": true,
+        "scope": "three representativecompositions only; notglobalerrorbound"
+      }
+    },
+    "dry-rocky": {
+      "7.56": {
+        "R_RE": 1.8522665,
+        "model_sha256": "82508ac7ad613fbefb0a0308323f0ded51217d801e3421843f4f59a15d9ab1c1",
+        "max_saved_density_error": 5.986812661361921e-08,
+        "rows": 648,
+        "case": "dry-rocky_M7.56"
+      },
+      "8.04": {
+        "R_RE": 1.8759446,
+        "model_sha256": "2c47bc917f26ff22d3669ad19687805bc0094479e65851e08365bf79281a20aa",
+        "max_saved_density_error": 5.859616358525734e-08,
+        "rows": 636,
+        "case": "dry-rocky_M8.04"
+      },
+      "8.54": {
+        "R_RE": 1.8993762,
+        "model_sha256": "1ce99a2221616b69d15b4e008a7c894ed71f26203ee1fc13650be9c518ac2194",
+        "max_saved_density_error": 6.92576307932737e-08,
+        "rows": 648,
+        "case": "dry-rocky_M8.54"
+      },
+      "mass_interpolation_holdout": {
+        "method": "endpointlinearM interpolation predicting independent centralmass run",
+        "predicted_R_RE": 1.8753406387755103,
+        "actual_R_RE": 1.8759446,
+        "absolute_error_RE": 0.0006039612244896908,
+        "pass_local_0.01RE_target": true,
+        "scope": "three representativecompositions only; notglobalerrorbound"
+      }
+    },
+    "dry-iron": {
+      "7.56": {
+        "R_RE": 1.4326158,
+        "model_sha256": "738fd95300b8315352cf349d99379ac8062200a7009972f1f1029ebb3d1a6c98",
+        "max_saved_density_error": 7.532276587530028e-08,
+        "rows": 682,
+        "case": "dry-iron_M7.56"
+      },
+      "8.04": {
+        "R_RE": 1.4500168,
+        "model_sha256": "69dc2bc3c35f626c415549fa551f7048b3a606a53bcd347323b71081deb4c567",
+        "max_saved_density_error": 7.374780629003135e-08,
+        "rows": 673,
+        "case": "dry-iron_M8.04"
+      },
+      "8.54": {
+        "R_RE": 1.4672245,
+        "model_sha256": "95206c3afe5f20dbb01c9b9e8583eac0c4d138149150173b0e6fff9ef59aa0ac",
+        "max_saved_density_error": 7.098373336573915e-08,
+        "rows": 693,
+        "case": "dry-iron_M8.54"
+      },
+      "mass_interpolation_holdout": {
+        "method": "endpointlinearM interpolation predicting independent centralmass run",
+        "predicted_R_RE": 1.449567,
+        "actual_R_RE": 1.4500168,
+        "absolute_error_RE": 0.0004497999999999447,
+        "pass_local_0.01RE_target": true,
+        "scope": "three representativecompositions only; notglobalerrorbound"
+      }
+    }
+  },
+  "new_native_attempts": 8,
+  "exact_reused_central_wet": 1,
+  "new_saved_rows_checked": 6415,
+  "max_density_error": 7.532276587530028e-08,
+  "scope": "conditionalmasssensitivitynotcompositionposterior; noTPinternalODEstatusunexposed; fullgridnotrun"
+}

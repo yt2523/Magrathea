@@ -1,0 +1,22 @@
+{
+  "reviewer": "/root/composition_stageb_review",
+  "verdict": "PASS_BOUNDED_CONDITIONAL_MASS_SENSITIVITY",
+  "new_native_attempts": 8,
+  "exact_reused_central_wet": 1,
+  "saved_rows": 6415,
+  "maximum_density_relative_error": 7.532276587530028e-08,
+  "dry_water_input_and_calls": 0,
+  "mass_layer_scaling": "independentlychecked",
+  "endpoint_holdout_errors_RE": [
+    0.0007952857142856651,
+    0.0006039612244896908,
+    0.0004497999999999447
+  ],
+  "limits": [
+    "notglobalinterpolationbound",
+    "notposterior",
+    "notproductionmassvectordriver",
+    "noTPinternalODEstatusunexposed"
+  ],
+  "configuration_hash_note": "legacySHAusesnormalizedLF;rawcfgSHAinconfig-identity-conventions.json"
+}

@@ -1,0 +1,12 @@
+{
+  "header_unit_exit": 0,
+  "production_integration": "REJECTED_MISSING",
+  "rejected_patch": [
+    {
+      "path": "src/hydro.cpp",
+      "old": "#include \"radius_bracket.h\"",
+      "new": "#include \"radius_bracket.h\""
+    }
+  ],
+  "reason": "only replaceshydro.hinclude;noRloopintegration; existinghydroheaderwouldbelost"
+}

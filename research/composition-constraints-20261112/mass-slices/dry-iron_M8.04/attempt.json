@@ -1,0 +1,28 @@
+{
+  "case": "dry-iron_M8.04",
+  "stage": "C",
+  "family": "dry-iron",
+  "mass_ME": 8.04,
+  "status": "COMPLETED",
+  "binary_sha256": "1fad237de60ab2fd029c9ea64e7d51b86b246e7b8a8caad14ce14f5751b939cd",
+  "config_sha256": "6c3fe0389f459e8ea44efd0258523fa40fd58dd2afdd2b08ec62349e2d8bf8aa",
+  "exit_code": 0,
+  "seconds": 5.494462013244629,
+  "model_exists": true,
+  "runtime": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 51454,
+      "Gas_hhe": 85101,
+      "Gas_hhe_iso100": 10839
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 8,
+      "Gas_hhe": 79608
+    }
+  },
+  "R_RE": 1.4500168,
+  "saved_rows": 673
+}

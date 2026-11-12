@@ -1,9 +1,11 @@
 # TOI-732 c：有水与无水组成约束（进行中）
 
-开发分支research/composition-constraints-20261112，仅发布yt2523/Magrathea。DeepSeek编程，Codex定义检查/执行，独立Codex验收；cid02399021手动仓库本轮不变。
+开发分支research/composition-constraints-20261112，仅发布yt2523/Magrathea。DeepSeek编程，Codex定义检查/执行，独立Codex验收；cid02399021手动仓库及master/run本轮不变。
 
-当前[阶段报告与实际结果](research/composition-constraints-20261112/README.md)：AQUA水EOS来源/接缝比较与两种无水代表通过有限数值检查。10次启动含2失败、8成功，四组普通/加严；尚未完成网格和质量误差。用户已选择AQUA为有水主方案，旧拼接有限对照；无水保留Fe+硅酸盐+HHe及纯Fe+HHe。
+- 已通过：[AQUA来源/接缝与两种无水代表](research/composition-constraints-20261112/README.md)。用户已选AQUA为有水主方案，旧拼接有限对照。
+- 已通过：[三质量代表切片](research/composition-constraints-20261112/mass-slices/README.md)，有水/无水岩石/无水铁端元都保留。
+- 候选：[外部TP初始化](research/composition-constraints-20261112/stageB/README.md)已恢复实际失败代表并通过完整接受状态检查；独立审核另发现两个漏解边界，尚未修复，**没有合入根src/hydro.cpp**。
 
-下一步修复外部TP初始化，再接质量向量和有水/无水网格。最终交付三元图、气体比例图、质量切片图，标明条件模型/数值有效范围。详见[长程计划](docs/superpowers/plans/2026-11-12-composition-constraints-long-task.md)。全任务180次行星启动/12次DeepSeek上限，当前10次/7次。物理认证false，不把示范热边界或固定质量结果当正式行星后验。
+目前24次行星启动含20份模型与4份保留失败，12次DeepSeek调用含末次截断响应（未应用）；总重置周期16/88。正在等待本任务上限12→16的选择，未自动超额调用。完整组成网格、三元/气体比例约束区及生产扫描入口尚未完成。三质量敏感性图不能叫组成后验。下一步先修复候选边界，再质量向量/扫描入口和有水无水网格；[长程计划](docs/superpowers/plans/2026-11-12-composition-constraints-long-task.md)总行星上限180。
 
-已有[统一HHe密度100bar里程碑](research/unified-hhe-100bar-20261112/README.md)和[旧混合气体对照](research/100bar-control-20261112/README.md)保持封存，不重启。构建用make -B，输出使用全新路径；原生exit0不代表有解。
+示范350K/.1bar/100bar热分界不等于正式TOI-732c气候模型，physical_acceptance=false。水AQUA比较使用验证公用轴的逐行子表；仓库原表不改。构建用make -B，新输出路径；原生exit0不代表有解。已有[统一HHe里程碑](research/unified-hhe-100bar-20261112/README.md)封存。

@@ -1,0 +1,25 @@
+{
+  "case": "red20",
+  "stage": "B",
+  "status": "COMPLETED",
+  "config_sha256": "74eddc7c2b36b585cdbc9f97c2ba9c8a4cd661dcd5600de7c1156620aeae58b6",
+  "binary_sha256": "afb5f9c42652489f770b54a92ddcf41c1452852ae2fe89e34aa3541df3b2ad60",
+  "hydro_source_sha256": "b7c7d41fbd856e351505db346416bc263940c53a92f683c44ecdbb8244c4b4eb",
+  "profile_sha256": "304680f64db554b665bc9fbc1563b5814cef435d1da58ad1c03deed3565281bf",
+  "AQUA_fixture_sha256": "c493e0fb214bef945dacb3abf076c4f11b8c27b58aa9d174c293947236db5768",
+  "exit_code": 1,
+  "seconds": 5.5488481521606445,
+  "model_exists": false,
+  "runtime": {
+    "cli_exit_code": 1,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Gas_hhe": 117733
+    },
+    "gradient_audit_counts": {}
+  },
+  "config_bytes_sha256": "46a117b8ab6fa1068b65994bb53bc368e7f08e962100159b157d403552ab9d6c",
+  "config_text_lf_sha256": "74eddc7c2b36b585cdbc9f97c2ba9c8a4cd661dcd5600de7c1156620aeae58b6",
+  "config_sha256_convention": "legacy config_sha256 is LF-normalized text, not physical CRLF bytes"
+}

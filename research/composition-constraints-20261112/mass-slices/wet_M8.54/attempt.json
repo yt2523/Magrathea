@@ -1,0 +1,30 @@
+{
+  "case": "wet_M8.54",
+  "stage": "C",
+  "family": "wet",
+  "mass_ME": 8.54,
+  "status": "COMPLETED",
+  "binary_sha256": "1fad237de60ab2fd029c9ea64e7d51b86b246e7b8a8caad14ce14f5751b939cd",
+  "config_sha256": "040c6d409679090ef1ccdc801b70625634b9e95f6f59cbe9d943218a712b8a3f",
+  "exit_code": 0,
+  "seconds": 7.662184476852417,
+  "model_exists": true,
+  "runtime": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 66742,
+      "Gas_hhe": 76678,
+      "Gas_hhe_iso100": 17489,
+      "H2O_AQUA": 270555
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 15,
+      "Gas_hhe": 71508,
+      "H2O_AQUA": 254562
+    }
+  },
+  "R_RE": 2.4529772,
+  "saved_rows": 1206
+}

@@ -120,3 +120,7 @@ Keep total180planet attempts/12DeepSeek calls. Coarse stageD expands72->96 by ad
 ## Accepted water-model decision
 
 User selected AQUA as wet main, stitched default as finite comparison. StageA completed10nativeattempts incl2failedinitializations and4earlystageCdrychecks;8successfulprofiles/8752storedstates independentlychecked.7DeepSeekcallsused. Canonicalphysics/tablesunchanged; validatedexactrowcommonaxisAQUAfixture usedinrunworkspace. NextB externalTPinitialization, no repeatA. See research/composition-constraints-20261112/README.md.
+
+## Checkpoint after12calls /24nativeattempts
+
+A sources/representativespassed;userselectedAQUAwetmain. Cthree-massrepresentativespassed,notproductionmassvectordriver. BactualTPcasespassed,butexactzero/reverseslopefalsefailuresremain;12thresponsehadfinish_reasonlength/invalidJSONandwasnotapplied. Budgetcapreply12->16pending,noextraAPIcalls. NoD/E/Fstarted,nofullcompositionplots. Candidatecodearchivedunderresearch/stageB,notpromotedtorootsrc. NativecountsA6/C12/B6=24,20savedmodels/4no-model attempts. RawcfgSHAclarifiedseparatelyfromlegacyLFtexthash. Next: authorizedbuilderrepair,thenboundednative/gridcontinuation;nohistoryreruns.

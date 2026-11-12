@@ -1,0 +1,125 @@
+{
+  "explanation": "Original controller config_sha256 hashes LF-normalized logical text. Added distinct raw savedbyte hashes; original run.cfg bytes remainunchanged. Frozen StageA manifest always usedrawbytes. No planetaryresults changed.",
+  "configs": [
+    {
+      "case": "grid14-aqua",
+      "config_bytes_sha256": "bd7babc11309ddc5717e819817e652ce0aaa202c01092cc39c5315211b24d2b1",
+      "config_text_lf_sha256": "b7e798a7d2a9a19a7b4bdcd3291395570092135bbf672f98b44fcb8d47dde9d4"
+    },
+    {
+      "case": "grid14-aqua-verbose",
+      "config_bytes_sha256": "f64e4b1f2863fb881bff9581245d4d29420e2338d8dff1fe6e0f75ddda2b34a0",
+      "config_text_lf_sha256": "d84c453a16035a11ae7194db14179933e1fbc11f427cd8fdea645ad670a5a792"
+    },
+    {
+      "case": "grid14-aqua-commonaxis",
+      "config_bytes_sha256": "2b2ce0d3157163fbfb0d9ab0309998b919fa30d2d48274cd19e4fc0c76f3405a",
+      "config_text_lf_sha256": "031154ea05f8d9bb67683b71c894b076047e5b71cc06a1d8a986bcf804ee2986"
+    },
+    {
+      "case": "grid20-aqua-commonaxis",
+      "config_bytes_sha256": "63896f97c1a740b67df58bbb94ab651565c9647752613de83ce4c9c87420eb8f",
+      "config_text_lf_sha256": "29cfd7e5fea7346cacf5f39241617cc7128a9e3044eb165e3e10496a73a06d36"
+    },
+    {
+      "case": "grid14-aqua-commonaxis-tight",
+      "config_bytes_sha256": "e66e90f241d8460dbe0f66b86770442d0039b54a05745b3857a3b275c628f02c",
+      "config_text_lf_sha256": "7933c27326804935169d17cb78d9f9eae091279af384ce03c3c9860c5d6d209c"
+    },
+    {
+      "case": "grid20-aqua-commonaxis-tight",
+      "config_bytes_sha256": "20a2bba2233a1ddf022bf689ceb53f479126190956fffe96be40807991c7679e",
+      "config_text_lf_sha256": "80920a889bc81b43330ba1c5556eff636b8a438bc443ff643727632abd95b5f2"
+    },
+    {
+      "case": "dry-rocky",
+      "config_bytes_sha256": "3c3c796a2d6b8e15fb07a806ca2e2a0cbd6b1a3f0ea76dcc70f139df041909f7",
+      "config_text_lf_sha256": "afbb0ed0164eb329313f33065c1bf0b94c5d1ca8de383c880daf24f43f69c952"
+    },
+    {
+      "case": "dry-iron",
+      "config_bytes_sha256": "00ec889067a98e0b6538980fcbc5cb1dd7e44478e68c88ca205a2182277dce28",
+      "config_text_lf_sha256": "a62135b09d1c8fafe138ea6f9c7faaeee68663a2b415a122a065fab1de1accf5"
+    },
+    {
+      "case": "dry-rocky-tight",
+      "config_bytes_sha256": "26729755dded745cac6afcb7a996890033a4f285960d9681f15143da007af154",
+      "config_text_lf_sha256": "a8aa6fb5f5fda073e5231fe1319f48a0c04c8e4fd4d558767c953e23466513c3"
+    },
+    {
+      "case": "dry-iron-tight",
+      "config_bytes_sha256": "db2d9ad9a98bc4f634346a76f3fbf0e6b35ba4170e9bec78ba9b6081be74298b",
+      "config_text_lf_sha256": "ffeaee0f73bb59de9967705ea6ac35e22768229e7fecce656752d2d4813f23d7"
+    },
+    {
+      "case": "red20",
+      "config_bytes_sha256": "46a117b8ab6fa1068b65994bb53bc368e7f08e962100159b157d403552ab9d6c",
+      "config_text_lf_sha256": "74eddc7c2b36b585cdbc9f97c2ba9c8a4cd661dcd5600de7c1156620aeae58b6"
+    },
+    {
+      "case": "green20",
+      "config_bytes_sha256": "38edda06f8a5ce65bfc7d76f539f1f11cf9301f1b772e0b9f9a95a51738cf1d6",
+      "config_text_lf_sha256": "e9e0ea46c0385dfe23e2d5fc774fc745653b90b32e9fabae1c5225f267f6f831"
+    },
+    {
+      "case": "green14",
+      "config_bytes_sha256": "7d60c0095aeed2e3a9d7292570e598b4d4274c2fa529f55fac8f78816058e1c5",
+      "config_text_lf_sha256": "d355184ff259c9818f29ccc928267d8ba5c77927d9fbad927e171aa671be7ea8"
+    },
+    {
+      "case": "green20-tight",
+      "config_bytes_sha256": "dec2d277cbb2eb89a612ff34af6bfbc60cea8931b6a99652f3b65c81bf786ab7",
+      "config_text_lf_sha256": "ed3a3bd32f46524d17fc4d5fd10f07acb3b10a8a1fb73bcf30f68958da35ffbd"
+    },
+    {
+      "case": "short20",
+      "config_bytes_sha256": "542416c1c5eb7bde6e08f81cc7b6e4fa2588d87297728b2c23a760d6b3cb8b71",
+      "config_text_lf_sha256": "9009a04686212ea2d62dd6b85db35f1700560a326277d5ebd3452f2b630964b9"
+    },
+    {
+      "case": "notp14",
+      "config_bytes_sha256": "cd2cd3ce9711c96e1185dcdc4d3c0268c7bb1f672c788a3ea5af4372b376dd62",
+      "config_text_lf_sha256": "e76634295b75de95c8e60cfb54459835e7edcf36e340a05e37ada715f29463ee"
+    },
+    {
+      "case": "wet_M7.56",
+      "config_bytes_sha256": "b67d9eaa1479a2315b1d77e4b331d288cef5fce5954a91859040a38a739f679b",
+      "config_text_lf_sha256": "ad3078356e8f9a8570533c165efe16852749a87e4c71d8d4dd877e62681f5b7c"
+    },
+    {
+      "case": "wet_M8.54",
+      "config_bytes_sha256": "f60a3ae337f8db5714e7b78b881ee0b75c5b48d8e2dd39879fa78303e66f2dbd",
+      "config_text_lf_sha256": "040c6d409679090ef1ccdc801b70625634b9e95f6f59cbe9d943218a712b8a3f"
+    },
+    {
+      "case": "dry-rocky_M7.56",
+      "config_bytes_sha256": "c70bc415ba221e4e9594dcc8da4897c0ac708e61c2b8044e21324c132d1e8725",
+      "config_text_lf_sha256": "3a49046271c61a6c48dcb17b9365a7551983ed266ff5803d923d347062227431"
+    },
+    {
+      "case": "dry-rocky_M8.04",
+      "config_bytes_sha256": "f8cb2367bb918fef1ab41f222746554053df327ed76a6d6523f049b49c70c06a",
+      "config_text_lf_sha256": "fad36b636afa8d65ab298bc5ddc722019dc95efec62b44ca096b4b2aca7aa2c0"
+    },
+    {
+      "case": "dry-rocky_M8.54",
+      "config_bytes_sha256": "91c65647ef860a95a1d5306faf2e00df9f67fede13030304e2a6d4d518bd80b0",
+      "config_text_lf_sha256": "8ba0488853f0e7a6c7d47611775ef1b0e0a2afd1da42fe4856c17f55ea10fa8d"
+    },
+    {
+      "case": "dry-iron_M7.56",
+      "config_bytes_sha256": "56075cac1d08daee16694fb20b9f1cc73cfcef6074e62ff15f78d321946f7365",
+      "config_text_lf_sha256": "bc86ec454dc820909663c22ed78a43e370cec7810c4679af53cdd4a1d1bbd962"
+    },
+    {
+      "case": "dry-iron_M8.04",
+      "config_bytes_sha256": "6575cd794ad5fa08ff4eb10678f978984d7b217d7545f71153f71f1fca9d3e29",
+      "config_text_lf_sha256": "6c3fe0389f459e8ea44efd0258523fa40fd58dd2afdd2b08ec62349e2d8bf8aa"
+    },
+    {
+      "case": "dry-iron_M8.54",
+      "config_bytes_sha256": "17b1850a853780d8ba2a7a57e52fbc9e8168660ca9679e5c96e61cfd9ec7c80f",
+      "config_text_lf_sha256": "d6299c70d0b290d22b45e76511be1ca84b7721064e11c968ca234f38110be608"
+    }
+  ]
+}

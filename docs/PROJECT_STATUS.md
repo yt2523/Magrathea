@@ -1,3 +1,7 @@
+##2026-11-12 checkpoint: Aaccepted/Cmassrepresentativesaccepted/Bcandidateedgefixpending
+
+Read rootREADME and research/composition-constraints-20261112/{stageB,mass-slices}/README.md. UserchoseAQUAwetmain,bothdryfamiliesincluded.24nativeattempts/20models/4nomodels,12DeepSeekcallsincltruncated12thnotapplied(epoch16/88). FixedrootsamplingextrascurrentlyFAIL,donotpromoteBcandidate. Rootproductionhydro.cppunchanged. Awaitingtaskcallcap12->16reply; noextraAPI. NoD/E/Fgridsyet. Source/data/knownlimitsarchived,allnewfilesD.
+
 ##2026-11-12 active composition wet+dry task
 
 UserapprovedAQUAwetmain/stichedfinitecontrol,bothdryfamiliesfirstdelivery. StageArepresentativespassedboundedreview:10attempts/8savedprofiles/2failures,8752states,7newDeepSeekcalls(epoch11/88). ProductionC++andcanonicaltablesunchanged. Sharedplan180attempts/12calls remainsactive, nextBdomainawareexternalTPinitialization. NoMunc/gridyet. See research/composition-constraints-20261112/README.md.

@@ -1,0 +1,33 @@
+{
+  "case": "dry-rocky_M8.04",
+  "stage": "C",
+  "family": "dry-rocky",
+  "mass_ME": 8.04,
+  "status": "COMPLETED",
+  "binary_sha256": "1fad237de60ab2fd029c9ea64e7d51b86b246e7b8a8caad14ce14f5751b939cd",
+  "config_sha256": "fad36b636afa8d65ab298bc5ddc722019dc95efec62b44ca096b4b2aca7aa2c0",
+  "exit_code": 0,
+  "seconds": 5.7968809604644775,
+  "model_exists": true,
+  "runtime": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 39670,
+      "Fo": 5607,
+      "Gas_hhe": 60453,
+      "Gas_hhe_iso100": 11008,
+      "Rwd": 6210,
+      "Si_PPv_Sakai": 6230,
+      "Si_Pv": 7693,
+      "Wds": 6005
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 8,
+      "Gas_hhe": 56454
+    }
+  },
+  "R_RE": 1.8759446,
+  "saved_rows": 636
+}

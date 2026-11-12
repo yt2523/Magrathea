@@ -1,0 +1,22 @@
+{
+  "reviewer": "/root/composition_stageb_review",
+  "verdict": "ACTUAL_CASES_PASS_CONDITIONAL_NUMERICAL_HELPER_NOT_GENERALLY_APPROVED",
+  "actual_tp_models": 3,
+  "accepted_rows": [
+    13122,
+    14183,
+    14974
+  ],
+  "source_noTP_path": "legacycodeunchanged;notp14profileexactbytesmatchesStageA",
+  "initial_trial_counts": {
+    "green": 6,
+    "max_including_GSLset": 8,
+    "short": 10
+  },
+  "blocking_for_general_promotion": [
+    "exact sampled roots double-counted as ambiguous",
+    "same-sign extension one-sided and can miss opposite-slope root",
+    "DS12truncatedJSON,noapply;candidateonly,notpromoted"
+  ],
+  "state": "candidate not promoted to root src"
+}

@@ -1,0 +1,9 @@
+{
+  "cli_exit_code": 1,
+  "strict_table_audit": true,
+  "rejected_table_queries": 0,
+  "density_audit_counts": {
+    "Gas_hhe": 117733
+  },
+  "gradient_audit_counts": {}
+}

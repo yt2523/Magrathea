@@ -1,0 +1,170 @@
+[
+  {
+    "call": 1,
+    "usage": {
+      "prompt_tokens": 6534,
+      "completion_tokens": 6506,
+      "total_tokens": 13040,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6534
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 2,
+    "usage": {
+      "prompt_tokens": 6360,
+      "completion_tokens": 6258,
+      "total_tokens": 12618,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6360
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 3,
+    "usage": {
+      "prompt_tokens": 7268,
+      "completion_tokens": 6863,
+      "total_tokens": 14131,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7268
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 4,
+    "usage": {
+      "prompt_tokens": 230,
+      "completion_tokens": 312,
+      "total_tokens": 542,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 230
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 5,
+    "usage": {
+      "prompt_tokens": 4306,
+      "completion_tokens": 941,
+      "total_tokens": 5247,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4306
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 6,
+    "usage": {
+      "prompt_tokens": 222,
+      "completion_tokens": 196,
+      "total_tokens": 418,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 222
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 7,
+    "usage": {
+      "prompt_tokens": 2062,
+      "completion_tokens": 552,
+      "total_tokens": 2614,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2062
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 8,
+    "usage": {
+      "prompt_tokens": 3847,
+      "completion_tokens": 4323,
+      "total_tokens": 8170,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 3847
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 9,
+    "usage": {
+      "prompt_tokens": 2679,
+      "completion_tokens": 1096,
+      "total_tokens": 3775,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2679
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 10,
+    "usage": {
+      "prompt_tokens": 231,
+      "completion_tokens": 245,
+      "total_tokens": 476,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 231
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 11,
+    "usage": {
+      "prompt_tokens": 144,
+      "completion_tokens": 127,
+      "total_tokens": 271,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 144
+    },
+    "applied": "see stage review"
+  },
+  {
+    "call": 12,
+    "usage": {
+      "prompt_tokens": 1378,
+      "completion_tokens": 4300,
+      "total_tokens": 5678,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1378
+    },
+    "applied": false
+  }
+]

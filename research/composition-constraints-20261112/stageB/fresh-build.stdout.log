@@ -1,0 +1,5 @@
+g++  -o src/EOS.o -c src/EOS.cpp -std=c++0x -O3 -Wall  
+g++  -o src/EOSlist.o -c src/EOSlist.cpp -std=c++0x -O3 -Wall  
+g++  -o src/EOSmodify.o -c src/EOSmodify.cpp -std=c++0x -O3 -Wall  
+g++  -o src/compfind.o -c src/compfind.cpp -std=c++0x -O3 -Wall  
+g++  -o src/hydro.o -c src/hydro.cpp -std=c++0x -O3 -Wall  

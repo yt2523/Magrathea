@@ -1,0 +1,16 @@
+{
+  "source": "Bonfanti etal2024,A&A682A66,doi10.1051/0004-6361/202348180",
+  "M_ME": 8.04,
+  "M_minus": 0.48,
+  "M_plus": 0.5,
+  "R_RE": 2.39,
+  "R_minus": 0.11,
+  "R_plus": 0.1,
+  "mass_vector": [
+    7.56,
+    8.04,
+    8.54
+  ],
+  "joint_covariance": "notavailableinthisstage",
+  "purpose": "threeconditionalmasssensitivityslices;notcompositionposterior"
+}

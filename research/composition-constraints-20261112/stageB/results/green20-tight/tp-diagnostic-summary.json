@@ -1,0 +1,61 @@
+{
+  "raw_sha256": "b9c9304c10fa8873eaa7fd3fe151beedd51b37f14e24a8a6f4f066b9915bd3a7",
+  "raw_bytes": 11152743,
+  "gzip_sha256": "a90949264e9536a164c97510ea1b50a55000c47a76ffd6469afcf4ebfcb92637",
+  "summary": {
+    "schema_version": 2,
+    "status": "success",
+    "eos_selector": "gas_hhe_prescribed",
+    "helium_mass_fraction": 0.275,
+    "pressure_unit": "dyn/cm2",
+    "temperature_unit": "K",
+    "mass_unit": "g",
+    "outer_pressure_cgs": 100000,
+    "outer_temperature_K": 350,
+    "profile_min_pressure_cgs": 10,
+    "profile_max_pressure_cgs": 10000000000,
+    "gas_pressure_min": 100000,
+    "gas_pressure_max": 7765214882.104021,
+    "accepted_gas_pressure_max": 7765214882.104021,
+    "gas_base_pressure": 7765214882.104021,
+    "gas_base_temperature": 1186.7419508284543,
+    "gas_base_mass": 4.787243853599999e+28,
+    "fit_mass": 9.6032976e+27,
+    "max_pre_projection_relative": 8.351033706419345e-14,
+    "max_effective_relative": 0,
+    "max_density_relative": 0,
+    "max_knot_pressure_projection_relative": 1.4080313377262271e-14,
+    "knot_snaps": 217,
+    "ode_status": 0,
+    "corrected_fit": false,
+    "total_mass_g": 4.8016488e+28,
+    "total_radius_cm": 1608986961.467323,
+    "strict_table_audit": true,
+    "layer_rows": 14974,
+    "accepted_model_rows": 14974,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 68414,
+      "Gas_hhe": 3158912,
+      "H2O_AQUA": 217264
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 8,
+      "H2O_AQUA": 201711
+    },
+    "fit_raw": {
+      "Ri": 479594916.2480197,
+      "Ro": 479594932.45088863,
+      "Pi": 10434501937628.654,
+      "Po": 10434501247343.799,
+      "Ti": 5001.569214851182,
+      "To": 5001.568859114931
+    },
+    "fit_residual": {
+      "radius": -1.689224397070549e-08,
+      "pressure": 3.3077040113052295e-08,
+      "temperature": 3.556246529933665e-08
+    },
+    "gas_rows": 12857
+  }
+}
