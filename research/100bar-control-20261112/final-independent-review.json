@@ -1,0 +1,29 @@
+{
+  "reviewer": "fresh independent Codex control_resume_review",
+  "verdict": "CONDITIONAL_NUMERICAL_PASS_WITH_HYBRID_LIMITATION",
+  "independently_verified": [
+    "all4 raw model.dat numeric fields match checked rows",
+    "baseline/tight fixed numerical gates",
+    "independent HHe bilinear and ideal mp/kb density check",
+    "config/model hashes and intended tighter-only settings",
+    "38 physics files match production after line-ending normalization",
+    "strict runtime audit true and rejected0 in all4",
+    "ledger4 planet attempts and2 DeepSeek calls"
+  ],
+  "relative_radius_differences": {
+    "grid14": 4.2613595763185685e-08,
+    "grid20": 0.0
+  },
+  "maximum_stored_density_relative_error": 8.058128675436649e-08,
+  "physical_acceptance": false,
+  "hybrid_density_continuity": "FAIL: 26.3410003897% artificial inward density drop",
+  "limitations": [
+    "internal ode_status and raw fit residuals not exposed by native CLI",
+    "comparison changes thermal closure and low-P EOS; not pureTP effect",
+    "old initializer is not repaired",
+    "existing water EOS joins retain density jumps",
+    "independent reviewer could not perform historical Git comparison due OS access; coordinator must supply Git identity proof"
+  ],
+  "reviewer_request": "explicit thermal intervals and cell-crossing details",
+  "request_resolution": "added thermal-interval-details.csv and thermal-interval-summary.json from stored states only; no model runs"
+}

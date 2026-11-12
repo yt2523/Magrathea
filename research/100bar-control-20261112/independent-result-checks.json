@@ -1,0 +1,386 @@
+{
+  "grid14": {
+    "status": "PASS_FIXED_RADIUS_AND_COMMON_PRESSURE_TEMPERATURE_CHECKS",
+    "baseline_radius_earth": 2.3466689,
+    "tight_radius_earth": 2.346669,
+    "relative_radius_difference_saved_precision": 4.2613595763185685e-08,
+    "common_P1000bar_temperature_relative_difference": 2.509841819930969e-07,
+    "common_pressure_temperatures_K": {
+      "100": {
+        "baseline": 350.0,
+        "tight": 350.0
+      },
+      "300": {
+        "baseline": 485.34725055017077,
+        "tight": 485.3513242724983
+      },
+      "1000": {
+        "baseline": 689.9722811084507,
+        "tight": 689.9721079363221
+      },
+      "3000": {
+        "baseline": 896.7978467136501,
+        "tight": 896.7997219343433
+      },
+      "7000": {
+        "baseline": null,
+        "tight": null
+      }
+    },
+    "independent_gas_density": [
+      {
+        "precision": "baseline",
+        "gas_rows": 223,
+        "max_independent_density_relative": 7.197830009797457e-08
+      },
+      {
+        "precision": "tight",
+        "gas_rows": 283,
+        "max_independent_density_relative": 8.058128675436649e-08
+      }
+    ],
+    "phase_joins": [
+      {
+        "precision": "baseline",
+        "inner": "Fe_hcp",
+        "outer": "Water_sc_Mazevet",
+        "P_inner_bar": 7388312.5,
+        "P_outer_bar": 7388312.5,
+        "T_inner_K": 2147.1995,
+        "T_outer_K": 2147.1995,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 16.80597,
+        "rho_outer": 5.6870727
+      },
+      {
+        "precision": "baseline",
+        "inner": "Water_sc_Mazevet",
+        "outer": "IceX",
+        "P_inner_bar": 7000000.0,
+        "P_outer_bar": 7000000.0,
+        "T_inner_K": 2082.656,
+        "T_outer_K": 2082.656,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 5.582717,
+        "rho_outer": 6.1377501
+      },
+      {
+        "precision": "baseline",
+        "inner": "IceX",
+        "outer": "Water_sc_Mazevet",
+        "P_inner_bar": 687156.83,
+        "P_outer_bar": 687156.83,
+        "T_inner_K": 2082.656,
+        "T_outer_K": 2082.656,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 2.877049,
+        "rho_outer": 2.5230955
+      },
+      {
+        "precision": "baseline",
+        "inner": "Water_sc_Mazevet",
+        "outer": "Water_Brown",
+        "P_inner_bar": 35125.481,
+        "P_outer_bar": 35125.481,
+        "T_inner_K": 1280.0,
+        "T_outer_K": 1280.0,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 1.0045876,
+        "rho_outer": 1.1909276
+      },
+      {
+        "precision": "baseline",
+        "inner": "Water_Brown",
+        "outer": "Gas_hhe",
+        "P_inner_bar": 3040.9032,
+        "P_outer_bar": 3040.9032,
+        "T_inner_K": 899.05948,
+        "T_outer_K": 899.05948,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 0.67451227,
+        "rho_outer": 0.062451409
+      },
+      {
+        "precision": "baseline",
+        "inner": "Gas_hhe",
+        "outer": "Gas_iso",
+        "P_inner_bar": 100.0,
+        "P_outer_bar": 99.99996900000001,
+        "T_inner_K": 350.0,
+        "T_outer_K": 350.0,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 0.0076488044,
+        "rho_outer": 0.01038407
+      },
+      {
+        "precision": "tight",
+        "inner": "Fe_hcp",
+        "outer": "Water_sc_Mazevet",
+        "P_inner_bar": 7388311.0,
+        "P_outer_bar": 7388311.0,
+        "T_inner_K": 2147.1992,
+        "T_outer_K": 2147.1992,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 16.805969,
+        "rho_outer": 5.6870723
+      },
+      {
+        "precision": "tight",
+        "inner": "Water_sc_Mazevet",
+        "outer": "IceX",
+        "P_inner_bar": 7000000.0,
+        "P_outer_bar": 7000000.0,
+        "T_inner_K": 2082.6559,
+        "T_outer_K": 2082.6559,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 5.582717,
+        "rho_outer": 6.1377501
+      },
+      {
+        "precision": "tight",
+        "inner": "IceX",
+        "outer": "Water_sc_Mazevet",
+        "P_inner_bar": 687156.8200000001,
+        "P_outer_bar": 687156.8200000001,
+        "T_inner_K": 2082.6559,
+        "T_outer_K": 2082.6559,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 2.877049,
+        "rho_outer": 2.5230955
+      },
+      {
+        "precision": "tight",
+        "inner": "Water_sc_Mazevet",
+        "outer": "Water_Brown",
+        "P_inner_bar": 35125.506,
+        "P_outer_bar": 35125.506,
+        "T_inner_K": 1280.0,
+        "T_outer_K": 1280.0,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 1.0045878,
+        "rho_outer": 1.1909278
+      },
+      {
+        "precision": "tight",
+        "inner": "Water_Brown",
+        "outer": "Gas_hhe",
+        "P_inner_bar": 3040.903,
+        "P_outer_bar": 3040.903,
+        "T_inner_K": 899.05944,
+        "T_outer_K": 899.05944,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 0.67451228,
+        "rho_outer": 0.062451409
+      },
+      {
+        "precision": "tight",
+        "inner": "Gas_hhe",
+        "outer": "Gas_iso",
+        "P_inner_bar": 100.0,
+        "P_outer_bar": 99.999999,
+        "T_inner_K": 350.0,
+        "T_outer_K": 350.0,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 0.0076488045,
+        "rho_outer": 0.010384073
+      }
+    ],
+    "thermal_law_saved_interval_diagnostics": [
+      {
+        "precision": "baseline",
+        "finite_difference_intervals": 137,
+        "median_relative_residual": 5.384311274392317e-05,
+        "p95_relative_residual": 0.0004078070007642598,
+        "max_relative_residual": 0.0006618155156423722,
+        "interpretation": "diagnostic only: saved precision, finite intervals and table-cell crossings; not an integration error bound"
+      },
+      {
+        "precision": "tight",
+        "finite_difference_intervals": 154,
+        "median_relative_residual": 6.368084700625332e-05,
+        "p95_relative_residual": 0.0004244771599257735,
+        "max_relative_residual": 0.0008973211497950162,
+        "interpretation": "diagnostic only: saved precision, finite intervals and table-cell crossings; not an integration error bound"
+      }
+    ],
+    "physical_acceptance": false
+  },
+  "grid20": {
+    "status": "PASS_FIXED_RADIUS_AND_COMMON_PRESSURE_TEMPERATURE_CHECKS",
+    "baseline_radius_earth": 2.5171382,
+    "tight_radius_earth": 2.5171382,
+    "relative_radius_difference_saved_precision": 0.0,
+    "common_P1000bar_temperature_relative_difference": 3.3411045663456207e-07,
+    "common_pressure_temperatures_K": {
+      "100": {
+        "baseline": 350.0,
+        "tight": 350.0
+      },
+      "300": {
+        "baseline": 485.34735310909684,
+        "tight": 485.35151979426263
+      },
+      "1000": {
+        "baseline": 689.9720612786296,
+        "tight": 689.97229180551
+      },
+      "3000": {
+        "baseline": 896.7972229184145,
+        "tight": 896.799140717479
+      },
+      "7000": {
+        "baseline": 1128.5976814127343,
+        "tight": 1128.592164167701
+      }
+    },
+    "independent_gas_density": [
+      {
+        "precision": "baseline",
+        "gas_rows": 298,
+        "max_independent_density_relative": 6.904623983672309e-08
+      },
+      {
+        "precision": "tight",
+        "gas_rows": 346,
+        "max_independent_density_relative": 7.335858343004986e-08
+      }
+    ],
+    "phase_joins": [
+      {
+        "precision": "baseline",
+        "inner": "Fe_hcp",
+        "outer": "Water_sc_Mazevet",
+        "P_inner_bar": 6293651.4,
+        "P_outer_bar": 6293651.4,
+        "T_inner_K": 4617.3223,
+        "T_outer_K": 4617.3223,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 15.975053,
+        "rho_outer": 5.1562059
+      },
+      {
+        "precision": "baseline",
+        "inner": "Water_sc_Mazevet",
+        "outer": "Water_Brown",
+        "P_inner_bar": 14420.318000000001,
+        "P_outer_bar": 14420.318000000001,
+        "T_inner_K": 1280.0,
+        "T_outer_K": 1280.0,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 0.7378744,
+        "rho_outer": 0.91499726
+      },
+      {
+        "precision": "baseline",
+        "inner": "Water_Brown",
+        "outer": "Gas_hhe",
+        "P_inner_bar": 7499.9883,
+        "P_outer_bar": 7499.9883,
+        "T_inner_K": 1159.5632,
+        "T_outer_K": 1159.5632,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 0.76897236,
+        "rho_outer": 0.10260873
+      },
+      {
+        "precision": "baseline",
+        "inner": "Gas_hhe",
+        "outer": "Gas_iso",
+        "P_inner_bar": 100.0,
+        "P_outer_bar": 99.999985,
+        "T_inner_K": 350.0,
+        "T_outer_K": 350.0,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 0.0076488044,
+        "rho_outer": 0.010384072
+      },
+      {
+        "precision": "tight",
+        "inner": "Fe_hcp",
+        "outer": "Water_sc_Mazevet",
+        "P_inner_bar": 6293652.100000001,
+        "P_outer_bar": 6293652.100000001,
+        "T_inner_K": 4617.3224,
+        "T_outer_K": 4617.3224,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 15.975054,
+        "rho_outer": 5.1562061
+      },
+      {
+        "precision": "tight",
+        "inner": "Water_sc_Mazevet",
+        "outer": "Water_Brown",
+        "P_inner_bar": 14420.324,
+        "P_outer_bar": 14420.324,
+        "T_inner_K": 1280.0,
+        "T_outer_K": 1280.0,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 0.73787452,
+        "rho_outer": 0.91499739
+      },
+      {
+        "precision": "tight",
+        "inner": "Water_Brown",
+        "outer": "Gas_hhe",
+        "P_inner_bar": 7499.988600000001,
+        "P_outer_bar": 7499.988600000001,
+        "T_inner_K": 1159.5631,
+        "T_outer_K": 1159.5631,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 0.76897239,
+        "rho_outer": 0.10260874
+      },
+      {
+        "precision": "tight",
+        "inner": "Gas_hhe",
+        "outer": "Gas_iso",
+        "P_inner_bar": 100.0,
+        "P_outer_bar": 99.999999,
+        "T_inner_K": 350.0,
+        "T_outer_K": 350.0,
+        "same_saved_mass": true,
+        "temperature_relative_jump": 0.0,
+        "rho_inner": 0.0076488045,
+        "rho_outer": 0.010384073
+      }
+    ],
+    "thermal_law_saved_interval_diagnostics": [
+      {
+        "precision": "baseline",
+        "finite_difference_intervals": 211,
+        "median_relative_residual": 3.338696351107284e-05,
+        "p95_relative_residual": 0.00045768178311855756,
+        "max_relative_residual": 0.0009298896902310005,
+        "interpretation": "diagnostic only: saved precision, finite intervals and table-cell crossings; not an integration error bound"
+      },
+      {
+        "precision": "tight",
+        "finite_difference_intervals": 215,
+        "median_relative_residual": 4.8386823111368216e-05,
+        "p95_relative_residual": 0.0004177970087905214,
+        "max_relative_residual": 0.0005435460284884952,
+        "interpretation": "diagnostic only: saved precision, finite intervals and table-cell crossings; not an integration error bound"
+      }
+    ],
+    "physical_acceptance": false
+  }
+}

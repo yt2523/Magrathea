@@ -1,0 +1,48 @@
+{
+  "case": "grid14",
+  "precision": "tight",
+  "exit_code": 0,
+  "elapsed_seconds": 9.557034254074097,
+  "fresh_model_saved": true,
+  "status": "TIGHT_STORED_PROFILE_PASS",
+  "physical_acceptance": false,
+  "runtime_audit": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 64153,
+      "Gas_hhe": 80465,
+      "Gas_iso": 16044,
+      "IceX": 14858,
+      "Water_Brown": 100891,
+      "Water_Vap_IAPWS": 628,
+      "Water_sc_Mazevet": 17672
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 8,
+      "Gas_hhe": 75024,
+      "Water_Brown": 94653,
+      "Water_Vap_IAPWS": 586
+    }
+  },
+  "check_exit_code": 0,
+  "rows_checked": 919,
+  "phase_counts": {
+    "Fe_hcp": 372,
+    "Water_sc_Mazevet": 79,
+    "IceX": 75,
+    "Water_Brown": 110,
+    "Gas_hhe": 155,
+    "Gas_iso": 128
+  },
+  "radius_earth": 2.346669,
+  "gas_base_P_bar": 3040.903,
+  "gas_base_T_K": 899.05944,
+  "max_stored_density_relative_error": 8.058128675436649e-08,
+  "max_isothermal_relative_error": 0.0,
+  "out_of_domain_saved_rows": 0,
+  "selector_mismatch_outside_roundoff_band": 0,
+  "model_sha256": "37b714203765281f73113c4f493597742a44952b03436352246b054319acbad0",
+  "internal_ode_status_and_fit_residuals": "not exposed by unchanged native CLI; not certified"
+}

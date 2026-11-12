@@ -1,0 +1,6 @@
+{
+  "baseline": "run=790ab23d2f82a79e1cb14460e08e51f7be1458b2",
+  "command": "git diff --exit-code run -- src tabulated Makefile",
+  "exit_code": 0,
+  "scope": "production physics and Makefile unchanged; new tests wrapper separate"
+}

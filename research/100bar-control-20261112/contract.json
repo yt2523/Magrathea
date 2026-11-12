@@ -1,0 +1,101 @@
+{
+  "task": "100bar-native-thermal-control",
+  "authorized": "user explicitly asked detailed plan then begin",
+  "base": "835f57953ba93d2977e96629634b4c324398cc6c",
+  "production_base": "f7bb58c2399866fca3be723a057d5d8ea213bffc",
+  "max_deepseek_calls": 2,
+  "deepseek_calls": 2,
+  "project_before": 0,
+  "project_limit": 88,
+  "max_native_attempts": 4,
+  "native_attempts": [
+    {
+      "case": "grid14",
+      "precision": "baseline",
+      "status": "COMPLETED",
+      "config_sha256": "beab7bf7fe1e533d3fbf14f4a62437895ee8d2e3449e9593048e8d75ea5ffdca",
+      "binary_sha256": "471c3475deb7387b9c7e86f4ba2ac0fffe1530bdd7f8035f9e68e0098a2c04ac",
+      "exit_code": 0,
+      "elapsed_seconds": 8.069135904312134,
+      "result_status": "BASELINE_STORED_PROFILE_PASS"
+    },
+    {
+      "case": "grid20",
+      "precision": "baseline",
+      "status": "COMPLETED",
+      "config_sha256": "84f309d249f16bb9e4930e25819a51c612caa1f13593d13a085df27d15d1b239",
+      "binary_sha256": "471c3475deb7387b9c7e86f4ba2ac0fffe1530bdd7f8035f9e68e0098a2c04ac",
+      "exit_code": 0,
+      "elapsed_seconds": 5.959874391555786,
+      "result_status": "BASELINE_STORED_PROFILE_PASS"
+    },
+    {
+      "case": "grid14",
+      "precision": "tight",
+      "status": "COMPLETED",
+      "config_sha256": "a84467b575a40c1ab72eceb7c4c633e3955bbef5e4bd371d52bfadd72c7268e5",
+      "binary_sha256": "471c3475deb7387b9c7e86f4ba2ac0fffe1530bdd7f8035f9e68e0098a2c04ac",
+      "exit_code": 0,
+      "elapsed_seconds": 9.557034254074097,
+      "result_status": "TIGHT_STORED_PROFILE_PASS"
+    },
+    {
+      "case": "grid20",
+      "precision": "tight",
+      "status": "COMPLETED",
+      "config_sha256": "bc5063afff6ddd266a37ed43f21d77b20326902e8b6c696156d69fef72c902aa",
+      "binary_sha256": "471c3475deb7387b9c7e86f4ba2ac0fffe1530bdd7f8035f9e68e0098a2c04ac",
+      "exit_code": 0,
+      "elapsed_seconds": 6.5583131313323975,
+      "result_status": "TIGHT_STORED_PROFILE_PASS"
+    }
+  ],
+  "per_attempt_seconds": 180,
+  "max_build_attempts": 2,
+  "build_attempts": [
+    {
+      "phase": "repaired-wrapper-and-existing-EOS-unit",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "elapsed_seconds": 18.883999347686768
+    },
+    {
+      "phase": "verify-documented-development-checkout-build",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "elapsed_seconds": 18.826948881149292
+    }
+  ],
+  "source_mutations_allowed": false,
+  "case_ids": [
+    "grid14",
+    "grid20"
+  ],
+  "radius_relative_tolerance": 1e-05,
+  "density_relative_tolerance": 2e-06,
+  "surface_relative_tolerance": 1e-07,
+  "common_pressure_temperature_relative_tolerance": 0.001,
+  "hybrid_density_jump_physics_limit": 0.01,
+  "physical_acceptance": false,
+  "status": "COMPLETE_CONDITIONAL_NUMERICAL_CONTROL_STOPPED",
+  "epoch": "2026-11-12-user-reset",
+  "old_contract_path": "D:/Codex/downloads/toi732c-100bar-control-20261112/contract.json",
+  "previous_build_attempts": [
+    {
+      "phase": "fresh-native-build",
+      "status": "COMPLETED",
+      "exit_code": 0,
+      "elapsed_seconds": 12.72134804725647
+    },
+    {
+      "phase": "deepseek-audit-wrapper",
+      "status": "COMPLETED",
+      "exit_code": 1,
+      "elapsed_seconds": 4.63216233253479
+    }
+  ],
+  "repository": "https://github.com/yt2523/Magrathea",
+  "branch": "research/100bar-control-20261112",
+  "manual_repository_do_not_push": "https://github.com/cid02399021/Magrathea",
+  "next_step": "discuss common-HHe density with isothermal/adiabatic temperature switch; no automatic further integrations"
+}

@@ -1,0 +1,57 @@
+{
+  "case": "grid20",
+  "precision": "baseline",
+  "exit_code": 0,
+  "elapsed_seconds": 5.959874391555786,
+  "fresh_model_saved": true,
+  "status": "BASELINE_STORED_PROFILE_PASS",
+  "physical_acceptance": false,
+  "runtime_audit": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 34791,
+      "Gas_hhe": 52172,
+      "Gas_iso": 8969,
+      "IceX": 132,
+      "Water_Brown": 16496,
+      "Water_sc_Mazevet": 10663
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 7,
+      "Gas_hhe": 48666,
+      "Water_Brown": 15470
+    }
+  },
+  "check_exit_code": 0,
+  "rows_checked": 698,
+  "phase_counts": {
+    "Fe_hcp": 263,
+    "Water_sc_Mazevet": 107,
+    "Water_Brown": 30,
+    "Gas_hhe": 212,
+    "Gas_iso": 86
+  },
+  "radius_earth": 2.5171382,
+  "gas_base_P_bar": 7499.9883,
+  "gas_base_T_K": 1159.5632,
+  "max_stored_density_relative_error": 6.904623983672309e-08,
+  "max_isothermal_relative_error": 0.0,
+  "out_of_domain_saved_rows": 0,
+  "selector_mismatch_outside_roundoff_band": 0,
+  "gate_components": {
+    "finite": true,
+    "positive": true,
+    "density": true,
+    "isothermal": true,
+    "domains": true,
+    "surface": true,
+    "mass": true,
+    "presence": true,
+    "strict": true,
+    "real_gas_gradient_called": true
+  },
+  "model_sha256": "109c61c75480a3b30abc0fce6a5da250588a8e9fda7edcf1a456258134e48f9e",
+  "internal_ode_status_and_fit_residuals": "not exposed by unchanged native CLI; not certified"
+}

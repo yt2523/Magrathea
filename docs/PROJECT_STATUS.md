@@ -1,3 +1,7 @@
+## 2026-11-12 current development branch: 100bar native control complete
+
+Developer/test remote yt2523/Magrathea; cid02399021 manual repository unchanged this task. See research/100bar-control-20261112/README.md and INTERFACE_NOTES.md first. Four native runs finished; stored-state checks/tolerance repeat conditional pass, physical_acceptancefalse because artificial gas/water EOS joins remain. Old TP initializer not fixed. User reset DeepSeek quota; new epoch used2/88, previous88-call epoch archived. No automatic new grid or extra launch. Historical sections below are preserved, not new instructions to rerun them.
+
 # Current project state / 当前状态
 
 ## 2026-11-07 当前：run稀疏pilot已停止计算

@@ -1,0 +1,29 @@
+{
+  "status": "PASS_DIAGNOSTIC_GATE",
+  "checks": [
+    {
+      "name": "probe",
+      "exit_code": 0
+    },
+    {
+      "name": "probe-overwrite-refusal",
+      "exit_code": 1
+    },
+    {
+      "name": "check-synthetic-fixture",
+      "exit_code": 0
+    },
+    {
+      "name": "check-invalid-refusal",
+      "exit_code": 1
+    }
+  ],
+  "native_planet_launches": 0,
+  "native_EOS_unit_checks": 144,
+  "native_common_state_rho_ideal": 0.01038407311734268,
+  "native_common_state_rho_hhe": 0.007648804377033426,
+  "hhe_dTdP_K_per_GPa": 10441.839685317833,
+  "wrapper_sha256": "f0a34bbb88bd03d58eb99d9b159773de4ec3ddb1978baf03c3a86a12482c312b",
+  "binary_sha256": "471c3475deb7387b9c7e86f4ba2ac0fffe1530bdd7f8035f9e68e0098a2c04ac",
+  "prior_escape_error_claim": "CORRECTED: original source newline/null escape literals were valid; prior static review misread tool presentation"
+}

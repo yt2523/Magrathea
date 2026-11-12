@@ -33,3 +33,12 @@ tests/check_pilot_patch.py -text whitespace=cr-at-eol
 docs/superpowers/plans/2026-11-06-pure-fe-coarse-pilot.md -text whitespace=cr-at-eol
 src/hydro.cpp -text whitespace=cr-at-eol
 tests/test_interface_temperature.cpp -text whitespace=cr-at-eol
+
+# Preserve exact current100bar control evidence and reviewed diagnostic source.
+research/100bar-control-20261112/** -text whitespace=cr-at-eol
+tests/native_hhe_control_audit.cpp -text whitespace=cr-at-eol
+
+# Raw compiler/solver output retains its original spaces and final blank lines.
+research/100bar-control-20261112/*.log -whitespace
+research/100bar-control-20261112/results/**/*.log -whitespace
+research/100bar-control-20261112/results/**/*.dat -whitespace

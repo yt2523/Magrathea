@@ -1,0 +1,22 @@
+{
+  "grid14": {
+    "intervals": 137,
+    "pressure_cell_crossings": 29,
+    "temperature_cell_crossings": 9
+  },
+  "grid20": {
+    "intervals": 211,
+    "pressure_cell_crossings": 37,
+    "temperature_cell_crossings": 11
+  },
+  "grid14-tight": {
+    "intervals": 154,
+    "pressure_cell_crossings": 29,
+    "temperature_cell_crossings": 9
+  },
+  "grid20-tight": {
+    "intervals": 215,
+    "pressure_cell_crossings": 37,
+    "temperature_cell_crossings": 11
+  }
+}
