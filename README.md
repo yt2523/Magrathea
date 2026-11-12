@@ -21,3 +21,8 @@
 构建必须使用 `make -B -j2` 强制重编。复用旧`.o`时曾出现内存错误，强制全量重编后消失；不沿用陈旧对象文件。精确构建、运行命令和已验证结果会记录在任务README。新输出路径必须为空，原生打印会追加。
 
 仍为示范边界M8.04ME、P0=.1bar、T0=350K、纯铁核/独立水层/气层。即使气体密度接缝消失，100bar仍是规定的热分界；水EOS拼接、真实对流边界和旧外部TP初始化问题不会自动解决。
+
+
+## Next long task (plan only)
+
+[Composition-constraint long task plan](docs/superpowers/plans/2026-11-12-composition-constraints-long-task.md): waterEOS/phase consistency -> domain-aware externalTP -> mass-vector scan -> adaptive observational-compatibility area. Proposed budget180native attempts/12DeepSeek calls, not yet consumed. Current gas-seam milestone stays complete.
