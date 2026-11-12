@@ -1,0 +1,3 @@
+case_id,P_GPa,T_K,eos_id
+node,1.0009e-7,100,H2O_AQUA
+outside,1,50000,H2O_AQUA
