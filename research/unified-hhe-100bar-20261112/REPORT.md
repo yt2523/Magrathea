@@ -91,3 +91,10 @@ tests/native_hhe_control_audit --check-unified result/my-new-unified/model.dat r
 `results/`含四次输入、原始model.dat、runtime、逐行检查和日志；`artifact-manifest.json`记录字节身份。原始API响应和凭证不入Git，大二进制留D:/Codex/downloads/toi732c-unified-hhe-100bar-20261112。新模式编译源实际在隔离目录全量构建；编译缓存失败及测试夹具声明修正均保留记录。只补了测试夹具对已有derivs_m2/m3的声明，未放宽验收或让Codex写生产修复。
 
 本任务DeepSeek用2次，新重置周期累计4/88；旧88次账本保留。精确运行台账在contract.json，4次已用完并停止。下一步先单独核查水EOS接缝，再决定是否开展更广网格；不自动把本任务成功扩展成整网格或物理认证。
+
+## Zotero 交付索引
+
+- Output data → `Unified HHe100bar —2026-11-12`（collection5M3SPDFU）：真实数据包与双语Data_explanation，itemMZWWQUEM。
+- Output graphs → 同名目录（collectionFZ9QE2FD）：修复前后PNG与Graph_explanation，itemTQ9X4NF3。
+- Data顶层来源索引7SINP958，交叉列入Magrathea和AI-Notes。两个stored附件MD5已回读核对。
+- Zotero固定代码/数据版本e9418612f5925b7132e9f5890a914b30adf640e4；后续交付索引提交不改变已算四次结果。

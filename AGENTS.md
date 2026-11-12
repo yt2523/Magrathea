@@ -46,4 +46,4 @@ Use yt2523/Magrathea for development, tests and new hypotheses. cid02399021/Magr
 
 ## Unified HHe100bar milestone,2026-11-12
 
-Read current branch README and research/unified-hhe-100bar-20261112/README.md before coding. This milestone has4 completed native runs and must not be restarted automatically. New mode0 selector is gas_hhe_iso_adiabatic100, no externalTP, strictaudit before integration. Force make -B for clean builds; old object caches caused ABI failure in a test harness. DeepSeek remains programmer; gas seam fixed, water seams/RCB/oldTPinitializer remain open.
+Read current branch README and research/unified-hhe-100bar-20261112/README.md before coding. This milestone has4 completed native runs and must not be restarted automatically. New mode0 selector is gas_hhe_iso_adiabatic100, no externalTP, strictaudit before integration. Force make -B for clean builds; reusing old object caches was associated with allocator failure in a test harness; fresh rebuilding resolved it. DeepSeek remains programmer; gas seam fixed, water seams/RCB/oldTPinitializer remain open.

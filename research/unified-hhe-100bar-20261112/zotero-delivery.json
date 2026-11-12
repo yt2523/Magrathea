@@ -1,0 +1,30 @@
+{
+  "library": 6595176,
+  "source_commit": "e9418612f5925b7132e9f5890a914b30adf640e4",
+  "output_collection": "5M3SPDFU",
+  "graph_collection": "FZ9QE2FD",
+  "items": {
+    "data": "MZWWQUEM",
+    "graph": "TQ9X4NF3"
+  },
+  "notes": {
+    "data": "4SS2WSEM",
+    "graph": "N5NNCF8B",
+    "source_index": "7SINP958"
+  },
+  "attachments": {
+    "data": {
+      "stored": true,
+      "key": "9KMFZPT2",
+      "md5": "0ebc61776e5f1e27d560e415b247d971",
+      "fixed_url": "https://github.com/yt2523/Magrathea/blob/e9418612f5925b7132e9f5890a914b30adf640e4/research/unified-hhe-100bar-20261112/README.md"
+    },
+    "graph": {
+      "stored": true,
+      "key": "997GVMUX",
+      "md5": "ab5a8d3ac1479f837f8fe17513c8f48e",
+      "fixed_url": "https://github.com/yt2523/Magrathea/blob/e9418612f5925b7132e9f5890a914b30adf640e4/research/unified-hhe-100bar-20261112/unified-hhe-summary.png"
+    }
+  },
+  "verified": true
+}
