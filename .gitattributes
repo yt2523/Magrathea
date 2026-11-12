@@ -58,3 +58,8 @@ research/composition-constraints-20261112/**/*.log -whitespace
 research/composition-constraints-20261112/*.log -whitespace
 research/composition-constraints-20261112/results/**/*.dat -whitespace
 tests/native_water_audit.cpp -text whitespace=cr-at-eol
+
+# Exact empty-input fixtures deliberately retain blank final records.
+research/composition-constraints-20261112/verification/profile-empty.dat -whitespace
+research/composition-constraints-20261112/verification/query-empty.csv -whitespace
+research/composition-constraints-20261112/scripts/stageA-probe-final.py -whitespace
