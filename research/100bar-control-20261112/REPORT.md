@@ -83,3 +83,10 @@ tests/native_hhe_control_audit --check result/my-new-control/model.dat result/my
 ## 下一步最小改动（未自动开始）
 
 先讨论将气层密度统一为同一种H/He EOS、只在100bar切换温度方程，消除混用mu3造成的人为接缝；同时保留水EOS拼接问题的单独核验。再考虑30/300bar热结构敏感性和原TP域受限初始化修复。当前不跑新网格或加速搜索。
+
+## Zotero 交付位置
+
+- Output data → `100bar thermal control — 2026-11-12`（collection2MSFRUC2）：4次真实输出包及Data_explanation，数据item4SGNKVAT。
+- Output graphs → 同名本次目录（collection2STVTNVX）：PNG与Graph_explanation，图itemP5CSWM9E。
+- Data顶层来源索引EJSSR9QH交叉列入Magrathea与AI-Notes。stored附件MD5已回读核对。
+- Zotero引用的代码/数据固定版本为a44013c861758df01b4118b8e8d3e63c5fb95709；后续交付索引提交不改变这4次计算。

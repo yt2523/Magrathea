@@ -27,8 +27,8 @@
   "probe-overwrite-refusal.stderr.log": "2e235e3d5342109f29ff323ea4f7569b1d557a8071e6842bc322c39498c0e482",
   "probe.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "production-git-identity.json": "36f213bd4b29df5bef9729f63f9dae4ede9b98e8406697e4d2d207c4d35ec394",
-  "README.md": "af8218a6cd7217b48656e5b8aea71cc6b0dded6273873e23c93035e45ef4f511",
-  "REPORT.md": "af8218a6cd7217b48656e5b8aea71cc6b0dded6273873e23c93035e45ef4f511",
+  "README.md": "e38167a4edcb14c5d16291b15210fca629a0a992b191889ec4061c43df78c86e",
+  "REPORT.md": "e38167a4edcb14c5d16291b15210fca629a0a992b191889ec4061c43df78c86e",
   "results/grid14/baseline-summary.json": "fcda75234dcf0027f03af32a423ae95983cfcd9f72aa616100e8752980dbe559",
   "results/grid14/check.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "results/grid14/check.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -70,5 +70,6 @@
   "thermal-interval-details.csv": "8dce856551c31ef9b11b4df74955a7c4facf7f947607ecb6d6aca260c1cf7980",
   "thermal-interval-summary.json": "88228394d55713d64a5d00f3ea384b20dd1f12838f25409315734ea5b789eafc",
   "tight-results.json": "c6b917fa1ebf9cfa5dfe91121e6abbf5241745e92bf2911290dfe3c8863ff2c8",
+  "zotero-delivery.json": "7ffb5660e1481b97a25207ba25c6b269a5889f29d616e36d9634ff84c448b48a",
   "../../tests/native_hhe_control_audit.cpp": "f0a34bbb88bd03d58eb99d9b159773de4ec3ddb1978baf03c3a86a12482c312b"
 }

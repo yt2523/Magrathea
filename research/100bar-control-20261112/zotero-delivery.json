@@ -1,0 +1,30 @@
+{
+  "library_id": 6595176,
+  "source_commit": "a44013c861758df01b4118b8e8d3e63c5fb95709",
+  "output_collection": "2MSFRUC2",
+  "graph_collection": "2STVTNVX",
+  "items": {
+    "data": "4SGNKVAT",
+    "graph": "P5CSWM9E"
+  },
+  "notes": {
+    "data": "25GE5XT5",
+    "graph": "S7RAI233",
+    "source_index": "EJSSR9QH"
+  },
+  "attachments": {
+    "data": {
+      "stored": true,
+      "key": "XE3F5MNP",
+      "md5": "f3eacf5a74f2a07493e7de4c0f980cf0",
+      "public_fallback_url": "https://github.com/yt2523/Magrathea/blob/a44013c861758df01b4118b8e8d3e63c5fb95709/research/100bar-control-20261112/README.md"
+    },
+    "graph": {
+      "stored": true,
+      "key": "H3TJTCDT",
+      "md5": "cfac0d4e3ea057f4a81d15ce043faeaf",
+      "public_fallback_url": "https://github.com/yt2523/Magrathea/blob/a44013c861758df01b4118b8e8d3e63c5fb95709/research/100bar-control-20261112/control-summary.png"
+    }
+  },
+  "verified": true
+}
