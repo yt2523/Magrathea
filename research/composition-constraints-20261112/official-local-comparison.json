@@ -1,0 +1,36 @@
+{
+  "official_pressures": 1093,
+  "official_block_lengths": [
+    301
+  ],
+  "samples": 66,
+  "max_abs_rho_rel_difference": 0.0003800405756419168,
+  "max_abs_nabla_rel_difference": 0.004794304237585147,
+  "largest_rho_difference": {
+    "P_GPa": 68.7155,
+    "T_K": 2082.6391,
+    "local_rho": 2.6430670837903265,
+    "official_rho": 2.644071938411839,
+    "rho_rel_difference": -0.0003800405756419168,
+    "local_nabla": 0.17619571518249486,
+    "official_nabla": 0.17704452047726021,
+    "nabla_rel_difference": -0.004794304237585147
+  },
+  "largest_nabla_difference": {
+    "P_GPa": 68.7155,
+    "T_K": 2082.6391,
+    "local_rho": 2.6430670837903265,
+    "official_rho": 2.644071938411839,
+    "rho_rel_difference": -0.0003800405756419168,
+    "local_nabla": 0.17619571518249486,
+    "official_nabla": 0.17704452047726021,
+    "nabla_rel_difference": -0.004794304237585147
+  },
+  "source_units": "officialP/1e9,rho/1000;localdTdP*nativeP/T=dimensionlessnabla",
+  "source_interpolation": "official logP/logT bilinear;local linearP/linearT bilinear",
+  "scope": "66offgrid comparisons are corroboration,not exhaustive physical validation",
+  "hashes": {
+    "AQUA.txt": "b205a5e8fe6ad1dcda3f3810d9ae0129f51624e42fd040820a470d55b33dd625",
+    "aqua_eos_pt_v1_0.dat": "28025ace286148a3917fc2f1e0646919b3a9b69a2069956ea25ad1349387c8b0"
+  }
+}

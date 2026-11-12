@@ -3,11 +3,11 @@
   "epoch": "2026-11-12-user-reset",
   "authorization": "User explicitly reset DeepSeek quota and requested continued calculation in yt2523/Magrathea, preserving cid02399021 manual release. Retain previous epoch separately.",
   "max_deepseek_calls": 88,
-  "tracked_calls_total": 4,
+  "tracked_calls_total": 11,
   "recorded_tp_implementation_calls": 0,
-  "current_report_calls": 4,
+  "current_report_calls": 11,
   "lifetime_calls_before_epoch": 88,
   "previous_epoch_ledger": "D:\\Codex\\downloads\\toi732c-100bar-control-20261112-resume01\\previous-budget-epoch.json",
   "updated": "2026-11-12",
-  "scope": "unifiedHHe100bar bounded task max4 calls and4 planet attempts"
+  "scope": "accepted composition constraints wet+dry max12newcalls/180native"
 }

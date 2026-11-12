@@ -1,0 +1,14 @@
+{
+  "original_repo_table_sha256": "b205a5e8fe6ad1dcda3f3810d9ae0129f51624e42fd040820a470d55b33dd625",
+  "bounded_fixture_sha256": "1682d675daa2716f47fcffff0421e0fc6503bd19a8984c622b704f65251d41a9",
+  "pressure_blocks": 793,
+  "T_rows_per_block": 201,
+  "T_range": [
+    100.0,
+    10000.0
+  ],
+  "rows": 159393,
+  "rule": "keep exact original rows with T<=10000; no density/gradient/coordinate edits; canonical repo table untouched",
+  "reason": "strict tabledomain now rejects all runtime queries above verified common-axis region",
+  "scope": "isolated opt-in AQUA sensitivity only;not new scientificdefault"
+}

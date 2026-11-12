@@ -1,0 +1,35 @@
+{
+  "case": "dry-iron-tight",
+  "stage": "C",
+  "status": "COMPLETED",
+  "config_sha256": "ffeaee0f73bb59de9967705ea6ac35e22768229e7fecce656752d2d4813f23d7",
+  "binary_sha256": "afb5f9c42652489f770b54a92ddcf41c1452852ae2fe89e34aa3541df3b2ad60",
+  "AQUA_fixture_sha256": "c493e0fb214bef945dacb3abf076c4f11b8c27b58aa9d174c293947236db5768",
+  "family": "dry_Fe_HHe",
+  "mass_fractions": {
+    "Fe": 0.999,
+    "silicate": 0.0,
+    "water": 0,
+    "HHe": 0.001
+  },
+  "exit_code": 0,
+  "seconds": 6.222677230834961,
+  "model_exists": true,
+  "runtime": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 79431,
+      "Gas_hhe": 132603,
+      "Gas_hhe_iso100": 17128
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 7,
+      "Gas_hhe": 124116
+    }
+  },
+  "rows": 910,
+  "R_RE": 1.4500168,
+  "max_saved_T": 8441.4216
+}

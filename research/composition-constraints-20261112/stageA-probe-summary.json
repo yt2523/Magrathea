@@ -1,0 +1,45 @@
+{
+  "query_records": 60,
+  "distinct_query_PT": 15,
+  "query_rejected": 0,
+  "profile_rechecks": {
+    "grid14": {
+      "stored_rows": 709,
+      "max_density_rel_error": 5.6057432593619664e-08
+    },
+    "grid20": {
+      "stored_rows": 703,
+      "max_density_rel_error": 6.997895999897756e-08
+    }
+  },
+  "1.4422569": {
+    "T_K": 1280,
+    "rho_old": 0.9150434654174154,
+    "rho_Mazevet": 0.7379166644101153,
+    "rho_AQUA": 0.915035963275139,
+    "inward_old_to_Mazevet_rel": -0.19357200799909566,
+    "gradient_old": 134.51661108432458,
+    "gradient_Mazevet": 81.09814560469908,
+    "gradient_AQUA": 134.5141690918333
+  },
+  "3.5128559": {
+    "T_K": 1280,
+    "rho_old": 1.1909565990591524,
+    "rho_Mazevet": 1.0046167332030405,
+    "rho_AQUA": 1.190945455552957,
+    "inward_old_to_Mazevet_rel": -0.15646234800102637,
+    "gradient_old": 57.36821281992736,
+    "gradient_Mazevet": 39.05360547416108,
+    "gradient_AQUA": 57.370407708073174
+  },
+  "700": {
+    "T_K": 2082.6391,
+    "rho_old": 6.137750106760565,
+    "rho_Mazevet": 5.582718554028616,
+    "rho_AQUA": 5.572367575871182,
+    "inward_old_to_Mazevet_rel": -0.09042915450738169,
+    "gradient_old": 0.0,
+    "gradient_Mazevet": 1.6820951436732188,
+    "gradient_AQUA": 1.3187064554428047
+  }
+}

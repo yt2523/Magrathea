@@ -51,3 +51,10 @@ research/unified-hhe-100bar-20261112/results/**/*.dat -whitespace
 tests/test_unified_hhe100.cpp -text whitespace=cr-at-eol
 src/EOSlist.cpp -text whitespace=cr-at-eol
 src/EOSlist.h -text whitespace=cr-at-eol
+
+# Composition source gate: preserve exact evidence and diagnostic bytes.
+research/composition-constraints-20261112/** -text whitespace=cr-at-eol
+research/composition-constraints-20261112/**/*.log -whitespace
+research/composition-constraints-20261112/*.log -whitespace
+research/composition-constraints-20261112/results/**/*.dat -whitespace
+tests/native_water_audit.cpp -text whitespace=cr-at-eol

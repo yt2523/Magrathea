@@ -1,0 +1,211 @@
+{
+  "fixed_guard_tests": [
+    {
+      "test": "query-empty",
+      "exit_code": 1,
+      "expected": 1,
+      "passed": true,
+      "stderr": "Error: no data rows found in input file\n"
+    },
+    {
+      "test": "query-badP",
+      "exit_code": 1,
+      "expected": 1,
+      "passed": true,
+      "stderr": "Error: invalid P_GPa on line 2\n"
+    },
+    {
+      "test": "query-unknown",
+      "exit_code": 1,
+      "expected": 1,
+      "passed": true,
+      "stderr": "Error: unknown eos_id 'bogus' on line 2\n"
+    },
+    {
+      "test": "query-quoted",
+      "exit_code": 1,
+      "expected": 1,
+      "passed": true,
+      "stderr": "Error: quotes not allowed in line 2\n"
+    },
+    {
+      "test": "query-emptycase",
+      "exit_code": 1,
+      "expected": 1,
+      "passed": true,
+      "stderr": "Error: empty case_id on line 2\n"
+    },
+    {
+      "test": "profile-empty",
+      "exit_code": 1,
+      "expected": 1,
+      "passed": true,
+      "stderr": "Error: no data rows found in input file\n"
+    },
+    {
+      "test": "profile-badheader",
+      "exit_code": 1,
+      "expected": 1,
+      "passed": true,
+      "stderr": "Error: invalid header on line 1\n"
+    },
+    {
+      "test": "profile-fractional-index",
+      "exit_code": 1,
+      "expected": 1,
+      "passed": true,
+      "stderr": "Error: invalid index on line 2\n"
+    },
+    {
+      "test": "table-golden-and-domain",
+      "exit_code": 0,
+      "expected": 0,
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "test": "overwrite-refusal",
+      "exit_code": 1,
+      "passed": true
+    }
+  ],
+  "profiles": {
+    "grid14-aqua-commonaxis": {
+      "rows": 1207,
+      "R_RE": 2.4251107,
+      "max_density_relerr": 5.6371020066572444e-08,
+      "phase_labels": [
+        "Fe hcp (Smith)",
+        "H/He (Chabrier isothermal100)",
+        "H/He (Chabrier)",
+        "H2O (AQUA)"
+      ],
+      "max_saved_T": 5502.9419,
+      "water_T_range": [
+        883.3552,
+        3764.0687
+      ],
+      "rho_surface": 8.0328185e-06,
+      "tight_radius_rel_difference": 0.0
+    },
+    "grid20-aqua-commonaxis": {
+      "rows": 1200,
+      "R_RE": 2.5186717,
+      "max_density_relerr": 5.982761422834691e-08,
+      "phase_labels": [
+        "Fe hcp (Smith)",
+        "H/He (Chabrier isothermal100)",
+        "H/He (Chabrier)",
+        "H2O (AQUA)"
+      ],
+      "max_saved_T": 6310.3971,
+      "water_T_range": [
+        1177.1667,
+        4298.0344
+      ],
+      "rho_surface": 8.0328185e-06,
+      "tight_radius_rel_difference": 7.940694136443496e-08
+    },
+    "grid14-aqua-commonaxis-tight": {
+      "rows": 1621,
+      "R_RE": 2.4251107,
+      "max_density_relerr": 6.236111580183009e-08,
+      "phase_labels": [
+        "Fe hcp (Smith)",
+        "H/He (Chabrier isothermal100)",
+        "H/He (Chabrier)",
+        "H2O (AQUA)"
+      ],
+      "max_saved_T": 5502.9361,
+      "water_T_range": [
+        883.35524,
+        3764.0686
+      ],
+      "rho_surface": 8.0328185e-06
+    },
+    "grid20-aqua-commonaxis-tight": {
+      "rows": 1645,
+      "R_RE": 2.5186715,
+      "max_density_relerr": 6.608985720249169e-08,
+      "phase_labels": [
+        "Fe hcp (Smith)",
+        "H/He (Chabrier isothermal100)",
+        "H/He (Chabrier)",
+        "H2O (AQUA)"
+      ],
+      "max_saved_T": 6310.3904,
+      "water_T_range": [
+        1177.1668,
+        4298.034
+      ],
+      "rho_surface": 8.0328185e-06
+    },
+    "dry-rocky": {
+      "rows": 636,
+      "R_RE": 1.8759446,
+      "max_density_relerr": 5.859616358525734e-08,
+      "phase_labels": [
+        "Brg (Oganov)",
+        "Fe hcp (Smith)",
+        "Fo/Ol (Dorogokupets)",
+        "H/He (Chabrier isothermal100)",
+        "H/He (Chabrier)",
+        "Rwd (Dorogokupets)",
+        "Si PPv (Sakai)",
+        "Wds (Dorogokupets)"
+      ],
+      "max_saved_T": 4418.9032,
+      "water_T_range": null,
+      "rho_surface": 8.0328185e-06,
+      "tight_radius_rel_difference": 5.330647542989232e-08
+    },
+    "dry-iron": {
+      "rows": 673,
+      "R_RE": 1.4500168,
+      "max_density_relerr": 7.374780629003135e-08,
+      "phase_labels": [
+        "Fe hcp (Smith)",
+        "H/He (Chabrier isothermal100)",
+        "H/He (Chabrier)"
+      ],
+      "max_saved_T": 8441.4185,
+      "water_T_range": null,
+      "rho_surface": 8.0328185e-06,
+      "tight_radius_rel_difference": 0.0
+    },
+    "dry-rocky-tight": {
+      "rows": 860,
+      "R_RE": 1.8759447,
+      "max_density_relerr": 7.175152622129206e-08,
+      "phase_labels": [
+        "Brg (Oganov)",
+        "Fe hcp (Smith)",
+        "Fo/Ol (Dorogokupets)",
+        "H/He (Chabrier isothermal100)",
+        "H/He (Chabrier)",
+        "Rwd (Dorogokupets)",
+        "Si PPv (Sakai)",
+        "Wds (Dorogokupets)"
+      ],
+      "max_saved_T": 4418.9033,
+      "water_T_range": null,
+      "rho_surface": 8.0328185e-06
+    },
+    "dry-iron-tight": {
+      "rows": 910,
+      "R_RE": 1.4500168,
+      "max_density_relerr": 6.948615147285537e-08,
+      "phase_labels": [
+        "Fe hcp (Smith)",
+        "H/He (Chabrier isothermal100)",
+        "H/He (Chabrier)"
+      ],
+      "max_saved_T": 8441.4216,
+      "water_T_range": null,
+      "rho_surface": 8.0328185e-06
+    }
+  },
+  "stored_rows_checked": 8752,
+  "diagnostic_sha256": "e590ae5bf0367408be0cee181f13d498fbe861ffafef9babdc9fa862db280f75",
+  "scope": "saved-state/strict-domain/tolerance checks only; internalODEstatus/fitresidual not exposed;no scientificdefault approval"
+}

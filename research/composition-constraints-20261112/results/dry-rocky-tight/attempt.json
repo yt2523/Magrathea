@@ -1,0 +1,40 @@
+{
+  "case": "dry-rocky-tight",
+  "stage": "C",
+  "status": "COMPLETED",
+  "config_sha256": "a8aa6fb5f5fda073e5231fe1319f48a0c04c8e4fd4d558767c953e23466513c3",
+  "binary_sha256": "afb5f9c42652489f770b54a92ddcf41c1452852ae2fe89e34aa3541df3b2ad60",
+  "AQUA_fixture_sha256": "c493e0fb214bef945dacb3abf076c4f11b8c27b58aa9d174c293947236db5768",
+  "family": "dry_Fe_silicate_HHe",
+  "mass_fractions": {
+    "Fe": 0.33299999999999996,
+    "silicate": 0.666,
+    "water": 0,
+    "HHe": 0.001
+  },
+  "exit_code": 0,
+  "seconds": 6.912431478500366,
+  "model_exists": true,
+  "runtime": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 64771,
+      "Fo": 7390,
+      "Gas_hhe": 96176,
+      "Gas_hhe_iso100": 18018,
+      "Rwd": 8131,
+      "Si_PPv_Sakai": 9204,
+      "Si_Pv": 10594,
+      "Wds": 7993
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 7,
+      "Gas_hhe": 89754
+    }
+  },
+  "rows": 860,
+  "R_RE": 1.8759447,
+  "max_saved_T": 4418.9033
+}

@@ -1,0 +1,25 @@
+{
+  "case": "grid14-aqua",
+  "stage": "A",
+  "status": "COMPLETED",
+  "config_sha256": "b7e798a7d2a9a19a7b4bdcd3291395570092135bbf672f98b44fcb8d47dde9d4",
+  "binary_sha256": "afb5f9c42652489f770b54a92ddcf41c1452852ae2fe89e34aa3541df3b2ad60",
+  "AQUA_fixture_sha256": "1682d675daa2716f47fcffff0421e0fc6503bd19a8984c622b704f65251d41a9",
+  "exit_code": 0,
+  "seconds": 6.76862645149231,
+  "model_exists": false,
+  "runtime": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 71,
+    "density_audit_counts": {
+      "Gas_hhe": 1250,
+      "Gas_hhe_iso100": 281,
+      "H2O_AQUA": 1545
+    },
+    "gradient_audit_counts": {
+      "Gas_hhe": 1170,
+      "H2O_AQUA": 1316
+    }
+  }
+}

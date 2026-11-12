@@ -1,0 +1,21 @@
+{
+  "reviewer": "/root/composition_stagea_review",
+  "verdict": "PASS_BOUNDED_SOURCE_EOS_GATE_AND_EIGHT_REPRESENTATIVES",
+  "whole_task": "INSUFFICIENT_NOT_COMPLETE",
+  "native_attempts": 10,
+  "successes": 8,
+  "failed_initializations": 2,
+  "stored_rows_independently_checked": 8752,
+  "maximum_density_relative_error": 7.374780629003135e-08,
+  "canonical_table_and_production_sources_unchanged": true,
+  "limits": [
+    "No internal ODEstatus/raw fitting residual certification",
+    "66 official-source samples corroborate units/interpolation only",
+    "AQUA remains conditional physical model",
+    "Diagnostic not certified for everypossibleinput; gradient can follow nonfinite density outside actualtestedprofiles",
+    "No grid or mass uncertainty yet",
+    "Dryg.001 failures to matchR do not prove waterrequired"
+  ],
+  "metadata_note": "Reviewer Gitcommands sandboxdenied; coordinator separately verifiesbranch/HEAD",
+  "source_review": "/root/water_source_review independently identified1280K/700GPa stitches,IceXthermal0,andhighTaxis mismatch"
+}

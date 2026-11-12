@@ -1,3 +1,7 @@
+##2026-11-12 active composition wet+dry task
+
+UserapprovedAQUAwetmain/stichedfinitecontrol,bothdryfamiliesfirstdelivery. StageArepresentativespassedboundedreview:10attempts/8savedprofiles/2failures,8752states,7newDeepSeekcalls(epoch11/88). ProductionC++andcanonicaltablesunchanged. Sharedplan180attempts/12calls remainsactive, nextBdomainawareexternalTPinitialization. NoMunc/gridyet. See research/composition-constraints-20261112/README.md.
+
 ## 2026-11-12 unified HHe100bar milestone complete
 
 Current branch research/unified-hhe-100bar-20261112; publish yt2523/Magrathea only. New opt-in mode0 gas_hhe_iso_adiabatic100 uses identical realHHe density below/above100bar, changing only thermal tag. Same-state density difference0;4 actual runs passed stored-state/convergence checks, no idealgas queries. R14~2.36889RE,R20~2.54272RE. WaterEOS seams/physicalRCB/oldexternalTPinitializer remain unverified. See research/unified-hhe-100bar-20261112/README.md first. New epoch used4/88 calls (this task2); stopped at4 native attempts. Historical entries below remain unchanged.

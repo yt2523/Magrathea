@@ -110,3 +110,13 @@ The mass coordinate cannot be handled by one fixed-mass scan. Reuse coarse mass 
 Progress automatically between accepted dependent engineering steps and report only meaningful milestones. Stop for a physicalmodel decision identified above, budget cap, repeated rootcause requiring architecture change, or an external dependency that cannot be resolved. Never repeatedly ask to rerun passed checks. End eachstage with actual evidence and next action; user interruption/status requests do not restart work. No background execution promise after ending the turn.
 
 First next action when execution is approved: stageA source/overlap probes at the actual1280K and encountered highP water joins, no planetary grid and no formula edits. Deliver a concrete selection/comparison dossier, then proceed through the gates above.
+
+## Accepted scope amendment —2026-11-12
+
+User authorized execution and requires wet AND both dry controls in the first deliverable, not a later extension. Wet:Fe/H2O/HHe with Si0. Dry main:Fe/silicate/HHe with H2O exactly0. Dry endmember:pureFe/HHe with H2O and Si exactly0. Use identical observation/mass/thermal conventions and separate validity masks. Wet ternary axesFe/H2O/HHe; dry-main axesFe/silicate/HHe; pureFe endmember lies on the dry ternary edge and gets its own gas-fraction/mass slice plots. Never fake nonzero water or draw a 2D region for a one-dimensional composition family.
+
+Keep total180planet attempts/12DeepSeek calls. Coarse stageD expands72->96 by adding24dry-rocky trials (3masses x2Fe/silicate ratios x4gas), reallocate24from adaptive stageE48->24. Original72already contains12pureFe endmembers, so deduplicate exactly. Wet and dry families share compatible engineering work; audit actual silicate phases before science plotting, do not assume prior Fe/water checks cover silicates. Fixed budget remaining stages A12+B8+C12+D96+E24+F12+reserve16=180. Further enlargement requires a documented tradeoff/budget decision, not hidden extra runs. StageA starts with source and <=300pairedEOS comparisons, no physical formula changes. Execution accepted; per-stage physical decision gates remain.
+
+## Accepted water-model decision
+
+User selected AQUA as wet main, stitched default as finite comparison. StageA completed10nativeattempts incl2failedinitializations and4earlystageCdrychecks;8successfulprofiles/8752storedstates independentlychecked.7DeepSeekcallsused. Canonicalphysics/tablesunchanged; validatedexactrowcommonaxisAQUAfixture usedinrunworkspace. NextB externalTPinitialization, no repeatA. See research/composition-constraints-20261112/README.md.

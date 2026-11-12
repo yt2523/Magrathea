@@ -1,0 +1,14 @@
+[
+  {
+    "case": "header-query",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: invalid P_GPa on line 1\n"
+  },
+  {
+    "case": "native-profile",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: line 2 has 1 fields, expected at least 7\n"
+  }
+]

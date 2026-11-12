@@ -1,0 +1,30 @@
+{
+  "case": "grid14-aqua-commonaxis",
+  "stage": "A",
+  "status": "COMPLETED",
+  "config_sha256": "031154ea05f8d9bb67683b71c894b076047e5b71cc06a1d8a986bcf804ee2986",
+  "binary_sha256": "afb5f9c42652489f770b54a92ddcf41c1452852ae2fe89e34aa3541df3b2ad60",
+  "AQUA_fixture_sha256": "c493e0fb214bef945dacb3abf076c4f11b8c27b58aa9d174c293947236db5768",
+  "exit_code": 0,
+  "seconds": 9.075432062149048,
+  "model_exists": true,
+  "runtime": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 34709,
+      "Gas_hhe": 42959,
+      "Gas_hhe_iso100": 10616,
+      "H2O_AQUA": 134383
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 7,
+      "Gas_hhe": 40038,
+      "H2O_AQUA": 126028
+    }
+  },
+  "rows": 1207,
+  "R_RE": 2.4251107,
+  "max_saved_T": 5502.9419
+}

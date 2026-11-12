@@ -1,0 +1,180 @@
+{
+  "AQUA.txt": {
+    "header": "Press (GPa)\tTemp (K)\tDensity (g/cm^-3)\tdT/dP (K/GPa)",
+    "pressure_blocks": 793,
+    "block_lengths": {
+      "286": 793
+    },
+    "P_range": [
+      1.0009e-07,
+      400000.0
+    ],
+    "T_first_range": [
+      100.0,
+      100000.0
+    ],
+    "mismatched_axes_blocks": 351,
+    "mismatched_axes_relevantP": 122,
+    "max_index_T_offset": 2276.0,
+    "examples": [
+      {
+        "P": 0.26033,
+        "differences": [
+          [
+            271,
+            52481.0,
+            51286.0
+          ],
+          [
+            272,
+            54954.0,
+            53703.0
+          ],
+          [
+            273,
+            57544.0,
+            56234.0
+          ],
+          [
+            274,
+            60256.0,
+            58884.0
+          ],
+          [
+            275,
+            63096.0,
+            61660.0
+          ],
+          [
+            276,
+            66069.0,
+            64565.0
+          ],
+          [
+            277,
+            69183.0,
+            67608.0
+          ]
+        ]
+      },
+      {
+        "P": 0.27804,
+        "differences": [
+          [
+            271,
+            52481.0,
+            51286.0
+          ],
+          [
+            272,
+            54954.0,
+            53703.0
+          ],
+          [
+            273,
+            57544.0,
+            56234.0
+          ],
+          [
+            274,
+            60256.0,
+            58884.0
+          ],
+          [
+            275,
+            63096.0,
+            61660.0
+          ],
+          [
+            276,
+            66069.0,
+            64565.0
+          ],
+          [
+            277,
+            69183.0,
+            67608.0
+          ]
+        ]
+      },
+      {
+        "P": 0.29695,
+        "differences": [
+          [
+            271,
+            52481.0,
+            51286.0
+          ],
+          [
+            272,
+            54954.0,
+            53703.0
+          ],
+          [
+            273,
+            57544.0,
+            56234.0
+          ],
+          [
+            274,
+            60256.0,
+            58884.0
+          ],
+          [
+            275,
+            63096.0,
+            61660.0
+          ],
+          [
+            276,
+            66069.0,
+            64565.0
+          ],
+          [
+            277,
+            69183.0,
+            67608.0
+          ]
+        ]
+      }
+    ]
+  },
+  "water_Brown.txt": {
+    "header": "Press (GPa)\tTemp (K)\tDensity (g/cm^-3)\tdT/dP (K/GPa)",
+    "pressure_blocks": 350,
+    "block_lengths": {
+      "450": 350
+    },
+    "P_range": [
+      0.1,
+      40.0
+    ],
+    "T_first_range": [
+      250.0,
+      8000.0
+    ],
+    "mismatched_axes_blocks": 0,
+    "mismatched_axes_relevantP": 0,
+    "max_index_T_offset": 0.0,
+    "examples": []
+  },
+  "ChabrierHHe0275.txt": {
+    "header": "Press (GPa)\tTemp (K)\tDensity (g/cm^-3)\tdT/dP (K/GPa)",
+    "pressure_blocks": 441,
+    "block_lengths": {
+      "121": 441
+    },
+    "P_range": [
+      1e-09,
+      10000000000000.0
+    ],
+    "T_first_range": [
+      100.0,
+      100000000.0
+    ],
+    "mismatched_axes_blocks": 0,
+    "mismatched_axes_relevantP": 0,
+    "max_index_T_offset": 0.0,
+    "examples": []
+  }
+}

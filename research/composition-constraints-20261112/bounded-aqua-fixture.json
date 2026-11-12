@@ -1,0 +1,15 @@
+{
+  "original_repo_table_sha256": "b205a5e8fe6ad1dcda3f3810d9ae0129f51624e42fd040820a470d55b33dd625",
+  "bounded_fixture_sha256": "c493e0fb214bef945dacb3abf076c4f11b8c27b58aa9d174c293947236db5768",
+  "pressure_blocks": 793,
+  "T_rows_per_block": 270,
+  "T_range": [
+    100.0,
+    48978.0
+  ],
+  "rows": 214110,
+  "rule": "exact canonical rows with T<=50000K; all P blocks verifiedidenticalT; no EOS valuesedited",
+  "reason": "initialRlowtrial reaches10000K beforetargetmass,notactualplanetclaim; expand guard only within already validatedcommon-axis data,notextrapolate",
+  "supersedes": "bounded-aqua-fixture-T10000.json",
+  "canonical_repo_table_changed": false
+}
