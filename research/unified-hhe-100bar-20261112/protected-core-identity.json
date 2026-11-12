@@ -1,0 +1,13 @@
+{
+  "base": "64591fc2e7528bf691b3eecb4a89cbd4fe76b8d5",
+  "protected_paths": [
+    "src/EOS.cpp",
+    "src/EOS.h",
+    "src/hydro.cpp",
+    "src/hydro.h",
+    "tabulated",
+    "Makefile"
+  ],
+  "git_diff_exit_code": 0,
+  "tables_and_physical_formulae_unchanged": true
+}

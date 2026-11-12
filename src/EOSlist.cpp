@@ -541,6 +541,16 @@ EOS *Water_Vap_IAPWS = new EOS("H20 Vapor (IAPWS)", "./tabulated/water_IAPWS95.t
 // H/He, Chabrier & Debras 2021 Apj, Y=0.275
 EOS *Gas_hhe = new EOS("H/He (Chabrier)", "./tabulated/ChabrierHHe0275.txt");
 
+// H/He isothermal100 unifed density /100bar thermal switch: same table, thermal_code 0
+namespace {
+EOS* create_gas_hhe_iso100() {
+    EOS* eos = new EOS("H/He (Chabrier isothermal100)", "./tabulated/ChabrierHHe0275.txt");
+    eos->modifyEOS(24, 0);
+    return eos;
+}
+}
+EOS *Gas_hhe_iso100 = create_gas_hhe_iso100();
+
 // ==========  CARBON  ================
 
 // Graphite (BME), Seager et al. 2007, ApJ

@@ -44,6 +44,7 @@ static std::vector<EOS*> global_eos_ptrs() {
     v.push_back(vdW_H2O_hi);
     v.push_back(Gas_iso);
     v.push_back(Gas_hhe);
+    v.push_back(Gas_hhe_iso100);
     return v;
 }
 
@@ -169,8 +170,8 @@ int run_mode(const std::string& config_path, const std::string& runtime_json_pat
     return exit_code;
 }
 
-// Mode 2: --probe <probe.csv>
-int probe_mode(const std::string& output_csv) {
+// Mode 2: --probe <probe.csv> (legacy) or --probe-unified <probe.csv>
+int probe_mode(const std::string& output_csv, bool unified = false) {
     std::ifstream check(output_csv.c_str());
     if (check.good()) {
         std::cerr << "Error: probe output file already exists: " << output_csv << std::endl;
@@ -192,22 +193,33 @@ int probe_mode(const std::string& output_csv) {
     const double T = 350.0;
     const double P_bar_exact = 100.0;
 
-    // Gas_iso at exactly 100 bar
+    // Low branch depends on mode: Gas_iso in legacy, Gas_hhe_iso100 in unified
+    EOS* low_eos = unified ? Gas_hhe_iso100 : Gas_iso;
     double rho_guess = -1.0;
-    double rho_iso = Gas_iso->density(P_bar_exact * 1e6, T, rho_guess);
+    double rho_iso = low_eos->density(P_bar_exact * 1e6, T, rho_guess);
     if (!std::isfinite(rho_iso)) {
-        std::cerr << "Error: Gas_iso density nonfinite" << std::endl;
+        std::cerr << "Error: low EOS density nonfinite" << std::endl;
         return 1;
     }
     rho_guess = rho_iso; // meaningful for dTdP_S
-    double dTdP_iso = Gas_iso->dTdP_S(P_bar_exact * 1e-4, T, rho_guess); // Convert bar to GPa (1 bar = 1e-4 GPa)
-    // Correct conversion: P_GPa = P_bar * 1e-4.
-    double mmol_iso = Gas_iso->getmmol();
-    int thermal_iso = Gas_iso->thermal_code();
-    bool domain_iso = Gas_iso->table_domain_contains(P_bar_exact * 1e6, T);
-    out << "common_ideal," << fmt17(P_bar_exact) << "," << fmt17(T) << ",Gas_iso,"
-        << fmt17(rho_iso) << "," << fmt17(dTdP_iso) << "," << fmt17(mmol_iso) << ","
-        << thermal_iso << "," << (domain_iso ? "true" : "false") << "\n";
+    double dTdP_iso = 0.0;
+    if (low_eos->thermal_code() == 0) {
+        dTdP_iso = 0.0;
+    } else {
+        dTdP_iso = low_eos->dTdP_S(P_bar_exact * 1e-4, T, rho_guess);
+    }
+    double mmol_iso = low_eos->getmmol();
+    int thermal_iso = low_eos->thermal_code();
+    bool domain_iso = low_eos->table_domain_contains(P_bar_exact * 1e6, T);
+    if (unified) {
+        out << "common_low," << fmt17(P_bar_exact) << "," << fmt17(T) << "," << low_eos->audit_id()
+            << "," << fmt17(rho_iso) << "," << fmt17(dTdP_iso) << "," << fmt17(mmol_iso) << ","
+            << thermal_iso << "," << (domain_iso ? "true" : "false") << "\n";
+    } else {
+        out << "common_ideal," << fmt17(P_bar_exact) << "," << fmt17(T) << ",Gas_iso,"
+            << fmt17(rho_iso) << "," << fmt17(dTdP_iso) << "," << fmt17(mmol_iso) << ","
+            << thermal_iso << "," << (domain_iso ? "true" : "false") << "\n";
+    }
 
     // Gas_hhe at exactly 100 bar
     rho_guess = -1.0;
@@ -231,9 +243,14 @@ int probe_mode(const std::string& output_csv) {
     for (int i = 0; i < 3; ++i) {
         double P_bar = P_bar_exact * (1.0 + deltas[i]);
         double P_cgs = P_bar * 1e6;
-        EOS* eos = find_phase_HHe_tabulated(P_cgs, T);
+        EOS* eos = nullptr;
+        if (unified) {
+            eos = find_phase_gas_hhe_iso_adiabatic100(P_cgs, T);
+        } else {
+            eos = find_phase_HHe_tabulated(P_cgs, T);
+        }
         if (!eos) {
-            std::cerr << "Error: find_phase_HHe_tabulated returned NULL for P_bar=" << P_bar << std::endl;
+            std::cerr << "Error: selector returned NULL for P_bar=" << P_bar << std::endl;
             return 1;
         }
         rho_guess = -1.0;
@@ -243,10 +260,16 @@ int probe_mode(const std::string& output_csv) {
             return 1;
         }
         rho_guess = rho;
-        double dTdP = eos->dTdP_S(P_bar * 1e-4, T, rho_guess);
+        double dTdP = 0.0;
+        if (eos->thermal_code() == 0) {
+            dTdP = 0.0;
+        } else {
+            dTdP = eos->dTdP_S(P_bar * 1e-4, T, rho_guess);
+        }
         double mmol = eos->getmmol();
         int thermal = eos->thermal_code();
         bool domain = eos->table_domain_contains(P_cgs, T);
+        // Use kind prefix "selector_" in both modes; legacy common_ideal/common_hhe unchanged.
         out << kinds[i] << "," << fmt17(P_bar) << "," << fmt17(T) << "," << eos->audit_id()
             << "," << fmt17(rho) << "," << fmt17(dTdP) << "," << fmt17(mmol) << ","
             << thermal << "," << (domain ? "true" : "false") << "\n";
@@ -256,8 +279,8 @@ int probe_mode(const std::string& output_csv) {
     return 0;
 }
 
-// Mode 3: --check <model.dat> <rows.csv>
-int check_mode(const std::string& model_path, const std::string& output_csv) {
+// Mode 3: --check <model.dat> <rows.csv> (legacy) or --check-unified <model.dat> <rows.csv>
+int check_mode(const std::string& model_path, const std::string& output_csv, bool unified = false) {
     std::ifstream check(output_csv.c_str());
     if (check.good()) {
         std::cerr << "Error: check output file already exists: " << output_csv << std::endl;
@@ -387,19 +410,38 @@ int check_mode(const std::string& model_path, const std::string& output_csv) {
         }
 
         // Determine if gas pointer
-        bool is_gas = (eos == Gas_iso || eos == Gas_hhe);
+        bool is_gas = false;
+        if (unified) {
+            is_gas = (eos == Gas_hhe_iso100 || eos == Gas_hhe);
+        } else {
+            is_gas = (eos == Gas_iso || eos == Gas_hhe);
+        }
+        if (unified && (eos == Gas_iso || eos == Gas)) {
+            std::cerr << "Error: unexpected ideal gas EOS in unified profile row " << i+1 << std::endl;
+            return 1;
+        }
         bool domain = eos->table_domain_contains(P_cgs, T);
         std::string gas_selector_id = "";
         double dTdP = 0.0;
         if (is_gas) {
-            EOS* selector = find_phase_HHe_tabulated(P_cgs, T);
+            EOS* selector = nullptr;
+            if (unified) {
+                selector = find_phase_gas_hhe_iso_adiabatic100(P_cgs, T);
+            } else {
+                selector = find_phase_HHe_tabulated(P_cgs, T);
+            }
             if (selector) {
                 gas_selector_id = selector->audit_id();
             } else {
                 // If selector returns NULL, still output blank (could indicate problem)
             }
             rho_guess = rho_saved;
-            dTdP = eos->dTdP_S(P_GPa, T, rho_guess); // P in GPa
+            dTdP = 0.0;
+            if (eos->thermal_code() == 0) {
+                dTdP = 0.0;
+            } else {
+                dTdP = eos->dTdP_S(P_GPa, T, rho_guess); // P in GPa
+            }
             if (!std::isfinite(dTdP)) {
                 std::cerr << "Error: nonfinite dTdP for gas row " << i+1 << std::endl;
                 return 1;
@@ -434,13 +476,25 @@ int main(int argc, char** argv) {
                 std::cerr << "Error: --probe requires 1 argument (output csv)" << std::endl;
                 return 1;
             }
-            return probe_mode(argv[2]);
+            return probe_mode(argv[2], false);
+        } else if (mode == "--probe-unified") {
+            if (argc != 3) {
+                std::cerr << "Error: --probe-unified requires 1 argument (output csv)" << std::endl;
+                return 1;
+            }
+            return probe_mode(argv[2], true);
         } else if (mode == "--check") {
             if (argc != 4) {
                 std::cerr << "Error: --check requires 2 arguments (model.dat, rows.csv)" << std::endl;
                 return 1;
             }
-            return check_mode(argv[2], argv[3]);
+            return check_mode(argv[2], argv[3], false);
+        } else if (mode == "--check-unified") {
+            if (argc != 4) {
+                std::cerr << "Error: --check-unified requires 2 arguments (model.dat, rows.csv)" << std::endl;
+                return 1;
+            }
+            return check_mode(argv[2], argv[3], true);
         } else {
             std::cerr << "Error: unknown mode " << mode << std::endl;
             return 1;

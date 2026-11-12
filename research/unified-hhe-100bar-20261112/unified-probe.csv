@@ -1,0 +1,6 @@
+kind,P_bar,T_K,eos_id,rho_g_cm3,dTdP_K_per_GPa,mmol,thermal_code,table_domain_contains
+common_low,100,350,Gas_hhe_iso100,0.0076488043770334257,0,nan,0,true
+common_hhe,100,350,Gas_hhe,0.0076488043770334257,10441.839685317833,nan,10,true
+selector_minus,99.999998999999988,350,Gas_hhe_iso100,0.007648804304653865,0,nan,0,true
+selector_exact,100,350,Gas_hhe,0.0076488043770334257,10441.839685317833,nan,10,true
+selector_plus,100.000001,350,Gas_hhe,0.0076488044494129855,10441.839594104547,nan,10,true

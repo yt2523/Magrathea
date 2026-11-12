@@ -646,6 +646,18 @@ EOS* find_phase_gas_hhe_prescribed(double P, double T)
   return Gas_hhe;
 }
 
+EOS* find_phase_gas_hhe_iso_adiabatic100(double P, double T)
+{
+  if (P <= 0 || T <= 0 || !gsl_finite(P) || !gsl_finite(T))
+  {
+    return NULL;
+  }
+  else if (P < 1E8)
+    return Gas_hhe_iso100;
+  else
+    return Gas_hhe;
+}
+
 void configure_prescribed_hhe_audit()
 {
   #define REG(x) x->set_audit_id(#x)
@@ -714,6 +726,7 @@ void configure_prescribed_hhe_audit()
   REG(Gas);
   REG(Gas_iso);
   REG(Gas_hhe);
+  REG(Gas_hhe_iso100);
   REG(watervapor);
   REG(Water_Vap_IAPWS);
   REG(vdW_H2);
@@ -816,6 +829,7 @@ PhaseDgm atm("atm", find_phase_gas_default); //Phase Diagrams for Atmosphere
 PhaseDgm atm1("atm1", find_phase_HHe_tabulated);
 PhaseDgm atm_fixed_mu2("atm_fixed_mu2", find_phase_gas_fixed_mu2);
 PhaseDgm atm_hhe_prescribed("atm_hhe_prescribed", find_phase_gas_hhe_prescribed);
+PhaseDgm atm_hhe_iso_adiabatic100("atm_hhe_iso_adiabatic100", find_phase_gas_hhe_iso_adiabatic100);
 
 EOS* find_phase(double m, double MC, double MM, double MW, double MG, double P, double T, bool inward)
 // given the accumulated mass (in g), P (in cgs) and T, return the corresponding phase

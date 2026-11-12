@@ -1,0 +1,92 @@
+{
+  "task": "unified-hhe-100bar",
+  "base": "64591fc2e7528bf691b3eecb4a89cbd4fe76b8d5",
+  "branch": "research/unified-hhe-100bar-20261112",
+  "selector": "gas_hhe_iso_adiabatic100",
+  "max_deepseek_calls": 4,
+  "deepseek_calls": 2,
+  "max_build_sessions": 4,
+  "build_sessions": [
+    {
+      "phase": "initial-RED-with-reused-development-objects",
+      "exit_code": 6,
+      "expected_failure": false,
+      "reason": "allocator invalid size; not valid RED evidence; fresh full rebuild required"
+    },
+    {
+      "phase": "fresh-full-RED",
+      "exit_code": 1,
+      "expected_failure": true,
+      "elapsed_seconds": 20.843212366104126
+    },
+    {
+      "phase": "fresh-implementation-GREEN-build",
+      "status": "COMPLETED",
+      "exit_code": 1,
+      "elapsed_seconds": 14.252922534942627
+    },
+    {
+      "phase": "GREEN-fixed-test-declarations-and-audit",
+      "status": "COMPLETED",
+      "reason": "test fixture required forward declarations for existing callbacks; implementation unchanged",
+      "exit_code": 0,
+      "elapsed_seconds": 25.760173797607422
+    }
+  ],
+  "max_native_attempts": 4,
+  "native_attempts": [
+    {
+      "case": "grid14",
+      "precision": "baseline",
+      "status": "COMPLETED",
+      "config_sha256": "7d75095ed1c663126a221759ed0dc7825392e55c2a5e9f6386b865a1689e896d",
+      "binary_sha256": "afb5f9c42652489f770b54a92ddcf41c1452852ae2fe89e34aa3541df3b2ad60",
+      "exit_code": 0,
+      "result_status": "STORED_PROFILE_PASS",
+      "elapsed_seconds": 9.60261869430542
+    },
+    {
+      "case": "grid20",
+      "precision": "baseline",
+      "status": "COMPLETED",
+      "config_sha256": "3665e32f0273ac20fe6b62e4261820d03271c91bd674d6661c6bf169d6307986",
+      "binary_sha256": "afb5f9c42652489f770b54a92ddcf41c1452852ae2fe89e34aa3541df3b2ad60",
+      "exit_code": 0,
+      "result_status": "STORED_PROFILE_PASS",
+      "elapsed_seconds": 5.391220808029175
+    },
+    {
+      "case": "grid14",
+      "precision": "tight",
+      "status": "COMPLETED",
+      "config_sha256": "5e58ddf3d4d433d1f0f648e928af51ff4cd57373eaa8ee68a522513fb47f33f3",
+      "binary_sha256": "afb5f9c42652489f770b54a92ddcf41c1452852ae2fe89e34aa3541df3b2ad60",
+      "exit_code": 0,
+      "result_status": "STORED_PROFILE_PASS",
+      "elapsed_seconds": 6.325387716293335
+    },
+    {
+      "case": "grid20",
+      "precision": "tight",
+      "status": "COMPLETED",
+      "config_sha256": "f145bd9fbfb97c80a785961a871f162bb4ce9545ad2dfd07afd41f9ebb76e182",
+      "binary_sha256": "afb5f9c42652489f770b54a92ddcf41c1452852ae2fe89e34aa3541df3b2ad60",
+      "exit_code": 0,
+      "result_status": "STORED_PROFILE_PASS",
+      "elapsed_seconds": 6.73442816734314
+    }
+  ],
+  "per_native_timeout_seconds": 180,
+  "thresholds": {
+    "same_state_density_relative": 1e-12,
+    "near_switch_density_relative": 1e-06,
+    "stored_density_relative": 2e-06,
+    "isothermal_relative": 2e-06,
+    "surface_mass_relative": 1e-07,
+    "radius_convergence_relative": 1e-05,
+    "T1000_convergence_relative": 0.001
+  },
+  "physical_acceptance": false,
+  "status": "COMPLETE_GAS_DENSITY_CONTINUITY_NUMERICAL_PASS_STOPPED",
+  "next_step": "review water EOS seams before any broader grid; no automatic extra integrations"
+}

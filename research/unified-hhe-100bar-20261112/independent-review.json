@@ -1,0 +1,27 @@
+{
+  "reviewer": "fresh uninvolved Codex unified_hhe_review",
+  "verdict": "PASS_BOUNDED_GAS_EOS_CHANGE",
+  "stored_rows_independently_reparsed": 3274,
+  "gas_states_independent_table_interpolation": 1205,
+  "all_four_runs_strict_audit": true,
+  "all_four_runs_ideal_gas_density_queries": 0,
+  "all_four_runs_rejected_table_queries": 0,
+  "same_state_density_matches": true,
+  "radius_relative": {
+    "grid14": 4.221388338887522e-08,
+    "grid20": 0.0
+  },
+  "temperature_convergence_independent_linear_P_relative": {
+    "grid14": 2.51e-06,
+    "grid20": 7.861e-07
+  },
+  "all_gates_passed": true,
+  "gas_density_seam_fixed": true,
+  "physical_acceptance": false,
+  "limitations": [
+    "water EOS seams remain uncertified",
+    "100bar physical RCB not established",
+    "old externalTP initializer not repaired",
+    "native internal ODE status/raw fit residual not exposed"
+  ]
+}

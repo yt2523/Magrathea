@@ -194,7 +194,24 @@ TPOptions validate(int mode,
         if (atm_phasedgm == "gas_fixed_mu2" || atm_phasedgm == "gas_hhe_prescribed") {
             throw std::runtime_error("tp_profile_file required when atm_phasedgm is gas_fixed_mu2 or gas_hhe_prescribed.");
         }
+        // New unified selector works without external TP in mode 0 only; other modes rejected later.
+        if (atm_phasedgm == "gas_hhe_iso_adiabatic100") {
+            // No external TP: validation is handled by mode check below (or here if mode!=0).
+            if (mode != 0) {
+                throw std::runtime_error("gas_hhe_iso_adiabatic100 is only supported with input_mode=0 and no tp_profile_file.");
+            }
+            return TPOptions(false, "");
+        }
         return TPOptions(false, "");
+    }
+
+    // TP profile present: require mode 0
+    if (mode != 0) {
+        throw std::runtime_error("tp_profile_file can only be used with input_mode=0.");
+    }
+    // Reject unified selector with external TP profile.
+    if (atm_phasedgm == "gas_hhe_iso_adiabatic100") {
+        throw std::runtime_error("tp_profile_file cannot be used with atm_phasedgm=gas_hhe_iso_adiabatic100.");
     }
 
     // TP profile present: require mode 0

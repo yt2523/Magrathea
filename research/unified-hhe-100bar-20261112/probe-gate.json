@@ -1,0 +1,32 @@
+{
+  "status": "PASS_UNIT_AND_PROBE_GATE",
+  "checks": [
+    {
+      "name": "legacy-probe",
+      "exit_code": 0
+    },
+    {
+      "name": "unified-probe",
+      "exit_code": 0
+    },
+    {
+      "name": "unified-reader",
+      "exit_code": 0
+    },
+    {
+      "name": "overwrite-refusal",
+      "exit_code": 1
+    },
+    {
+      "name": "ideal-rejection",
+      "exit_code": 1
+    }
+  ],
+  "same_state_density_relative": 0.0,
+  "near_switch_density_relative": 1.8925718991980034e-08,
+  "rho_common_g_cm3": 0.007648804377033426,
+  "old_selector_density_difference_preserved": true,
+  "no_planet_runs": true,
+  "source_sha256": "2cd8782170b088cff82dc6eb8387c15edb3b94166531890044f2f4cf76e4fd21",
+  "binary_sha256": "afb5f9c42652489f770b54a92ddcf41c1452852ae2fe89e34aa3541df3b2ad60"
+}

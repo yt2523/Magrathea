@@ -42,3 +42,12 @@ tests/native_hhe_control_audit.cpp -text whitespace=cr-at-eol
 research/100bar-control-20261112/*.log -whitespace
 research/100bar-control-20261112/results/**/*.log -whitespace
 research/100bar-control-20261112/results/**/*.dat -whitespace
+
+# Unified-HHe milestone: preserve reviewed evidence/source bytes.
+research/unified-hhe-100bar-20261112/** -text whitespace=cr-at-eol
+research/unified-hhe-100bar-20261112/**/*.log -whitespace
+research/unified-hhe-100bar-20261112/*.log -whitespace
+research/unified-hhe-100bar-20261112/results/**/*.dat -whitespace
+tests/test_unified_hhe100.cpp -text whitespace=cr-at-eol
+src/EOSlist.cpp -text whitespace=cr-at-eol
+src/EOSlist.h -text whitespace=cr-at-eol

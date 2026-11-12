@@ -1,0 +1,18 @@
+{
+  "cli_exit_code": 0,
+  "strict_table_audit": true,
+  "rejected_table_queries": 0,
+  "density_audit_counts": {
+    "Fe_hcp": 36798,
+    "Gas_hhe": 56501,
+    "Gas_hhe_iso100": 10967,
+    "IceX": 204,
+    "Water_Brown": 16211,
+    "Water_sc_Mazevet": 11818
+  },
+  "gradient_audit_counts": {
+    "Fe_hcp": 7,
+    "Gas_hhe": 52704,
+    "Water_Brown": 15179
+  }
+}

@@ -437,9 +437,20 @@ int main(int argc, char* argv[])
     Comp[3]=atm_fixed_mu2;
   else if (atm_phasedgm=="gas_hhe_prescribed")
     Comp[3]=atm_hhe_prescribed;
+  else if (atm_phasedgm=="gas_hhe_iso_adiabatic100")
+    Comp[3]=atm_hhe_iso_adiabatic100;
   else
     cout<<"atm_phasedgm does not exist, using default"<<endl;
 
+
+  if (atm_phasedgm == "gas_hhe_iso_adiabatic100") {
+    try {
+      configure_prescribed_hhe_audit();
+    } catch (std::exception& e) {
+      std::cout << "\nException: " << e.what() << "\n";
+      return EXIT_FAILURE;
+    }
+  }
 
   if (tp_options.enabled) {
     try {
@@ -712,6 +723,7 @@ int main(int argc, char* argv[])
   delete Gas;
   delete Gas_iso;
   delete Gas_hhe;
+  delete Gas_hhe_iso100;
   delete watervapor;
   delete Water_Vap_IAPWS;
   delete Gold;

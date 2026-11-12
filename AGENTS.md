@@ -42,3 +42,8 @@ The operator doubled the tracked project DeepSeek ceiling44→88; see [workflow/
 ## 2026-11-12 operator routing and quota reset
 
 Use yt2523/Magrathea for development, tests and new hypotheses. cid02399021/Magrathea is the manual release repository; do not push test/development changes there in this task. Read branch README and research/100bar-control-20261112/INTERFACE_NOTES.md before coding. User reset DeepSeek quota; preserve prior88-call epoch and track a new epoch in local .runs/project-budget-latest.json. This task initially allows2 repair calls and at most4 native launches; no automatic grid expansion. DeepSeek remains the programmer.
+
+
+## Unified HHe100bar milestone,2026-11-12
+
+Read current branch README and research/unified-hhe-100bar-20261112/README.md before coding. This milestone has4 completed native runs and must not be restarted automatically. New mode0 selector is gas_hhe_iso_adiabatic100, no externalTP, strictaudit before integration. Force make -B for clean builds; old object caches caused ABI failure in a test harness. DeepSeek remains programmer; gas seam fixed, water seams/RCB/oldTPinitializer remain open.
