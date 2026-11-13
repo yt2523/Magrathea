@@ -1,0 +1,12 @@
+{
+  "status": "PASS_BOUNDED_ENGINEERING",
+  "reviewer": "/root/composition_stageb_review",
+  "review_scope": "Final17 source/binary/5 attempts hashes; TP saved-state checks rerun read-only; short profile fails; noTP result bytes unchanged. Unit reexecution sandbox denied reviewer, coordinator reran 2026-11-13 all 4 suites PASS.",
+  "limits": [
+    "Only tp!=nullptr initialization changed; EOS and T-lnP interpolation unchanged.",
+    "Bounded root search, not global uniqueness guarantee.",
+    "Generic midpoint overflow near 1e308 not planet-scale issue.",
+    "No-TP stored-state checks do not expose full internal ODE/fit certification."
+  ],
+  "physical_acceptance": false
+}

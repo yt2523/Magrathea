@@ -73,3 +73,8 @@ research/composition-constraints-20261112/stageB/candidate-src/* -whitespace
 research/composition-constraints-20261112/scripts/mass-controller.py -whitespace
 research/composition-constraints-20261112/scripts/plot-mass-slices.py -whitespace
 research/composition-constraints-20261112/scripts/verify-mass-slices.py -whitespace
+
+# Final17 raw accepted source/profile evidence.
+research/composition-constraints-20261112/stageB/final17/hydro.cpp -whitespace
+research/composition-constraints-20261112/stageB/final17/results/**/*.dat -whitespace
+src/radius_bracket.h -text whitespace=cr-at-eol

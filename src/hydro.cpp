@@ -1,4 +1,5 @@
 #include "hydro.h"
+#include "radius_bracket.h"
 #include "EOSlist.h"
 #include <gsl/gsl_integration.h>
 
@@ -1901,6 +1902,37 @@ hydro* Rloop(vector<PhaseDgm> &Comp, vector<double> M_Comp, vector<double> ave_r
   F.function  = &R_hydro;
   F.params = &params;
 
+  auto lambda = [&](double radius) -> double {
+    const double NaN = std::numeric_limits<double>::quiet_NaN();
+    params.tp_error.clear();
+    params.x[0] = NaN;
+    params.x[1] = -1;
+    double v = R_hydro(radius, &params);
+    bool valid = std::isfinite(v) && params.x[1] >= 0 && params.tp_error.empty();
+    fprintf(stderr, "TP_INIT_TRIAL radius=%.17g valid=%d error=%s\n", radius, (int)valid, params.tp_error.c_str());
+    return valid ? v : NaN;
+  };
+  if (tp) {
+    RadiusBracket bracket = find_radius_bracket(lambda, Rp, 10);
+    if (!bracket.found) {
+      if (bracket.ambiguous) {
+        fprintf(stderr, "TP_INIT_AMBIGUOUS: %s (trials=%d)\n", bracket.reason.c_str(), bracket.trials);
+      } else {
+        fprintf(stderr, "TP_INIT_NO_VALID_BRACKET: %s (trials=%d)\n", bracket.reason.c_str(), bracket.trials);
+      }
+      gsl_root_fsolver_free(s);
+      return NULL;
+    }
+    R_lo = bracket.lo;
+    R_hi = bracket.hi;
+    params.tp_error.clear();
+    status = gsl_root_fsolver_set (s, &F, R_lo, R_hi);
+    if (status != GSL_SUCCESS || params.x[1] < 0 || !params.tp_error.empty()) {
+      fprintf(stderr, "TP diagnostic error in radius initial set: %s (status %d)\n", params.tp_error.c_str(), status);
+      gsl_root_fsolver_free(s);
+      return NULL;
+    }
+  } else {
   status = gsl_root_fsolver_set (s, &F, R_lo, R_hi);
   if (tp && (status != GSL_SUCCESS && status != GSL_EINVAL)) {
     std::string original_tp_error = params.tp_error;
@@ -1992,6 +2024,7 @@ hydro* Rloop(vector<PhaseDgm> &Comp, vector<double> M_Comp, vector<double> ave_r
     cout<<endl;
     gsl_root_fsolver_free (s);
     return NULL;
+  }
   }
 
   do

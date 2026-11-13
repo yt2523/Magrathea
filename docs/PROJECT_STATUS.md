@@ -1,3 +1,7 @@
+## 2026-11-13 当前任务更新
+
+用户取消DeepSeek本任务调用上限，保留逐次记账；勿按下文历史12/16/88上限暂停。29次行星启动，final17 TP初始化已通过限定独立验收并合入根src，固定回归重新通过。96点配置已生成但未执行；扫描器还在合成协议验收，不得声称已扫网格。开发与试验只推yt2523/Magrathea，此任务不动cid02399021手动仓库。DeepSeek继续编程，Codex独立验收。见根README与research/composition-constraints-20261112/stageB/README.md。
+
 ##2026-11-12 checkpoint: Aaccepted/Cmassrepresentativesaccepted/Bcandidateedgefixpending
 
 Read rootREADME and research/composition-constraints-20261112/{stageB,mass-slices}/README.md. UserchoseAQUAwetmain,bothdryfamiliesincluded.24nativeattempts/20models/4nomodels,12DeepSeekcallsincltruncated12thnotapplied(epoch16/88). FixedrootsamplingextrascurrentlyFAIL,donotpromoteBcandidate. Rootproductionhydro.cppunchanged. Awaitingtaskcallcap12->16reply; noextraAPI. NoD/E/Fgridsyet. Source/data/knownlimitsarchived,allnewfilesD.

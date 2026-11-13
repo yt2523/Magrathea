@@ -1,0 +1,32 @@
+{
+  "radius_bracket_sha256": "674b01c983f30bda48c6c273299bbede22269af3c1b9a52523567c062f06fef5",
+  "case": "notp14-final",
+  "stage": "B",
+  "status": "COMPLETED",
+  "config_sha256": "03126f835860a0aebbd53d367e03f2565501e50da7290756482410ab551f45a9",
+  "binary_sha256": "35a011db7e06ae557fe0f52bdbb7d1f672b03ab99adb9895f57c512114e0732f",
+  "hydro_source_sha256": "b91aae1e6f3089c6a003ae6a57e7f6ddb53f580b211d8e546c30e32a91cbab22",
+  "profile_sha256": null,
+  "AQUA_fixture_sha256": "c493e0fb214bef945dacb3abf076c4f11b8c27b58aa9d174c293947236db5768",
+  "exit_code": 0,
+  "seconds": 6.602962493896484,
+  "model_exists": true,
+  "runtime": {
+    "cli_exit_code": 0,
+    "strict_table_audit": true,
+    "rejected_table_queries": 0,
+    "density_audit_counts": {
+      "Fe_hcp": 34709,
+      "Gas_hhe": 42959,
+      "Gas_hhe_iso100": 10616,
+      "H2O_AQUA": 134383
+    },
+    "gradient_audit_counts": {
+      "Fe_hcp": 7,
+      "Gas_hhe": 40038,
+      "H2O_AQUA": 126028
+    }
+  },
+  "rows": 1207,
+  "R_RE": 2.4251107
+}
