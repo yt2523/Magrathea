@@ -2,7 +2,7 @@
   "task": "composition-constraints-wet-and-dry",
   "base": "10dc38e9ebe19722f6a4a12c1cffa7497935f7d1",
   "branch": "research/composition-constraints-20261112",
-  "status": "B_ACCEPTED_SCAN_RUNNER_SYNTHETIC_ACCEPTANCE_IN_PROGRESS",
+  "status": "STAGE_D_96_RUNNING_AFTER_INDEPENDENT_PILOT_PASS",
   "authorization": "User: continue; wet and dry ternary/gas/mass plots all required",
   "max_native_attempts": 180,
   "native_attempts": [
@@ -1289,10 +1289,141 @@
       },
       "rows": 1207,
       "R_RE": 2.4251107
+    },
+    {
+      "case": "D:57bf2ce1213f75bc",
+      "stage": "D",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "57bf2ce1213f75bc",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.49995,
+          0.0,
+          0.49995,
+          0.0001
+        ],
+        "aliases": [
+          "wet_u0.5_g0.0001"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "f66f5b127393dd1cae51c68f3e1ca49e71efecea895d74e2647d038a86d7abc4",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.085415,
+        "residual_RE": -0.3045850000000003,
+        "artifacts": {
+          "checked.csv": "c7de2f052e17843e04117a6efe63ecf3c47c9995a939c9ef7b04dc976c0c57df",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "9b02dd79c8c19cfe859e845ee8ad903d545be618fdce9104a6e8f6b74250d644",
+          "runtime.json": "07a87017b57aaf4af4eba24e59cb3ebf0e72ebcbd15112b4adceb8805a51f116",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "b0015ec138aba022fba657a7b268b92e11a09329d1bdb2b36d360d7733721e1a"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.124932997,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse",
+      "executor_sha256": "47b324503c818c1915f6e6dbc25f0bcc16e9e7b988dcb099ec5b0e95fc7bb101"
+    },
+    {
+      "case": "D:aee4f3cba0d1b2ab",
+      "stage": "D",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "aee4f3cba0d1b2ab",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.32999999999999996,
+          0.66,
+          0.0,
+          0.01
+        ],
+        "aliases": [
+          "dry_rocky_u0.3333333333333333_g0.01"
+        ],
+        "families": [
+          "dry_rocky"
+        ],
+        "config_sha256": "b5f5fac287f262cdc2bcfc578e6a69b8e9ae27795b52bc3d686b903c45c53204",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.1003926,
+        "residual_RE": -0.28960739999999996,
+        "artifacts": {
+          "checked.csv": "9c09d4bb3ea294d5c84baebe961df7f5965b4cf27b1a63d490f5ce347dae4af8",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "188d2712ccb5e51fbfe7b4c624f256be4dd0c84bff3ade2353b3adb7b5a4d2b1",
+          "runtime.json": "9cba18ffdd98002df2b795a2e225519834d415081327a49726bcb08fd2988ff0",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "42795b5cdfbd1572430e8d3f3bb6bb9259b9f23dc9fe09f573b73d95c8eb07e9"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.632192323000002,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse",
+      "executor_sha256": "47b324503c818c1915f6e6dbc25f0bcc16e9e7b988dcb099ec5b0e95fc7bb101"
+    },
+    {
+      "case": "D:128a7a96125c75c1",
+      "stage": "D",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "128a7a96125c75c1",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.99,
+          0.0,
+          0.0,
+          0.01
+        ],
+        "aliases": [
+          "wet_u1.0_g0.01",
+          "dry_iron_g0.01"
+        ],
+        "families": [
+          "dry_iron",
+          "dry_iron"
+        ],
+        "config_sha256": "ed6310e168c846d779c3788dfe66cedb13f7a4af07f0ba96da8daf75af4c5dc7",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 1.7080414,
+        "residual_RE": -0.6819586000000002,
+        "artifacts": {
+          "checked.csv": "5ecbadad4bc7e227e2e5f04bf09cad66862e783fc9324d8522ce59d6d14c08fa",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "b60e95dad626b144828287a22d03312460b09c0672d1df48806dfbdf4a9488dc",
+          "runtime.json": "8141bf12e40ea29538fbd3b2a152f3edb8eed2f25202e8795087a546230a754d",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "91f4eae226151755215e8c2867df21de5c65c74c5746455f46182617aa8be1f0"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.970350750000001,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse",
+      "executor_sha256": "47b324503c818c1915f6e6dbc25f0bcc16e9e7b988dcb099ec5b0e95fc7bb101"
     }
   ],
   "max_deepseek_calls": null,
-  "deepseek_calls": 22,
+  "deepseek_calls": 29,
   "stage_budgets": {
     "A": 9,
     "B": 11,
@@ -1379,15 +1510,23 @@
     "DS12truncatedJSON,noapply;candidateonly,notpromoted"
   ],
   "counts": {
-    "native_attempts": 24,
-    "successful_models": 20,
+    "native_attempts": 32,
+    "successful_models": 27,
     "by_stage": {
       "A": 6,
       "C": 12,
-      "B": 6
+      "B": 11,
+      "D": 3
     },
-    "deepseek_calls": 12
+    "deepseek_calls": 29,
+    "note": "Stable terminal accounting; active grid execution.json authoritative for newly launched points until next sync."
   },
   "authorization_update": "User: \u65e0\u4e0a\u9650\u5230\u5b8c\u6210\u672c\u6b21\u4efb\u52a1; remove artificial implementation-call cap for this task, continue agreeddeliverables; retain usage/compute accounting",
-  "reallocation": "Move3unusedstageAattemptstostageBforfinalheaderregressions; totalplanningtarget180unchanged"
+  "reallocation": "Move3unusedstageAattemptstostageBforfinalheaderregressions; totalplanningtarget180unchanged",
+  "reserved_native_attempts": {
+    "stageD_coarse": 96,
+    "first_pilot": 3,
+    "included_not_additive": true,
+    "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse"
+  }
 }

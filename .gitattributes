@@ -78,3 +78,5 @@ research/composition-constraints-20261112/scripts/verify-mass-slices.py -whitesp
 research/composition-constraints-20261112/stageB/final17/hydro.cpp -whitespace
 research/composition-constraints-20261112/stageB/final17/results/**/*.dat -whitespace
 src/radius_bracket.h -text whitespace=cr-at-eol
+
+research/composition-constraints-20261112/scan-driver/pilot-results/**/*.dat -whitespace

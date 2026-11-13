@@ -1,0 +1,12 @@
+{
+  "baseline_attempts": 29,
+  "pilot_attempts": 3,
+  "cumulative32": true,
+  "independent_rows": 2701,
+  "max_density_relative": 8.785112715e-08,
+  "strict_rejections": 0,
+  "decision": "PASS resume same campaign cumulative cap96, remaining93",
+  "source_identity": "3f719dec85d2bebe1964651bf6ba061de209938b2d87e3b1c450520b07350320",
+  "reviewer": "/root/composition_stagea_review",
+  "physical_acceptance": false
+}

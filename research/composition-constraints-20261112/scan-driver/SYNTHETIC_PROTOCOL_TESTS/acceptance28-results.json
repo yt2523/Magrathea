@@ -1,0 +1,26 @@
+[
+  {
+    "test": "bounded launch and idempotent resume",
+    "pass": true
+  },
+  {
+    "test": "fail-and-preserve-NO_MODEL",
+    "pass": true
+  },
+  {
+    "test": "fail-and-preserve-WRONG_MASS",
+    "pass": true
+  },
+  {
+    "test": "fail-and-preserve-GHOST_WATER",
+    "pass": true
+  },
+  {
+    "test": "fail-and-preserve-HANG",
+    "pass": true
+  },
+  {
+    "test": "all configs preflight before any launch",
+    "pass": true
+  }
+]

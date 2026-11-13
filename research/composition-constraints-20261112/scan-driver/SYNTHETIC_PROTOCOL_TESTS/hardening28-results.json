@@ -1,0 +1,31 @@
+[
+  {
+    "test": "tampered model",
+    "pass": true,
+    "message": "Error: Case 443b7a3003febaae: artifact mismatch with ledger"
+  },
+  {
+    "test": "tampered runtime",
+    "pass": true,
+    "message": "Error: Case 443b7a3003febaae: artifact mismatch with ledger"
+  },
+  {
+    "test": "table identity changed",
+    "pass": true,
+    "message": "Error: execution.json identity mismatch; manual review required"
+  },
+  {
+    "test": "unrecorded output",
+    "pass": true,
+    "message": "Error: Case 443b7a3003febaae: unexpected file: unrecorded.dat"
+  },
+  {
+    "test": "target identity changed",
+    "pass": true,
+    "message": "Error: execution.json identity mismatch; manual review required"
+  },
+  {
+    "test": "RUNNING needs review",
+    "pass": true
+  }
+]
