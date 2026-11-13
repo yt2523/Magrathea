@@ -1,0 +1,13 @@
+{
+  "reviewer": "/root/composition_stagea_review",
+  "status": "PASS_STORED_STATE_ONLY",
+  "cases": 96,
+  "artifact_hashes": 672,
+  "validator_checks": 384,
+  "saved_rows": 89345,
+  "max_density_relative_error": 1.357686079e-07,
+  "strict_rejections": 0,
+  "dry_water_calls": 0,
+  "zero_silicate_calls": 0,
+  "physical_acceptance": false
+}

@@ -1,0 +1,100 @@
+{
+  "masses_earth": [
+    7.56,
+    8.04,
+    8.54
+  ],
+  "compositions": [
+    {
+      "id": "wet_highgas_u0.5",
+      "family": "wet",
+      "fractions": [
+        0.45,
+        0,
+        0.45,
+        0.1
+      ]
+    },
+    {
+      "id": "wet_highgas_u0.7",
+      "family": "wet",
+      "fractions": [
+        0.63,
+        0,
+        0.2700000000000001,
+        0.1
+      ]
+    },
+    {
+      "id": "wet_highgas_u0.9",
+      "family": "wet",
+      "fractions": [
+        0.81,
+        0,
+        0.08999999999999998,
+        0.1
+      ]
+    },
+    {
+      "id": "wet_highgas_u1",
+      "family": "dry_iron",
+      "fractions": [
+        0.9,
+        0,
+        0.0,
+        0.1
+      ]
+    },
+    {
+      "id": "dryrocky_highgas_u0.33333333",
+      "family": "dryrocky",
+      "fractions": [
+        0.3,
+        0.6000000000000001,
+        0,
+        0.1
+      ]
+    },
+    {
+      "id": "dryrocky_highgas_u0.66666667",
+      "family": "dryrocky",
+      "fractions": [
+        0.6,
+        0.30000000000000004,
+        0,
+        0.1
+      ]
+    },
+    {
+      "id": "wet_lowgas_u0_g1e-07",
+      "family": "wet",
+      "fractions": [
+        0.0,
+        0,
+        0.9999999,
+        1e-07
+      ]
+    },
+    {
+      "id": "wet_lowgas_u0.1_g1e-07",
+      "family": "wet",
+      "fractions": [
+        0.09999999000000001,
+        0,
+        0.89999991,
+        1e-07
+      ]
+    },
+    {
+      "id": "wet_lowgas_u0.05_g1e-06",
+      "family": "wet",
+      "fractions": [
+        0.04999995,
+        0,
+        0.94999905,
+        1e-06
+      ]
+    }
+  ],
+  "template_cfg": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\results\\grid14-aqua-commonaxis\\run.cfg"
+}

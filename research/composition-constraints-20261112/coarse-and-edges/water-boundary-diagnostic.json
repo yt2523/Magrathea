@@ -1,0 +1,2736 @@
+{
+  "source": "Official AQUA PT v1.0 original table phase ID column11; only four enclosing cells examined, phase IDs never numerically interpolated. Diagnostic groups not replacement EOS, no solver/source/table edits.",
+  "rows": [
+    {
+      "campaign": "grid-coarse",
+      "key": "57bf2ce1213f75bc",
+      "M": 7.56,
+      "fractions": [
+        0.49995,
+        0.0,
+        0.49995,
+        0.0001
+      ],
+      "P_bar": 406.70461,
+      "T_K": 530.86429,
+      "rho_native_gcm3": 0.8249972,
+      "nabla_native": 0.016826646518761687,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        6247.21197,
+        6354.95854
+      ],
+      "corner_P_Pa": [
+        39914954.3,
+        41249932.0
+      ],
+      "corner_T_K": [
+        524.80746,
+        537.031796
+      ],
+      "official_rho_gcm3_range": [
+        0.816366445,
+        0.833270215
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "462011874390cde2",
+      "M": 7.56,
+      "fractions": [
+        0.099999,
+        0.0,
+        0.8999910000000001,
+        1e-05
+      ],
+      "P_bar": 22.144931,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97462609,
+      "nabla_native": 0.0003370249076285487,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4513.79105,
+        4610.31722
+      ],
+      "corner_P_Pa": [
+        2207124.2,
+        2280942.69
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.971690225,
+        0.976646863
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "285e332068bfb777",
+      "M": 7.56,
+      "fractions": [
+        0.09999000000000001,
+        0.0,
+        0.89991,
+        0.0001
+      ],
+      "P_bar": 214.64654,
+      "T_K": 439.53367,
+      "rho_native_gcm3": 0.91332675,
+      "nabla_native": 0.005730941434286808,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        5467.49775,
+        5567.05935
+      ],
+      "corner_P_Pa": [
+        21363441.8,
+        22077954.0
+      ],
+      "corner_T_K": [
+        436.515832,
+        446.683592
+      ],
+      "official_rho_gcm3_range": [
+        0.906389339,
+        0.916569388
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "00145d37519764bb",
+      "M": 7.56,
+      "fractions": [
+        0.0999,
+        0.0,
+        0.8991,
+        0.001
+      ],
+      "P_bar": 1912.9827,
+      "T_K": 813.98898,
+      "rho_native_gcm3": 0.63877716,
+      "nabla_native": 0.11261123376685597,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        7892.73689,
+        8011.33816
+      ],
+      "corner_P_Pa": [
+        187349643.0,
+        193615656.0
+      ],
+      "corner_T_K": [
+        812.830516,
+        831.763771
+      ],
+      "official_rho_gcm3_range": [
+        0.614884188,
+        0.642862124
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "0d69ab9dbf6be40f",
+      "M": 7.56,
+      "fractions": [
+        0.099,
+        0.0,
+        0.891,
+        0.01
+      ],
+      "P_bar": 16438.93,
+      "T_K": 1500.0918,
+      "rho_native_gcm3": 0.89507936,
+      "nabla_native": 0.15290779438197863,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8955.33684,
+        9050.05651
+      ],
+      "corner_P_Pa": [
+        1642988480.0,
+        1697939140.0
+      ],
+      "corner_T_K": [
+        1479.10839,
+        1513.56125
+      ],
+      "official_rho_gcm3_range": [
+        0.8915050179999999,
+        0.910638645
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "d9f818119b13e361",
+      "M": 7.56,
+      "fractions": [
+        0.299997,
+        0.0,
+        0.699993,
+        1e-05
+      ],
+      "P_bar": 30.089036,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.9749791,
+      "nabla_native": 0.0004573538055474629,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4513.30639,
+        4609.81045
+      ],
+      "corner_P_Pa": [
+        2967667.08,
+        3066922.35
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.972030073,
+        0.976993353
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "f6cc98c55c8a73d2",
+      "M": 7.56,
+      "fractions": [
+        0.29997,
+        0.0,
+        0.6999299999999999,
+        0.0001
+      ],
+      "P_bar": 289.01233,
+      "T_K": 480.01935,
+      "rho_native_gcm3": 0.87643593,
+      "nabla_native": 0.009418381869865624,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        5855.94492,
+        5958.73215
+      ],
+      "corner_P_Pa": [
+        28724973.0,
+        29685695.6
+      ],
+      "corner_T_K": [
+        478.630092,
+        489.778819
+      ],
+      "official_rho_gcm3_range": [
+        0.865408497,
+        0.878511824
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "ed63177229308aa0",
+      "M": 7.56,
+      "fractions": [
+        0.29969999999999997,
+        0.0,
+        0.6992999999999999,
+        0.001
+      ],
+      "P_bar": 2587.5635,
+      "T_K": 871.53486,
+      "rho_native_gcm3": 0.65680167,
+      "nabla_native": 0.12502176823378278,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8037.14011,
+        8149.21315
+      ],
+      "corner_P_Pa": [
+        251907604.0,
+        260332793.0
+      ],
+      "corner_T_K": [
+        870.96359,
+        891.250938
+      ],
+      "official_rho_gcm3_range": [
+        0.63317766,
+        0.658807098
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "cd950090b9e42fb7",
+      "M": 7.56,
+      "fractions": [
+        0.297,
+        0.0,
+        0.693,
+        0.01
+      ],
+      "P_bar": 22436.21,
+      "T_K": 1595.6135,
+      "rho_native_gcm3": 0.97399809,
+      "nabla_native": 0.1519010935304839,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9036.34725,
+        9131.06061
+      ],
+      "corner_P_Pa": [
+        2209138400.0,
+        2283024250.0
+      ],
+      "corner_T_K": [
+        1584.89319,
+        1621.8101
+      ],
+      "official_rho_gcm3_range": [
+        0.963188893,
+        0.9821401049999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "b0f2c758ef71814f",
+      "M": 7.56,
+      "fractions": [
+        0.499995,
+        0.0,
+        0.499995,
+        1e-05
+      ],
+      "P_bar": 42.78974399999999,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.9755438,
+      "nabla_native": 0.0006491080205226488,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4512.48294,
+        4608.94956
+      ],
+      "corner_P_Pa": [
+        4261659.89,
+        4404193.46
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.972607184,
+        0.977581736
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "3125845d495c8803",
+      "M": 7.56,
+      "fractions": [
+        0.4995,
+        0.0,
+        0.4995,
+        0.001
+      ],
+      "P_bar": 3683.9627,
+      "T_K": 932.44734,
+      "rho_native_gcm3": 0.69841032,
+      "nabla_native": 0.13385834351735817,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8036.85953,
+        8142.1149
+      ],
+      "corner_P_Pa": [
+        361746956.0,
+        373845782.0
+      ],
+      "corner_T_K": [
+        912.010839,
+        933.254301
+      ],
+      "official_rho_gcm3_range": [
+        0.6932943109999999,
+        0.7160609339999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "171ef7e8c970eeb6",
+      "M": 7.56,
+      "fractions": [
+        0.495,
+        0.0,
+        0.495,
+        0.01
+      ],
+      "P_bar": 31908.716,
+      "T_K": 1705.6411,
+      "rho_native_gcm3": 1.0726652,
+      "nabla_native": 0.15137843487575373,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9084.39187,
+        9179.62056
+      ],
+      "corner_P_Pa": [
+        3172389710.0,
+        3278492040.0
+      ],
+      "corner_T_K": [
+        1698.24365,
+        1737.80083
+      ],
+      "official_rho_gcm3_range": [
+        1.06470196,
+        1.08365044
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "685dd418fe5b7869",
+      "M": 7.56,
+      "fractions": [
+        0.699993,
+        0.0,
+        0.29999700000000007,
+        1e-05
+      ],
+      "P_bar": 66.319291,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97658002,
+      "nabla_native": 0.0010023993446325206,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4511.04113,
+        4607.44288
+      ],
+      "corner_P_Pa": [
+        6536083.57,
+        6754686.5
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.973616579,
+        0.978610965
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "63bbe626f8128c12",
+      "M": 7.56,
+      "fractions": [
+        0.6999299999999999,
+        0.0,
+        0.29997000000000007,
+        0.0001
+      ],
+      "P_bar": 623.2662,
+      "T_K": 601.64638,
+      "rho_native_gcm3": 0.74886548,
+      "nabla_native": 0.034734126151346696,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        6734.84222,
+        6851.12416
+      ],
+      "corner_P_Pa": [
+        61217338.7,
+        63264786.4
+      ],
+      "corner_T_K": [
+        588.843655,
+        602.559586
+      ],
+      "official_rho_gcm3_range": [
+        0.746068862,
+        0.768934879
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "7e3b62f92dcf7623",
+      "M": 7.56,
+      "fractions": [
+        0.6992999999999999,
+        0.0,
+        0.2997,
+        0.001
+      ],
+      "P_bar": 5672.4719,
+      "T_K": 1042.5122,
+      "rho_native_gcm3": 0.74589041,
+      "nabla_native": 0.14463216771972237,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8247.25745,
+        8347.42836
+      ],
+      "corner_P_Pa": [
+        554809251.0,
+        573365153.0
+      ],
+      "corner_T_K": [
+        1023.29299,
+        1047.12855
+      ],
+      "official_rho_gcm3_range": [
+        0.7375973450000001,
+        0.7586321819999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "b3c2f9920a17485e",
+      "M": 7.56,
+      "fractions": [
+        0.693,
+        0.0,
+        0.29700000000000004,
+        0.01
+      ],
+      "P_bar": 49062.252,
+      "T_K": 1852.2025,
+      "rho_native_gcm3": 1.2063712,
+      "nabla_native": 0.15042681735979918,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9099.37318,
+        9195.52574
+      ],
+      "corner_P_Pa": [
+        4865476080.0,
+        5028204620.0
+      ],
+      "corner_T_K": [
+        1819.70086,
+        1862.08714
+      ],
+      "official_rho_gcm3_range": [
+        1.20167768,
+        1.2207999299999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "e256268c604a1b88",
+      "M": 7.56,
+      "fractions": [
+        0.8999910000000001,
+        0.0,
+        0.09999899999999998,
+        1e-05
+      ],
+      "P_bar": 124.19791,
+      "T_K": 373.43979,
+      "rho_native_gcm3": 0.96380726,
+      "nabla_native": 0.0022517575329319274,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4795.87385,
+        4892.69603
+      ],
+      "corner_P_Pa": [
+        12211865.4,
+        12620298.0
+      ],
+      "corner_T_K": [
+        371.535229,
+        380.189396
+      ],
+      "official_rho_gcm3_range": [
+        0.958875865,
+        0.965256648
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "c548fb9793ef95d7",
+      "M": 7.56,
+      "fractions": [
+        0.89991,
+        0.0,
+        0.09998999999999998,
+        0.0001
+      ],
+      "P_bar": 1160.4057,
+      "T_K": 718.28231,
+      "rho_native_gcm3": 0.65116086,
+      "nabla_native": 0.08109371295536236,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        7469.02213,
+        7595.16357
+      ],
+      "corner_P_Pa": [
+        114377042.0,
+        118202445.0
+      ],
+      "corner_T_K": [
+        707.945784,
+        724.43596
+      ],
+      "official_rho_gcm3_range": [
+        0.6393992479999999,
+        0.669489916
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "87c0b049369d8a28",
+      "M": 7.56,
+      "fractions": [
+        0.8991,
+        0.0,
+        0.09989999999999997,
+        0.001
+      ],
+      "P_bar": 10651.582,
+      "T_K": 1331.1964,
+      "rho_native_gcm3": 0.80868536,
+      "nabla_native": 0.1545470211486714,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8804.62344,
+        8900.56214
+      ],
+      "corner_P_Pa": [
+        1036592610.0,
+        1071262020.0
+      ],
+      "corner_T_K": [
+        1318.25674,
+        1348.96288
+      ],
+      "official_rho_gcm3_range": [
+        0.794707366,
+        0.8146042109999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "132b1df524fc502c",
+      "M": 7.56,
+      "fractions": [
+        0.891,
+        0.0,
+        0.09899999999999998,
+        0.01
+      ],
+      "P_bar": 90372.076,
+      "T_K": 2029.6609,
+      "rho_native_gcm3": 1.4302776,
+      "nabla_native": 0.1498293880369197,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9109.65271,
+        9207.51078
+      ],
+      "corner_P_Pa": [
+        8796342990.0,
+        9090541540.0
+      ],
+      "corner_T_K": [
+        1995.26231,
+        2041.73794
+      ],
+      "official_rho_gcm3_range": [
+        1.41731303,
+        1.43693907
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "cbb26b89c700e784",
+      "M": 8.04,
+      "fractions": [
+        0.099999,
+        0.0,
+        0.8999910000000001,
+        1e-05
+      ],
+      "P_bar": 23.611556,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97469429,
+      "nabla_native": 0.0003592626065555561,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4513.69544,
+        4610.21727
+      ],
+      "corner_P_Pa": [
+        2357230.08,
+        2436068.94
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.971757264,
+        0.976715226
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "73831b9b7310c806",
+      "M": 8.04,
+      "fractions": [
+        0.09999000000000001,
+        0.0,
+        0.89991,
+        0.0001
+      ],
+      "P_bar": 228.62948,
+      "T_K": 447.83526,
+      "rho_native_gcm3": 0.90611305,
+      "nabla_native": 0.006364532685980473,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        5564.42447,
+        5664.66557
+      ],
+      "corner_P_Pa": [
+        22816363.3,
+        23579469.2
+      ],
+      "corner_T_K": [
+        446.683592,
+        457.08819
+      ],
+      "official_rho_gcm3_range": [
+        0.8968364440000001,
+        0.907677964
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "d4f36a5d0ac7e48d",
+      "M": 8.04,
+      "fractions": [
+        0.0999,
+        0.0,
+        0.8991,
+        0.001
+      ],
+      "P_bar": 2042.5804,
+      "T_K": 826.97535,
+      "rho_native_gcm3": 0.64086356,
+      "nabla_native": 0.11584356548886324,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        7860.81921,
+        7977.27655
+      ],
+      "corner_P_Pa": [
+        200091238.0,
+        206783400.0
+      ],
+      "corner_T_K": [
+        812.830516,
+        831.763771
+      ],
+      "official_rho_gcm3_range": [
+        0.6310514540000001,
+        0.658053443
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "91edd58179a26eb4",
+      "M": 8.04,
+      "fractions": [
+        0.099,
+        0.0,
+        0.891,
+        0.01
+      ],
+      "P_bar": 17640.533,
+      "T_K": 1522.5484,
+      "rho_native_gcm3": 0.91211687,
+      "nabla_native": 0.15261627308984557,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8999.17939,
+        9093.84562
+      ],
+      "corner_P_Pa": [
+        1754727650.0,
+        1813415490.0
+      ],
+      "corner_T_K": [
+        1513.56125,
+        1548.81662
+      ],
+      "official_rho_gcm3_range": [
+        0.904058407,
+        0.923170428
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "cceb324aaff679a9",
+      "M": 8.04,
+      "fractions": [
+        0.299997,
+        0.0,
+        0.699993,
+        1e-05
+      ],
+      "P_bar": 32.133164,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97507315,
+      "nabla_native": 0.0004882662134603775,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4513.17761,
+        4609.67594
+      ],
+      "corner_P_Pa": [
+        3169497.26,
+        3275502.85
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.9721202600000001,
+        0.977085396
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "cdb158e7c241b47c",
+      "M": 8.04,
+      "fractions": [
+        0.29997,
+        0.0,
+        0.6999299999999999,
+        0.0001
+      ],
+      "P_bar": 308.17211,
+      "T_K": 489.20796,
+      "rho_native_gcm3": 0.86754262,
+      "nabla_native": 0.010489784656095463,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        5853.1086,
+        5955.76842
+      ],
+      "corner_P_Pa": [
+        30678550.1,
+        31704611.2
+      ],
+      "corner_T_K": [
+        478.630092,
+        489.778819
+      ],
+      "official_rho_gcm3_range": [
+        0.8668091920000001,
+        0.8798590329999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "2a271075e8b808f3",
+      "M": 8.04,
+      "fractions": [
+        0.29969999999999997,
+        0.0,
+        0.6992999999999999,
+        0.001
+      ],
+      "P_bar": 2768.5892,
+      "T_K": 883.3552,
+      "rho_native_gcm3": 0.66364595,
+      "nabla_native": 0.12702987249495656,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8003.74384,
+        8114.22446
+      ],
+      "corner_P_Pa": [
+        269039767.0,
+        278037951.0
+      ],
+      "corner_T_K": [
+        870.96359,
+        891.250938
+      ],
+      "official_rho_gcm3_range": [
+        0.649968297,
+        0.674855529
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "a05637cf716d912e",
+      "M": 8.04,
+      "fractions": [
+        0.297,
+        0.0,
+        0.693,
+        0.01
+      ],
+      "P_bar": 24080.492,
+      "T_K": 1616.9974,
+      "rho_native_gcm3": 0.9930943,
+      "nabla_native": 0.15177804987000548,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9002.52335,
+        9097.32126
+      ],
+      "corner_P_Pa": [
+        2359381260.0,
+        2438292070.0
+      ],
+      "corner_T_K": [
+        1584.89319,
+        1621.8101
+      ],
+      "official_rho_gcm3_range": [
+        0.985244581,
+        1.00411044
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "8785b83ca9e0f540",
+      "M": 8.04,
+      "fractions": [
+        0.499995,
+        0.0,
+        0.499995,
+        1e-05
+      ],
+      "P_bar": 45.713935,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97567437,
+      "nabla_native": 0.0006931574244700117,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4512.29918,
+        4608.7573
+      ],
+      "corner_P_Pa": [
+        4551494.15,
+        4703721.38
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.972736036,
+        0.9777129800000001
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "eb008fa2de9a730b",
+      "M": 8.04,
+      "fractions": [
+        0.49995,
+        0.0,
+        0.49995,
+        0.0001
+      ],
+      "P_bar": 434.00091,
+      "T_K": 541.09971,
+      "rho_native_gcm3": 0.8141381,
+      "nabla_native": 0.01880709997741088,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        6346.85663,
+        6456.25652
+      ],
+      "corner_P_Pa": [
+        42629558.8,
+        44055327.9
+      ],
+      "corner_T_K": [
+        537.031796,
+        549.540874
+      ],
+      "official_rho_gcm3_range": [
+        0.802095904,
+        0.8201685750000001
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "cd23f1c7429c3ddc",
+      "M": 8.04,
+      "fractions": [
+        0.4995,
+        0.0,
+        0.4995,
+        0.001
+      ],
+      "P_bar": 3944.3204,
+      "T_K": 945.54539,
+      "rho_native_gcm3": 0.70701071,
+      "nabla_native": 0.13541871720694065,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8091.6788,
+        8196.09155
+      ],
+      "corner_P_Pa": [
+        386349261.0,
+        399270926.0
+      ],
+      "corner_T_K": [
+        933.254301,
+        954.992586
+      ],
+      "official_rho_gcm3_range": [
+        0.695561371,
+        0.718111995
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "201f63a56970d23c",
+      "M": 8.04,
+      "fractions": [
+        0.495,
+        0.0,
+        0.495,
+        0.01
+      ],
+      "P_bar": 34242.511,
+      "T_K": 1729.0079,
+      "rho_native_gcm3": 1.0935381,
+      "nabla_native": 0.1512755294059401,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9050.43362,
+        9145.8129
+      ],
+      "corner_P_Pa": [
+        3388143020.0,
+        3501461330.0
+      ],
+      "corner_T_K": [
+        1698.24365,
+        1737.80083
+      ],
+      "official_rho_gcm3_range": [
+        1.08816489,
+        1.1070718300000002
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "e014b7d621d220af",
+      "M": 8.04,
+      "fractions": [
+        0.699993,
+        0.0,
+        0.29999700000000007,
+        1e-05
+      ],
+      "P_bar": 70.808998,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97677526,
+      "nabla_native": 0.0010695301267178781,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4510.76037,
+        4607.14927
+      ],
+      "corner_P_Pa": [
+        6980600.72,
+        7214070.77
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.9738131839999999,
+        0.978811242
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "69b36a993ae727d4",
+      "M": 8.04,
+      "fractions": [
+        0.6999299999999999,
+        0.0,
+        0.29997000000000007,
+        0.0001
+      ],
+      "P_bar": 665.41671,
+      "T_K": 613.23098,
+      "rho_native_gcm3": 0.73657955,
+      "nabla_native": 0.03869454755836574,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        6834.14212,
+        6952.59826
+      ],
+      "corner_P_Pa": [
+        65380712.2,
+        67567406.3
+      ],
+      "corner_T_K": [
+        602.559586,
+        616.595002
+      ],
+      "official_rho_gcm3_range": [
+        0.729820288,
+        0.7541144369999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "3ac6bd06b1ceeb35",
+      "M": 8.04,
+      "fractions": [
+        0.6992999999999999,
+        0.0,
+        0.2997,
+        0.001
+      ],
+      "P_bar": 6068.0873,
+      "T_K": 1068.0719,
+      "rho_native_gcm3": 0.75130945,
+      "nabla_native": 0.14646741227711302,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8296.07013,
+        8395.6324
+      ],
+      "corner_P_Pa": [
+        592541668.0,
+        612359552.0
+      ],
+      "corner_T_K": [
+        1047.12855,
+        1071.51931
+      ],
+      "official_rho_gcm3_range": [
+        0.7431815709999999,
+        0.764043082
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "cbf74897b0b83149",
+      "M": 8.04,
+      "fractions": [
+        0.693,
+        0.0,
+        0.29700000000000004,
+        0.01
+      ],
+      "P_bar": 52645.631,
+      "T_K": 1876.3802,
+      "rho_native_gcm3": 1.2299142,
+      "nabla_native": 0.15023344648151335,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9144.48766,
+        9240.76241
+      ],
+      "corner_P_Pa": [
+        5196375700.0,
+        5370171360.0
+      ],
+      "corner_T_K": [
+        1862.08714,
+        1905.46072
+      ],
+      "official_rho_gcm3_range": [
+        1.22058563,
+        1.23981502
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "56622b3893261d39",
+      "M": 8.04,
+      "fractions": [
+        0.8999910000000001,
+        0.0,
+        0.09999899999999998,
+        1e-05
+      ],
+      "P_bar": 132.53888,
+      "T_K": 380.75428,
+      "rho_native_gcm3": 0.95893312,
+      "nabla_native": 0.0025266052597489254,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4891.68467,
+        4988.75283
+      ],
+      "corner_P_Pa": [
+        13042390.9,
+        13478600.8
+      ],
+      "corner_T_K": [
+        380.189396,
+        389.045145
+      ],
+      "official_rho_gcm3_range": [
+        0.952604567,
+        0.959461763
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "0c99baeaf0e0e2f9",
+      "M": 8.04,
+      "fractions": [
+        0.89991,
+        0.0,
+        0.09998999999999998,
+        0.0001
+      ],
+      "P_bar": 1240.7697,
+      "T_K": 730.75511,
+      "rho_native_gcm3": 0.64626178,
+      "nabla_native": 0.08599353744670156,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        7554.82431,
+        7681.13764
+      ],
+      "corner_P_Pa": [
+        122155791.0,
+        126241359.0
+      ],
+      "corner_T_K": [
+        724.43596,
+        741.310241
+      ],
+      "official_rho_gcm3_range": [
+        0.628109914,
+        0.6585169319999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "754b9cb1057835c3",
+      "M": 8.04,
+      "fractions": [
+        0.8991,
+        0.0,
+        0.09989999999999997,
+        0.001
+      ],
+      "P_bar": 11407.469,
+      "T_K": 1362.8763,
+      "rho_native_gcm3": 0.81947416,
+      "nabla_native": 0.1545174934975403,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8848.52147,
+        8944.19224
+      ],
+      "corner_P_Pa": [
+        1107090970.0,
+        1144118240.0
+      ],
+      "corner_T_K": [
+        1348.96288,
+        1380.38426
+      ],
+      "official_rho_gcm3_range": [
+        0.8048740299999999,
+        0.824668442
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "c899cf3d5c0975e3",
+      "M": 8.04,
+      "fractions": [
+        0.891,
+        0.0,
+        0.09899999999999998,
+        0.01
+      ],
+      "P_bar": 96966.386,
+      "T_K": 2047.0419,
+      "rho_native_gcm3": 1.4586439,
+      "nabla_native": 0.15001935422831533,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9155.72057,
+        9253.7532
+      ],
+      "corner_P_Pa": [
+        9394579730.0,
+        9708786640.0
+      ],
+      "corner_T_K": [
+        2041.73794,
+        2089.29613
+      ],
+      "official_rho_gcm3_range": [
+        1.4400666100000001,
+        1.45983824
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "a2227243c06f5768",
+      "M": 8.54,
+      "fractions": [
+        0.099999,
+        0.0,
+        0.8999910000000001,
+        1e-05
+      ],
+      "P_bar": 25.160225,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97476187,
+      "nabla_native": 0.00038273466447983945,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4513.64505,
+        4610.16473
+      ],
+      "corner_P_Pa": [
+        2436068.94,
+        2517544.61
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.971792497,
+        0.976751257
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "657dc34cbd1f1784",
+      "M": 8.54,
+      "fractions": [
+        0.09999000000000001,
+        0.0,
+        0.89991,
+        0.0001
+      ],
+      "P_bar": 243.29077,
+      "T_K": 456.17172,
+      "rho_native_gcm3": 0.89866943,
+      "nabla_native": 0.007059263190594218,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        5563.49113,
+        5663.70033
+      ],
+      "corner_P_Pa": [
+        23579469.2,
+        24368097.6
+      ],
+      "corner_T_K": [
+        446.683592,
+        457.08819
+      ],
+      "official_rho_gcm3_range": [
+        0.897302998,
+        0.9081343839999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "fbab16d10b872907",
+      "M": 8.54,
+      "fractions": [
+        0.0999,
+        0.0,
+        0.8991,
+        0.001
+      ],
+      "P_bar": 2179.089,
+      "T_K": 839.60076,
+      "rho_native_gcm3": 0.64392071,
+      "nabla_native": 0.11874565750056347,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        7927.51,
+        8042.83747
+      ],
+      "corner_P_Pa": [
+        213699385.0,
+        220846680.0
+      ],
+      "corner_T_K": [
+        831.763771,
+        851.138038
+      ],
+      "official_rho_gcm3_range": [
+        0.6279881890000001,
+        0.654691167
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "dde57cb72980ce92",
+      "M": 8.54,
+      "fractions": [
+        0.099,
+        0.0,
+        0.891,
+        0.01
+      ],
+      "P_bar": 18906.99,
+      "T_K": 1543.9716,
+      "rho_native_gcm3": 0.92938334,
+      "nabla_native": 0.15236998587360562,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8965.31958,
+        9059.9825
+      ],
+      "corner_P_Pa": [
+        1874066170.0,
+        1936745350.0
+      ],
+      "corner_T_K": [
+        1513.56125,
+        1548.81662
+      ],
+      "official_rho_gcm3_range": [
+        0.925401695,
+        0.9443813
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "d440d068a74b1fbf",
+      "M": 8.54,
+      "fractions": [
+        0.299997,
+        0.0,
+        0.699993,
+        1e-05
+      ],
+      "P_bar": 34.287224,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97516579,
+      "nabla_native": 0.0005208217048700459,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4513.04038,
+        4609.53232
+      ],
+      "corner_P_Pa": [
+        3385053.85,
+        3498268.85
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.972216547,
+        0.977183474
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "d08e217e26840d3f",
+      "M": 8.54,
+      "fractions": [
+        0.29997,
+        0.0,
+        0.6999299999999999,
+        0.0001
+      ],
+      "P_bar": 328.38674999999995,
+      "T_K": 498.4536,
+      "rho_native_gcm3": 0.85836322,
+      "nabla_native": 0.011683463340488419,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        5951.00103,
+        6054.72148
+      ],
+      "corner_P_Pa": [
+        32764989.4,
+        33860832.6
+      ],
+      "corner_T_K": [
+        489.778819,
+        501.187234
+      ],
+      "official_rho_gcm3_range": [
+        0.855155113,
+        0.869061158
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "4e9443853a393a41",
+      "M": 8.54,
+      "fractions": [
+        0.29969999999999997,
+        0.0,
+        0.6992999999999999,
+        0.001
+      ],
+      "P_bar": 2960.2121,
+      "T_K": 894.5716,
+      "rho_native_gcm3": 0.67127446,
+      "nabla_native": 0.1287477230278936,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8063.03516,
+        8172.43682
+      ],
+      "corner_P_Pa": [
+        287337084.0,
+        296947231.0
+      ],
+      "corner_T_K": [
+        891.250938,
+        912.010839
+      ],
+      "official_rho_gcm3_range": [
+        0.650063777,
+        0.674653772
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "e1817f194afc1f72",
+      "M": 8.54,
+      "fractions": [
+        0.297,
+        0.0,
+        0.693,
+        0.01
+      ],
+      "P_bar": 25812.417,
+      "T_K": 1638.2403,
+      "rho_native_gcm3": 1.0122141,
+      "nabla_native": 0.15166438348787945,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9046.63598,
+        9141.4936
+      ],
+      "corner_P_Pa": [
+        2519842100.0,
+        2604119610.0
+      ],
+      "corner_T_K": [
+        1621.8101,
+        1659.58691
+      ],
+      "official_rho_gcm3_range": [
+        0.9996989089999999,
+        1.01860741
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "924d995c4f455e74",
+      "M": 8.54,
+      "fractions": [
+        0.499995,
+        0.0,
+        0.499995,
+        1e-05
+      ],
+      "P_bar": 48.808513,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97580557,
+      "nabla_native": 0.0007397209624738718,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4512.10251,
+        4608.5522
+      ],
+      "corner_P_Pa": [
+        4861039.95,
+        5023620.11
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.972873475,
+        0.977853425
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "2074526cd3c5b7f0",
+      "M": 8.54,
+      "fractions": [
+        0.49995,
+        0.0,
+        0.49995,
+        0.0001
+      ],
+      "P_bar": 462.83231,
+      "T_K": 551.40433,
+      "rho_native_gcm3": 0.80312531,
+      "nabla_native": 0.020986891828944,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        6446.96363,
+        6558.20091
+      ],
+      "corner_P_Pa": [
+        45528782.7,
+        47051518.0
+      ],
+      "corner_T_K": [
+        549.540874,
+        562.341325
+      ],
+      "official_rho_gcm3_range": [
+        0.7871346690000001,
+        0.806463584
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "1e4faaa4ee190426",
+      "M": 8.54,
+      "fractions": [
+        0.4995,
+        0.0,
+        0.4995,
+        0.001
+      ],
+      "P_bar": 4217.5412,
+      "T_K": 959.41325,
+      "rho_native_gcm3": 0.71522974,
+      "nabla_native": 0.13696808519273782,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8145.12983,
+        8248.72569
+      ],
+      "corner_P_Pa": [
+        412624763.0,
+        426425226.0
+      ],
+      "corner_T_K": [
+        954.992586,
+        977.237221
+      ],
+      "official_rho_gcm3_range": [
+        0.698476545,
+        0.720810831
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "880fcdb87ad27125",
+      "M": 8.54,
+      "fractions": [
+        0.495,
+        0.0,
+        0.495,
+        0.01
+      ],
+      "P_bar": 36702.04,
+      "T_K": 1752.3384,
+      "rho_native_gcm3": 1.114405,
+      "nabla_native": 0.15115261880723443,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9094.94342,
+        9190.43169
+      ],
+      "corner_P_Pa": [
+        3618569640.0,
+        3739594710.0
+      ],
+      "corner_T_K": [
+        1737.80083,
+        1778.27941
+      ],
+      "official_rho_gcm3_range": [
+        1.1047622799999999,
+        1.12375334
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "848470fec63ffaa7",
+      "M": 8.54,
+      "fractions": [
+        0.699993,
+        0.0,
+        0.29999700000000007,
+        1e-05
+      ],
+      "P_bar": 75.543316,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97698188,
+      "nabla_native": 0.0011402143393393917,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4510.46089,
+        4606.8366
+      ],
+      "corner_P_Pa": [
+        7455349.36,
+        7704697.64
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.97402252,
+        0.9790248149999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "45b2547d31dbc4ac",
+      "M": 8.54,
+      "fractions": [
+        0.6999299999999999,
+        0.0,
+        0.29997000000000007,
+        0.0001
+      ],
+      "P_bar": 709.63054,
+      "T_K": 624.82107,
+      "rho_native_gcm3": 0.72460555,
+      "nabla_native": 0.04290087285037386,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        6933.19905,
+        7053.8822
+      ],
+      "corner_P_Pa": [
+        69827235.5,
+        72162646.0
+      ],
+      "corner_T_K": [
+        616.595002,
+        630.957344
+      ],
+      "official_rho_gcm3_range": [
+        0.713313105,
+        0.739036908
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "0c9bb0371e86cf00",
+      "M": 8.54,
+      "fractions": [
+        0.6992999999999999,
+        0.0,
+        0.2997,
+        0.001
+      ],
+      "P_bar": 6489.5853,
+      "T_K": 1095.6732,
+      "rho_native_gcm3": 0.7565714,
+      "nabla_native": 0.14818314088088022,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8344.08691,
+        8443.0766
+      ],
+      "corner_P_Pa": [
+        632840255.0,
+        654005948.0
+      ],
+      "corner_T_K": [
+        1071.51931,
+        1096.4782
+      ],
+      "official_rho_gcm3_range": [
+        0.749280227,
+        0.7699734549999999
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "928c0aeb7edbcbac",
+      "M": 8.54,
+      "fractions": [
+        0.693,
+        0.0,
+        0.29700000000000004,
+        0.01
+      ],
+      "P_bar": 56428.355,
+      "T_K": 1899.7572,
+      "rho_native_gcm3": 1.2536567,
+      "nabla_native": 0.150042181524662,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9110.3424,
+        9206.80919
+      ],
+      "corner_P_Pa": [
+        5549779710.0,
+        5735395160.0
+      ],
+      "corner_T_K": [
+        1862.08714,
+        1905.46072
+      ],
+      "official_rho_gcm3_range": [
+        1.24633246,
+        1.26555021
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "6fbdb7aa8bdca733",
+      "M": 8.54,
+      "fractions": [
+        0.8999910000000001,
+        0.0,
+        0.09999899999999998,
+        1e-05
+      ],
+      "P_bar": 141.32033,
+      "T_K": 388.11246,
+      "rho_native_gcm3": 0.95381907,
+      "nabla_native": 0.002826243507898114,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4890.95661,
+        4988.00107
+      ],
+      "corner_P_Pa": [
+        13929400.1,
+        14395276.6
+      ],
+      "corner_T_K": [
+        380.189396,
+        389.045145
+      ],
+      "official_rho_gcm3_range": [
+        0.9530246849999999,
+        0.9598834970000001
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "e85aa0d87f1042ed",
+      "M": 8.54,
+      "fractions": [
+        0.89991,
+        0.0,
+        0.09998999999999998,
+        0.0001
+      ],
+      "P_bar": 1325.2718,
+      "T_K": 742.94759,
+      "rho_native_gcm3": 0.64275043,
+      "nabla_native": 0.09051782113373119,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        7637.99751,
+        7764.13636
+      ],
+      "corner_P_Pa": [
+        130463571.0,
+        134826997.0
+      ],
+      "corner_T_K": [
+        741.310241,
+        758.577575
+      ],
+      "official_rho_gcm3_range": [
+        0.6179712829999999,
+        0.648520279
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "0f9104f9ae864ef9",
+      "M": 8.54,
+      "fractions": [
+        0.8991,
+        0.0,
+        0.09989999999999997,
+        0.001
+      ],
+      "P_bar": 12206.437,
+      "T_K": 1392.1594,
+      "rho_native_gcm3": 0.83133425,
+      "nabla_native": 0.15434219230659402,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8892.3072,
+        8987.7388
+      ],
+      "corner_P_Pa": [
+        1182383910.0,
+        1221929390.0
+      ],
+      "corner_T_K": [
+        1380.38426,
+        1412.53754
+      ],
+      "official_rho_gcm3_range": [
+        0.815437817,
+        0.83513859
+      ]
+    },
+    {
+      "campaign": "grid-coarse",
+      "key": "465b10c7404b4ead",
+      "M": 8.54,
+      "fractions": [
+        0.891,
+        0.0,
+        0.09899999999999998,
+        0.01
+      ],
+      "P_bar": 103923.9,
+      "T_K": 2067.3099,
+      "rho_native_gcm3": 1.4866757,
+      "nabla_native": 0.1502337929122223,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9103.4636,
+        9201.967
+      ],
+      "corner_P_Pa": [
+        10369078400.0,
+        10715878000.0
+      ],
+      "corner_T_K": [
+        2041.73794,
+        2089.29613
+      ],
+      "official_rho_gcm3_range": [
+        1.48322147,
+        1.50306593
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "1a86b90a7cc71826",
+      "M": 7.56,
+      "fractions": [
+        0.45,
+        0.0,
+        0.45,
+        0.1
+      ],
+      "P_bar": 206271.56,
+      "T_K": 2434.6907,
+      "rho_native_gcm3": 1.7786887,
+      "nabla_native": 0.15376965002947177,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9321.43006,
+        9422.81844
+      ],
+      "corner_P_Pa": [
+        20021295400.0,
+        20690918700.0
+      ],
+      "corner_T_K": [
+        2398.83292,
+        2454.70892
+      ],
+      "official_rho_gcm3_range": [
+        1.76145515,
+        1.78340287
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "c85282e3361bb2e8",
+      "M": 7.56,
+      "fractions": [
+        0.63,
+        0.0,
+        0.2700000000000001,
+        0.1
+      ],
+      "P_bar": 295610.53,
+      "T_K": 2596.7443,
+      "rho_native_gcm3": 1.9660969,
+      "nabla_native": 0.1600815146232593,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9365.61073,
+        9469.38785
+      ],
+      "corner_P_Pa": [
+        28751187100.0,
+        29712786500.0
+      ],
+      "corner_T_K": [
+        2570.39578,
+        2630.26799
+      ],
+      "official_rho_gcm3_range": [
+        1.94710362,
+        1.97117813
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "e1bb89906a543c50",
+      "M": 7.56,
+      "fractions": [
+        0.81,
+        0.0,
+        0.08999999999999998,
+        0.1
+      ],
+      "P_bar": 486902.21,
+      "T_K": 2753.4023,
+      "rho_native_gcm3": 2.2521074,
+      "nabla_native": 0.16011875017985477,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8747.70242,
+        8930.10637
+      ],
+      "corner_P_Pa": [
+        48669556900.0,
+        50297337200.0
+      ],
+      "corner_T_K": [
+        2691.5348,
+        2754.2287
+      ],
+      "official_rho_gcm3_range": [
+        2.25176883,
+        2.27647613
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "78ac8928e15c4ca4",
+      "M": 7.56,
+      "fractions": [
+        0.0,
+        0.0,
+        0.9999999,
+        1e-07
+      ],
+      "P_bar": 0.21354349000000003,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.00013282421,
+      "nabla_native": 0.24255211358210405,
+      "official_phase_corners": [
+        3
+      ],
+      "diagnostic_group": "vapor",
+      "corner_entropy_JkgK_range": [
+        11455.149,
+        11515.2464
+      ],
+      "corner_P_Pa": [
+        21343.9635,
+        22057.8242
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.000130896541,
+        0.000138520066
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "10b5a03778d550b2",
+      "M": 7.56,
+      "fractions": [
+        0.09999999000000001,
+        0.0,
+        0.89999991,
+        1e-07
+      ],
+      "P_bar": 0.23504919000000002,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.00014625059,
+      "nabla_native": 0.2422701098256053,
+      "official_phase_corners": [
+        3
+      ],
+      "diagnostic_group": "vapor",
+      "corner_entropy_JkgK_range": [
+        11424.1281,
+        11484.3426
+      ],
+      "corner_P_Pa": [
+        22795.5603,
+        23557.9704
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.000139834639,
+        0.000147976744
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "3f56903cec1fdb42",
+      "M": 7.56,
+      "fractions": [
+        0.04999995,
+        0.0,
+        0.94999905,
+        1e-06
+      ],
+      "P_bar": 2.15721,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.9737403,
+      "nabla_native": 3.293516827008684e-05,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4515.06553,
+        4611.65037
+      ],
+      "corner_P_Pa": [
+        213504.543,
+        220645.321
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.9707957810000001,
+        0.975735056
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "fc7e9ef58d80043e",
+      "M": 8.04,
+      "fractions": [
+        0.45,
+        0.0,
+        0.45,
+        0.1
+      ],
+      "P_bar": 222136.54,
+      "T_K": 2472.2956,
+      "rho_native_gcm3": 1.8148243,
+      "nabla_native": 0.1547612174711017,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9349.39816,
+        9451.33872
+      ],
+      "corner_P_Pa": [
+        22098102100.0,
+        22837185300.0
+      ],
+      "corner_T_K": [
+        2454.70892,
+        2511.88643
+      ],
+      "official_rho_gcm3_range": [
+        1.8087573700000001,
+        1.83120719
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "5c5af75add7edd3c",
+      "M": 8.04,
+      "fractions": [
+        0.63,
+        0.0,
+        0.2700000000000001,
+        0.1
+      ],
+      "P_bar": 318914.03,
+      "T_K": 2624.1913,
+      "rho_native_gcm3": 2.0097424,
+      "nabla_native": 0.16191299318175073,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9306.54781,
+        9411.33073
+      ],
+      "corner_P_Pa": [
+        31733544500.0,
+        32794890400.0
+      ],
+      "corner_T_K": [
+        2570.39578,
+        2630.26799
+      ],
+      "official_rho_gcm3_range": [
+        2.00625026,
+        2.0309782
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "11c33df7d809b23f",
+      "M": 8.04,
+      "fractions": [
+        0.81,
+        0.0,
+        0.08999999999999998,
+        0.1
+      ],
+      "P_bar": 526622.49,
+      "T_K": 2775.1499,
+      "rho_native_gcm3": 2.2964124,
+      "nabla_native": 0.1590527148294322,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8654.18638,
+        8845.81206
+      ],
+      "corner_P_Pa": [
+        51979559400.0,
+        53718044500.0
+      ],
+      "corner_T_K": [
+        2754.2287,
+        2818.38293
+      ],
+      "official_rho_gcm3_range": [
+        2.2847814,
+        2.31033817
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "cb4b27c7aee995b1",
+      "M": 8.04,
+      "fractions": [
+        0.0,
+        0.0,
+        0.9999999,
+        1e-07
+      ],
+      "P_bar": 0.22305313000000002,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.00013875857,
+      "nabla_native": 0.24247230641208947,
+      "official_phase_corners": [
+        3
+      ],
+      "diagnostic_group": "vapor",
+      "corner_entropy_JkgK_range": [
+        11439.6441,
+        11499.799
+      ],
+      "corner_P_Pa": [
+        22057.8242,
+        22795.5603
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.000135293558,
+        0.000143172197
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "ae001afbbddaa0ad",
+      "M": 8.04,
+      "fractions": [
+        0.09999999000000001,
+        0.0,
+        0.89999991,
+        1e-07
+      ],
+      "P_bar": 0.24631289,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.00015328581,
+      "nabla_native": 0.2421641969578132,
+      "official_phase_corners": [
+        3
+      ],
+      "diagnostic_group": "vapor",
+      "corner_entropy_JkgK_range": [
+        11393.0584,
+        11453.4019
+      ],
+      "corner_P_Pa": [
+        24345.8798,
+        25160.1412
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.00014936731,
+        0.000158094501
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "9769f742e1269076",
+      "M": 8.04,
+      "fractions": [
+        0.04999995,
+        0.0,
+        0.94999905,
+        1e-06
+      ],
+      "P_bar": 2.2920907,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97374504,
+      "nabla_native": 3.499384320982913e-05,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4515.05625,
+        4611.64065
+      ],
+      "corner_P_Pa": [
+        228024.925,
+        235651.345
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.9708023090000001,
+        0.975741704
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "64cfca817d243e1e",
+      "M": 8.54,
+      "fractions": [
+        0.45,
+        0.0,
+        0.45,
+        0.1
+      ],
+      "P_bar": 238980.32,
+      "T_K": 2507.3883,
+      "rho_native_gcm3": 1.8515848,
+      "nabla_native": 0.155898887219007,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9311.92709,
+        9414.43166
+      ],
+      "corner_P_Pa": [
+        23600987600.0,
+        24390335700.0
+      ],
+      "corner_T_K": [
+        2454.70892,
+        2511.88643
+      ],
+      "official_rho_gcm3_range": [
+        1.84441503,
+        1.86719101
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "88ce9581daa8dcf1",
+      "M": 8.54,
+      "fractions": [
+        0.63,
+        0.0,
+        0.2700000000000001,
+        0.1
+      ],
+      "P_bar": 343714.88,
+      "T_K": 2649.4929,
+      "rho_native_gcm3": 2.0541886,
+      "nabla_native": 0.16390526912715153,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        9351.77429,
+        9456.93465
+      ],
+      "corner_P_Pa": [
+        33891733700.0,
+        35025261400.0
+      ],
+      "corner_T_K": [
+        2630.26799,
+        2691.5348
+      ],
+      "official_rho_gcm3_range": [
+        2.04231736,
+        2.06754733
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "2f44359279ba6550",
+      "M": 8.54,
+      "fractions": [
+        0.81,
+        0.0,
+        0.08999999999999998,
+        0.1
+      ],
+      "P_bar": 569066.69,
+      "T_K": 2796.7902,
+      "rho_native_gcm3": 2.3423652,
+      "nabla_native": 0.15875056625355408,
+      "official_phase_corners": [
+        5
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        8453.84551,
+        8656.9442
+      ],
+      "corner_P_Pa": [
+        55514674200.0,
+        57371393200.0
+      ],
+      "corner_T_K": [
+        2754.2287,
+        2818.38293
+      ],
+      "official_rho_gcm3_range": [
+        2.32486569,
+        2.3513859299999997
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "1bd67b1d8f727d53",
+      "M": 8.54,
+      "fractions": [
+        0.0,
+        0.0,
+        0.9999999,
+        1e-07
+      ],
+      "P_bar": 0.23312025,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.00014504525,
+      "nabla_native": 0.24233672151802715,
+      "official_phase_corners": [
+        3
+      ],
+      "diagnostic_group": "vapor",
+      "corner_entropy_JkgK_range": [
+        11424.1281,
+        11484.3426
+      ],
+      "corner_P_Pa": [
+        22795.5603,
+        23557.9704
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.000139834639,
+        0.000147976744
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "f6b9d27428938963",
+      "M": 8.54,
+      "fractions": [
+        0.09999999000000001,
+        0.0,
+        0.89999991,
+        1e-07
+      ],
+      "P_bar": 0.25823651000000003,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.00016075899,
+      "nabla_native": 0.24194738639225544,
+      "official_phase_corners": [
+        3
+      ],
+      "diagnostic_group": "vapor",
+      "corner_entropy_JkgK_range": [
+        11377.5035,
+        11437.9148
+      ],
+      "corner_P_Pa": [
+        25160.1412,
+        26001.636
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.000154399483,
+        0.000163422824
+      ]
+    },
+    {
+      "campaign": "grid-edges",
+      "key": "f9db00510d2726e7",
+      "M": 8.54,
+      "fractions": [
+        0.04999995,
+        0.0,
+        0.94999905,
+        1e-06
+      ],
+      "P_bar": 2.4342365,
+      "T_K": 350.0,
+      "rho_native_gcm3": 0.97375433,
+      "nabla_native": 3.7163090522829565e-05,
+      "official_phase_corners": [
+        4
+      ],
+      "diagnostic_group": "dense_fluid",
+      "corner_entropy_JkgK_range": [
+        4515.05137,
+        4611.63555
+      ],
+      "corner_P_Pa": [
+        235651.345,
+        243532.835
+      ],
+      "corner_T_K": [
+        346.73685,
+        354.813389
+      ],
+      "official_rho_gcm3_range": [
+        0.9708057320000001,
+        0.9757451939999999
+      ]
+    }
+  ],
+  "physical_acceptance": false
+}

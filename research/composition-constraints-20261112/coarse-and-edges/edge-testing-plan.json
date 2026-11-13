@@ -1,0 +1,11 @@
+{
+  "reason": "Initial low-mass slice at gas=.01: dryrocky u1/3 R2.10039, dryFe R1.70804, wet u.7 R2.20401 below Rlow2.28; not physical exclusions. Need larger gas. Wet u.1 g1e-5 R2.39916 within comparison band, so explore lowergas/lowFe boundary.",
+  "high_gas": 0.1,
+  "lowgas": [
+    1e-07,
+    1e-06
+  ],
+  "cases": 27,
+  "physical_acceptance": false,
+  "no_new_EOS_or_thermal_changes": true
+}

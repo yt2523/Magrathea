@@ -1,0 +1,1759 @@
+{
+  "cases": [
+    {
+      "key": "57bf2ce1213f75bc",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.49995,
+        0.0,
+        0.49995,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.5_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "f66f5b127393dd1cae51c68f3e1ca49e71efecea895d74e2647d038a86d7abc4",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "aee4f3cba0d1b2ab",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.32999999999999996,
+        0.66,
+        0.0,
+        0.01
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "b5f5fac287f262cdc2bcfc578e6a69b8e9ae27795b52bc3d686b903c45c53204",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "128a7a96125c75c1",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.99,
+        0.0,
+        0.0,
+        0.01
+      ],
+      "aliases": [
+        "wet_u1.0_g0.01",
+        "dry_iron_g0.01"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "ed6310e168c846d779c3788dfe66cedb13f7a4af07f0ba96da8daf75af4c5dc7",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "462011874390cde2",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.099999,
+        0.0,
+        0.8999910000000001,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.1_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "c6a364160d88aca0568115082e3d2f112fb4b8c0ecd974d80c5843d495e0c949",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "285e332068bfb777",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.09999000000000001,
+        0.0,
+        0.89991,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.1_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "3a6954e3d484a0a943a2910cc1e0392ce68350b4c5250e4c68539c6d1425ffd6",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "00145d37519764bb",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.0999,
+        0.0,
+        0.8991,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.1_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "27e0c3c4dab387318d4695edfd53d035f2397c586cea6af89ff64e64e2485636",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "0d69ab9dbf6be40f",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.099,
+        0.0,
+        0.891,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.1_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "a73a352c76eb370d11b355eba5975ffe9ab43e90bd7ea07d92353e8fa8453318",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "d9f818119b13e361",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.299997,
+        0.0,
+        0.699993,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.3_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "dd1d9d382bc4821d27b9f8d91933734a20c0e6e1f8cbc7703b76a3db8ff2c9b7",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "f6cc98c55c8a73d2",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.29997,
+        0.0,
+        0.6999299999999999,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.3_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "3189e11a818d297bc7dba28e23315fdc771a1caf41c91d45d9cc94712893ff8e",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "ed63177229308aa0",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.29969999999999997,
+        0.0,
+        0.6992999999999999,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.3_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "9d1550ab4f29ea5ac1b0d079cc12b537938ce42531102a04502f095842790d09",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "cd950090b9e42fb7",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.297,
+        0.0,
+        0.693,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.3_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "f0d9f9a5853641168369e4302c0e0564bbd58918b820ad872a41d0184f5c0b39",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "b0f2c758ef71814f",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.499995,
+        0.0,
+        0.499995,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.5_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "91c407b12ae9e00a4972b17c1d85f42bb8438af3df62294db9c2a07004bd481d",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "3125845d495c8803",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.4995,
+        0.0,
+        0.4995,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.5_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "ce00dd238fb78248b989c026919db1dee427d370454297a84c4f98dd0c618948",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "171ef7e8c970eeb6",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.495,
+        0.0,
+        0.495,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.5_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "9c55ec4e041f3b858055fbebc893a554ceaec5ba046e34061b8bd6124d3e8704",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "685dd418fe5b7869",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.699993,
+        0.0,
+        0.29999700000000007,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.7_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "24ef5057fc1282322679901362e87103ee40526c5137d797a4321dc1985e46fa",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "63bbe626f8128c12",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.6999299999999999,
+        0.0,
+        0.29997000000000007,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.7_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "06160da205d82dff7d1fd1c272295bd6089b0c61ffee83603372ec84680e9640",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "7e3b62f92dcf7623",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.6992999999999999,
+        0.0,
+        0.2997,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.7_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "73444e81808a803b5d229cb10124ef25eaf31054121aa67b52693e6ba57e16c8",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "b3c2f9920a17485e",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.693,
+        0.0,
+        0.29700000000000004,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.7_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "933e22b1d77f6869166431aee1f5f0d2709b2f6114027472087b8d051738a405",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "e256268c604a1b88",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.8999910000000001,
+        0.0,
+        0.09999899999999998,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.9_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "551eb3cd75fd64930698d65bc1b8ecd74ab4a3c2c923de0c12352b8483f76a44",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "c548fb9793ef95d7",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.89991,
+        0.0,
+        0.09998999999999998,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.9_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "d02e57d53df78156934b350868d27830047c13b584d29867934a0508ff9d0de5",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "87c0b049369d8a28",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.8991,
+        0.0,
+        0.09989999999999997,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.9_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "d4ff4366e063bddd9dc8a9e6d22e531d48649d1fd4bccfd089e1d66e9d7649d8",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "132b1df524fc502c",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.891,
+        0.0,
+        0.09899999999999998,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.9_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "d77478a5bdf619fcb32e1ad328cc750b8e2d4f14692979ef5fd0735e30322be6",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "bd97e30d9ecb85d8",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.99999,
+        0.0,
+        0.0,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u1.0_g1e-05",
+        "dry_iron_g1e-05"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "79098b29bdef34cd1d887ffcad23a97f107cb492ab33e52a0e371c063ca9681c",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "9cf0980715620b3d",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.9999,
+        0.0,
+        0.0,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u1.0_g0.0001",
+        "dry_iron_g0.0001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "0e184e9d27fe6c1bc1572f7b821ac63a0c239dbe9b527fb97462379ae43792c8",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "d0f71a5931593e7c",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.999,
+        0.0,
+        0.0,
+        0.001
+      ],
+      "aliases": [
+        "wet_u1.0_g0.001",
+        "dry_iron_g0.001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "48ac47109a7902ec34889e40a002f85b4b42dd92bc61f8d73fb6d3a3fb09a5c9",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "bcd5ab983751147b",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.33333,
+        0.6666600000000001,
+        0.0,
+        1e-05
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "2acf1c18d6dfaaf2ad495c995e8eb68f11144a84e02fa6b6c98b96a0151efe55",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "30caf59ee92f03fa",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.3333,
+        0.6666000000000001,
+        0.0,
+        0.0001
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "676c6c6a4471a939773bcc1ca7ae64efbb8920e1a5097e1ed541c1aaed437c2b",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "5e9a93c06577a6a0",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.33299999999999996,
+        0.666,
+        0.0,
+        0.001
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "19cfa63eb7de27e0b5ae9bda21e49729249f066189d3ff33069f1ce3706eaa23",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "8701690382209a7c",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.66666,
+        0.33333000000000007,
+        0.0,
+        1e-05
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "27ddecbedec2a8f9db6aec4d271fa1d75797c10405de3b54ca3c20ad8a839a26",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "0e1c9ed084e2dd75",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.6666,
+        0.33330000000000004,
+        0.0,
+        0.0001
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "b383fca37658fbc20db404b3dd151d2a8282ed6119fcbb52fd24ef3fb78fe81f",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "5f587ac0e6088230",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.6659999999999999,
+        0.333,
+        0.0,
+        0.001
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "d275fe47f606ea5a3a747c52ad68985c30e625990bdf1c62f010d996da841d7c",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "32e829251cba0b94",
+      "mass_earth": 7.56,
+      "fractions": [
+        0.6599999999999999,
+        0.33,
+        0.0,
+        0.01
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "f23ec14c12b98f2470b03fdc9ffa14cbb1b940f6a885de6ea776406889b3529f",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "cbb26b89c700e784",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.099999,
+        0.0,
+        0.8999910000000001,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.1_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "b641ccb1de596c8a95b3daf24dda14fdfc1b75da6ca26078676fc6a9d3301f9d",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "73831b9b7310c806",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.09999000000000001,
+        0.0,
+        0.89991,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.1_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "dacf69173865146c38e4d30c0b8b3ebcb2eafc8f8e164d7509a27e19b1e5c6f3",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "d4f36a5d0ac7e48d",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.0999,
+        0.0,
+        0.8991,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.1_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "9275479714bb8e3631df1fcd62e3a9cea95a1f16c0a12f77996b0cde1ebc4bee",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "91edd58179a26eb4",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.099,
+        0.0,
+        0.891,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.1_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "26fe81c5e0804c634e7ee723b7e649f65fe4d827296fc7db25e33a08cf17bd07",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "cceb324aaff679a9",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.299997,
+        0.0,
+        0.699993,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.3_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "8e1287568254f3113df86acd00442da9bb84242b64d0731ce2b352e0b4991f51",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "cdb158e7c241b47c",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.29997,
+        0.0,
+        0.6999299999999999,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.3_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "bc4a0f2cf9f3d3c6174e9b54b37831ab0fbb8d06d35e6243ee63840906bcb434",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "2a271075e8b808f3",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.29969999999999997,
+        0.0,
+        0.6992999999999999,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.3_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "627f259415e1e6a54f2f1cb1080ef0eba04958744fde8bc819a0b8a382fe42fe",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "a05637cf716d912e",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.297,
+        0.0,
+        0.693,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.3_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "109063a60a03eb5afae2740fff84a0f3889989ee676d2c0805ebd89ce07baf2c",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "8785b83ca9e0f540",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.499995,
+        0.0,
+        0.499995,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.5_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "e8a31237fd57d7f508a339d1594866ba5d06422cc91a28c7988a8f5afc3a2dc9",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "eb008fa2de9a730b",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.49995,
+        0.0,
+        0.49995,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.5_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "388481b12207af23f8eaec339bcf7901fdd6cf82c82061e6cc3480fb80bc2bf4",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "cd23f1c7429c3ddc",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.4995,
+        0.0,
+        0.4995,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.5_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "ccc770936b58ee0dfec6c00ac2ee5386b401315e1f6876176f26bbb62f930d15",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "201f63a56970d23c",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.495,
+        0.0,
+        0.495,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.5_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "205c807a8bfa6398b2cad3b4fb68498a7ec1d345ead35d4b247ae4219ed56d5e",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "e014b7d621d220af",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.699993,
+        0.0,
+        0.29999700000000007,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.7_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "cc7452a7cc1fd56ec608c4583aa5886578b4682adf4a774663a2ce919c3de3a2",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "69b36a993ae727d4",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.6999299999999999,
+        0.0,
+        0.29997000000000007,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.7_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "229ce40c199607ebbe3458d14a96c93fbb04bef7128efefe1edadb0b7f2a7a47",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "3ac6bd06b1ceeb35",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.6992999999999999,
+        0.0,
+        0.2997,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.7_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "97cd1c16dcc46d7ce9731fcea9ea1b321daf64ed58d91dc4b0119467d1f5c46d",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "cbf74897b0b83149",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.693,
+        0.0,
+        0.29700000000000004,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.7_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "9ef38592baf5cb0b2e262ee82d3ee7a7f24719a58b8da51f1210cb5dd1484ac5",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "56622b3893261d39",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.8999910000000001,
+        0.0,
+        0.09999899999999998,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.9_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "2a7d1cfba5099e0d92466bdefb7de4e7113397fc5db6043a2d91402c70001e05",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "0c99baeaf0e0e2f9",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.89991,
+        0.0,
+        0.09998999999999998,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.9_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "ca2528238889945c9d6aa4b7f3f96474bdaa5ef71c9d0bad58be265803aba8ad",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "754b9cb1057835c3",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.8991,
+        0.0,
+        0.09989999999999997,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.9_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "d3757be2f33d019f77d8959ab321822b71a84f0fc9ec8fc094ee149cc7d00f72",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "c899cf3d5c0975e3",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.891,
+        0.0,
+        0.09899999999999998,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.9_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "3332ac50f25eba35b9d985f2f06e78891a2db9a592daf48b545b2bcfd828167c",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "ba0bc407d1669fbf",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.99999,
+        0.0,
+        0.0,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u1.0_g1e-05",
+        "dry_iron_g1e-05"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "69e12f1e61751b31f13a8259d2f437a9b69e882da1718f959d433d37c2a4adba",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "f347d7ae5ec38576",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.9999,
+        0.0,
+        0.0,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u1.0_g0.0001",
+        "dry_iron_g0.0001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "b5c74938746f1b194b4a7ea59ed08563dd19e7221a24695c37a48598ffbb2b78",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "5d1cb99d21257a9e",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.999,
+        0.0,
+        0.0,
+        0.001
+      ],
+      "aliases": [
+        "wet_u1.0_g0.001",
+        "dry_iron_g0.001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "c1eacdcf73a6edf03f452b7d80926c921342d87ad250be8c8dd6533deb7aa18c",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "247e07c0c06d9df2",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.99,
+        0.0,
+        0.0,
+        0.01
+      ],
+      "aliases": [
+        "wet_u1.0_g0.01",
+        "dry_iron_g0.01"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "cef88313372e4e35a3a55083949e726dbad7494872424ee56c573ae9ea951271",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "3d5bcd1b11e8dbc5",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.33333,
+        0.6666600000000001,
+        0.0,
+        1e-05
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "7ad4ebe28d054772aec87fdd094eea19b3f06371f45c5a824d6584e80ec9cb91",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "1c799fc7f09b08e7",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.3333,
+        0.6666000000000001,
+        0.0,
+        0.0001
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "9370f09319456408560627978222bca7b0a13afd2fac540210a7c95d76485fa4",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "baadc5d2eccb78db",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.33299999999999996,
+        0.666,
+        0.0,
+        0.001
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "37bf5acd1adc77a03c4e3aed93bea4d3dd136c0d4d91c45bc32215ccaa9abd0f",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "50b0c3be3db4eb19",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.32999999999999996,
+        0.66,
+        0.0,
+        0.01
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "462835efa9a2e8eb93ad7d19eb280421f547b5aca69c33a37d6a5738a490c33b",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "c52f03215e83860d",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.66666,
+        0.33333000000000007,
+        0.0,
+        1e-05
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "1b377cb50b43806371da1c5cab84b5af449cc1ce6ed4399045267236ec831960",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "7ff81b092fbf7687",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.6666,
+        0.33330000000000004,
+        0.0,
+        0.0001
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "bb7a79e8dd00ef2e320a86212bc158474927bf136f7bf9b7041ae870dd354493",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "912cc3cf52fbdfed",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.6659999999999999,
+        0.333,
+        0.0,
+        0.001
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "70c52ffc93eb1d60d1a8f345f0005ccb3722521262db87fae20a785e9994f194",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "f9901caa87fc98e5",
+      "mass_earth": 8.04,
+      "fractions": [
+        0.6599999999999999,
+        0.33,
+        0.0,
+        0.01
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "9942030e3c18be17c6114b25c5226983c1bf33c210a3e9e8758bf7f9b80702a0",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "a2227243c06f5768",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.099999,
+        0.0,
+        0.8999910000000001,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.1_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "60a2370714bc183bbf3c11adb481d71818b3bf9e7f37d78aaa64a8d030a68b06",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "657dc34cbd1f1784",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.09999000000000001,
+        0.0,
+        0.89991,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.1_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "ca212380560ce17459ebd2b2f76d84d9b67c43424560bdbce66a43cc13ae2c74",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "fbab16d10b872907",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.0999,
+        0.0,
+        0.8991,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.1_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "be04ef2eda1f6a079910e6aa63484b610541997b97fdbf6f8d9293ca3024506e",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "dde57cb72980ce92",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.099,
+        0.0,
+        0.891,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.1_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "5dbda15747910be0f35e4b39c24748340fbacaa2bdf4eeb447ec74427ed5b33b",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "d440d068a74b1fbf",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.299997,
+        0.0,
+        0.699993,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.3_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "d4820d47c91068b91b93253879055547a76c3c555f56b8ac6b9e7a6436289844",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "d08e217e26840d3f",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.29997,
+        0.0,
+        0.6999299999999999,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.3_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "d37a14ef6433c728bb356a3d71354e44ce80c5bffc2a762c761b29f3223e3fe7",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "4e9443853a393a41",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.29969999999999997,
+        0.0,
+        0.6992999999999999,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.3_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "68af23be0e6565fc392459f5b600e00154afe481abe39aed993e83c1dfda7e80",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "e1817f194afc1f72",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.297,
+        0.0,
+        0.693,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.3_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "9214e549134d2cdbf60a4a73a5c42505f134e0199218e1df4ddc10d295a9e689",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "924d995c4f455e74",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.499995,
+        0.0,
+        0.499995,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.5_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "df5cd56d322f83de7e4f30d81e6e0265807efd22745fc2c4cf7301eb76d552d7",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "2074526cd3c5b7f0",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.49995,
+        0.0,
+        0.49995,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.5_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "721b75fe321759b5ab9d862aa839608fdae7f5b9255cc1320f3293d09413421e",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "1e4faaa4ee190426",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.4995,
+        0.0,
+        0.4995,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.5_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "d7bdb5e5370e9a7d78531c0c9c16eef9b20050a15558a7dc3da67595482a3450",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "880fcdb87ad27125",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.495,
+        0.0,
+        0.495,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.5_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "3971101fb08b34ea86d6bbf62f1920caf20c88605e550882f8e88e73128545ea",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "848470fec63ffaa7",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.699993,
+        0.0,
+        0.29999700000000007,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.7_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "521f6574d01eda86f3ad36ee9582c44864f14465100364732dd44e6eef19ffc0",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "45b2547d31dbc4ac",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.6999299999999999,
+        0.0,
+        0.29997000000000007,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.7_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "5892ef090d63429490208d7fa41009a0b8f87ffa0348c6f640df8d15d4a60683",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "0c9bb0371e86cf00",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.6992999999999999,
+        0.0,
+        0.2997,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.7_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "b356492ad64038ebe786897fedc6fa63b5b31ba2590613ac12754db8907650c1",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "928c0aeb7edbcbac",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.693,
+        0.0,
+        0.29700000000000004,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.7_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "a444db990e0bffed6a747788c58dfe6b2c9f8851276c42961da57e9d2343d3ea",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "6fbdb7aa8bdca733",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.8999910000000001,
+        0.0,
+        0.09999899999999998,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u0.9_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "9325b6dd6d48a93b2ebdfd66a0e838533371ddab4fc8334f491551178b3be94d",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "e85aa0d87f1042ed",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.89991,
+        0.0,
+        0.09998999999999998,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u0.9_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "6ad0b1735c2decc7eb83c883a8ba78baedbc3f0c9aacdb3569d9f095be04bba5",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "0f9104f9ae864ef9",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.8991,
+        0.0,
+        0.09989999999999997,
+        0.001
+      ],
+      "aliases": [
+        "wet_u0.9_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "870a9aa77728983bbe4da34d81e68bd01fdb47d9c01cff46f3b328fb9054bd25",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "465b10c7404b4ead",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.891,
+        0.0,
+        0.09899999999999998,
+        0.01
+      ],
+      "aliases": [
+        "wet_u0.9_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "config_sha256": "9f591798f47fa7b116d116e72e6d6272f98644b7fc5500380199d6e12745defc",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "ac5392403f813f41",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.99999,
+        0.0,
+        0.0,
+        1e-05
+      ],
+      "aliases": [
+        "wet_u1.0_g1e-05",
+        "dry_iron_g1e-05"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "27fd56d85ed5daeb3e48f3a789cee47d15f49ad0e4f13ef7563d9e775b1a9390",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "8fdaaf11e36aca4a",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.9999,
+        0.0,
+        0.0,
+        0.0001
+      ],
+      "aliases": [
+        "wet_u1.0_g0.0001",
+        "dry_iron_g0.0001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "c9b1f38c1f30302ddb30b15948eca2b60f1e7ed5d8faa5e9bedc13a4ca67723a",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "46c3d258f3821e9e",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.999,
+        0.0,
+        0.0,
+        0.001
+      ],
+      "aliases": [
+        "wet_u1.0_g0.001",
+        "dry_iron_g0.001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "d385fac5210358461162b75fb0760a46666f9c328bb52240eb181c845ebf1de3",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "824b154aefe3f385",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.99,
+        0.0,
+        0.0,
+        0.01
+      ],
+      "aliases": [
+        "wet_u1.0_g0.01",
+        "dry_iron_g0.01"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "config_sha256": "f6990bb234e6f2718e74cbed31f1dd3f96829b191ec81928ca35b58dfea4607c",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "cba5ac4d8854ddca",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.33333,
+        0.6666600000000001,
+        0.0,
+        1e-05
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "ff67f03979a819f3ca552477b062761d442c763fac39b5e6230b8c4f559deeef",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "3ce4449ff580f534",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.3333,
+        0.6666000000000001,
+        0.0,
+        0.0001
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "bb815123a8143aedf94b9a98c088f658e374fe0cff44326d301796d9357e63ce",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "898dbaa11f71438b",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.33299999999999996,
+        0.666,
+        0.0,
+        0.001
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "93a49f0825f9ea6ba8569ad5bef4581b7fbaa6d7d5eeef08ad1ab848e1d343f2",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "759fbae5e8730c3f",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.32999999999999996,
+        0.66,
+        0.0,
+        0.01
+      ],
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "ee42a97a2a51d8fca7910b4f4b7890afb60334f2d72f9d06b40870dbf2d72932",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "2d7d8fc0e658e7b1",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.66666,
+        0.33333000000000007,
+        0.0,
+        1e-05
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "7abd63b618221ef466a74072e7e83a7c688f6803e311fd5f7fb989fe99c5e97c",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "7a63e7aab9e945aa",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.6666,
+        0.33330000000000004,
+        0.0,
+        0.0001
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "a186ddf68b50451821f0bafe2b703942c510368c7211918d64c1fe35933377a3",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "db505c7fc0f15517",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.6659999999999999,
+        0.333,
+        0.0,
+        0.001
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "ca208beada3519492bbb7b0c3daec64d97337ef9c5686d4044008a21d23d2a5a",
+      "status": "GENERATED_NOT_RUN"
+    },
+    {
+      "key": "6ed03ff88632fd9d",
+      "mass_earth": 8.54,
+      "fractions": [
+        0.6599999999999999,
+        0.33,
+        0.0,
+        0.01
+      ],
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "config_sha256": "7637873a444e17569ebac21564375506dc0ec4cbcf8239c4deb4dfe2e749887b",
+      "status": "GENERATED_NOT_RUN"
+    }
+  ],
+  "input_sha256": "6a1449fc1dc0a896a124b0c232cdfd8c2984849df72795efce2ea2719bf73b7d",
+  "template_sha256": "2b2ce0d3157163fbfb0d9ab0309998b919fa30d2d48274cd19e4fc0c76f3405a",
+  "execution_order_note": "First three new compositions deliberately cover wet, dry rocky, dry pure-iron families. Same 96 configs, no physical selection by observed radius."
+}

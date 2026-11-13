@@ -1,0 +1,236 @@
+{
+  "scope": "All21refinementpoints were selected using linear residual proposals before PCHIP implementation; PCHIP uses onlyD+Ecoarse points, notrefinementvalues. Fixedu tests only, not offu or fullcontour validation.",
+  "cases": [
+    {
+      "M": 7.56,
+      "u": 0.3,
+      "kind": "wet",
+      "gas": 0.0008803826920217742,
+      "actual_R": 2.3879745,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.387813144468663,
+      "linear_abs_error": 0.0020255000000002354,
+      "pchip_abs_error": 0.00016135553133667102
+    },
+    {
+      "M": 7.56,
+      "u": 0.5,
+      "kind": "wet",
+      "gas": 0.006561949547494717,
+      "actual_R": 2.3703339,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.3703299387194687,
+      "linear_abs_error": 0.01966610000000024,
+      "pchip_abs_error": 3.961280531150635e-06
+    },
+    {
+      "M": 7.56,
+      "u": 0.7,
+      "kind": "wet",
+      "gas": 0.015553549558302604,
+      "actual_R": 2.2969551,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.3048114907596355,
+      "linear_abs_error": 0.09304490000000021,
+      "pchip_abs_error": 0.007856390759635623
+    },
+    {
+      "M": 7.56,
+      "u": 0.9,
+      "kind": "wet",
+      "gas": 0.028091896421354273,
+      "actual_R": 2.2152014,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.2568557535865326,
+      "linear_abs_error": 0.17479859999999992,
+      "pchip_abs_error": 0.041654353586532356
+    },
+    {
+      "M": 7.56,
+      "u": 1.0,
+      "kind": "wet",
+      "gas": 0.04095045221313645,
+      "actual_R": 2.2032588,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.2671935664261635,
+      "linear_abs_error": 0.18674120000000016,
+      "pchip_abs_error": 0.06393476642616358
+    },
+    {
+      "M": 7.56,
+      "u": 0.3333333333333333,
+      "kind": "dryrocky",
+      "gas": 0.019269514306287015,
+      "actual_R": 2.2605041,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.2777057148734725,
+      "linear_abs_error": 0.12949590000000022,
+      "pchip_abs_error": 0.017201614873472604
+    },
+    {
+      "M": 7.56,
+      "u": 0.6666666666666666,
+      "kind": "dryrocky",
+      "gas": 0.02725551010060856,
+      "actual_R": 2.2176796,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.2576950729604586,
+      "linear_abs_error": 0.17232040000000026,
+      "pchip_abs_error": 0.04001547296045871
+    },
+    {
+      "M": 8.04,
+      "u": 0.3,
+      "kind": "wet",
+      "gas": 0.0005124220680734848,
+      "actual_R": 2.380401,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.3811807062465893,
+      "linear_abs_error": 0.009599000000000135,
+      "pchip_abs_error": 0.0007797062465892957
+    },
+    {
+      "M": 8.04,
+      "u": 0.5,
+      "kind": "wet",
+      "gas": 0.0051729016702324595,
+      "actual_R": 2.3654058,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.364178489491543,
+      "linear_abs_error": 0.02459420000000012,
+      "pchip_abs_error": 0.0012273105084568137
+    },
+    {
+      "M": 8.04,
+      "u": 0.7,
+      "kind": "wet",
+      "gas": 0.014743567642179205,
+      "actual_R": 2.3068693,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.312088293229007,
+      "linear_abs_error": 0.08313070000000033,
+      "pchip_abs_error": 0.005218993229007207
+    },
+    {
+      "M": 8.04,
+      "u": 0.9,
+      "kind": "wet",
+      "gas": 0.026884630636806683,
+      "actual_R": 2.2191614,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.257115020542243,
+      "linear_abs_error": 0.17083860000000017,
+      "pchip_abs_error": 0.03795362054224283
+    },
+    {
+      "M": 8.04,
+      "u": 1.0,
+      "kind": "wet",
+      "gas": 0.03946646429738553,
+      "actual_R": 2.202547,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.264797799666734,
+      "linear_abs_error": 0.1874530000000001,
+      "pchip_abs_error": 0.06225079966673386
+    },
+    {
+      "M": 8.04,
+      "u": 0.3333333333333333,
+      "kind": "dryrocky",
+      "gas": 0.018255393461034223,
+      "actual_R": 2.2688055,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.2826152425084287,
+      "linear_abs_error": 0.1211945000000001,
+      "pchip_abs_error": 0.013809742508428702
+    },
+    {
+      "M": 8.04,
+      "u": 0.6666666666666666,
+      "kind": "dryrocky",
+      "gas": 0.02600637860681873,
+      "actual_R": 2.2220158,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.258344381225512,
+      "linear_abs_error": 0.16798420000000025,
+      "pchip_abs_error": 0.0363285812255123
+    },
+    {
+      "M": 8.54,
+      "u": 0.3,
+      "kind": "wet",
+      "gas": 0.0002954527131496225,
+      "actual_R": 2.3805705,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.3792738416796957,
+      "linear_abs_error": 0.00942949999999998,
+      "pchip_abs_error": 0.0012966583203044557
+    },
+    {
+      "M": 8.54,
+      "u": 0.5,
+      "kind": "wet",
+      "gas": 0.004069525590400681,
+      "actual_R": 2.3638952,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.3611455387526767,
+      "linear_abs_error": 0.02610480000000015,
+      "pchip_abs_error": 0.002749661247323232
+    },
+    {
+      "M": 8.54,
+      "u": 0.7,
+      "kind": "wet",
+      "gas": 0.013978191523345087,
+      "actual_R": 2.3171293,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.3201870232365316,
+      "linear_abs_error": 0.07287070000000018,
+      "pchip_abs_error": 0.00305772323653164
+    },
+    {
+      "M": 8.54,
+      "u": 0.8999999999999999,
+      "kind": "wet",
+      "gas": 0.025733577495006824,
+      "actual_R": 2.223491,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.2578355931861753,
+      "linear_abs_error": 0.16650900000000002,
+      "pchip_abs_error": 0.03434459318617522
+    },
+    {
+      "M": 8.54,
+      "u": 1.0,
+      "kind": "wet",
+      "gas": 0.03804518679955324,
+      "actual_R": 2.2022062,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.262657357832806,
+      "linear_abs_error": 0.18779380000000012,
+      "pchip_abs_error": 0.06045115783280597
+    },
+    {
+      "M": 8.54,
+      "u": 0.3333333333333333,
+      "kind": "dryrocky",
+      "gas": 0.01730082464452514,
+      "actual_R": 2.2775342,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.288204445867327,
+      "linear_abs_error": 0.11246580000000028,
+      "pchip_abs_error": 0.010670245867327122
+    },
+    {
+      "M": 8.54,
+      "u": 0.6666666666666666,
+      "kind": "dryrocky",
+      "gas": 0.024821346108497365,
+      "actual_R": 2.2267901,
+      "linear_proposal_target_R": 2.39,
+      "pchip_prediction_from_coarse": 2.25948128140791,
+      "linear_abs_error": 0.16320990000000002,
+      "pchip_abs_error": 0.03269118140790983
+    }
+  ]
+}
