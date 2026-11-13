@@ -25,16 +25,20 @@
   "figures/ternary.pdf": "a696e8d3109946e49e8dc0e88e55de59b6ab6b182e11e7422a66f4ad0a155009",
   "figures/ternary.png": "0f5189974b69b719c291f68ff538f94112334b73a46198a967d1f06ce087995b",
   "HANDOFF.md": "3051b3c56a2591ed2614ea37438ce0df415dce1dd0c9745c1840414466ab78cb",
-  "README.md": "d8d029a63e183ab079a0b1d73aa421c9c1d4f5cf57f89952002b1897ea918997",
+  "README.md": "aa33b4c13d9ba235fd6f6d5bc85541de4a56971e408d52fb06c9e11243cdc626",
   "reviews/interpolation-and-figures.json": "f347439f56bea81011df4a55a329dff4cbb3864b4eb17f3117d38db825fc5a0f",
   "reviews/native-stored-state.json": "8cd3903ebb19cc4b7abd0d216674fc9a6499a36418e424966930ff30e18e7286",
   "reviews/water-boundary.json": "389f5f57f1daef8be982f7db8dd4db58c561f71dcb714488b33a46bc7beaecc8",
   "verification/analysis30-results.json": "6ded0239574d429ec6d46df66e0a09c23d73d13def058a884295010ebc5217cd",
   "verification/cosmetic-cleanup-proof.json": "fb41f7656c75460d1c13d03aeafc6b77c517a09bafa263b25e9e408912d8c3a5",
   "verification/frozen-fresh-prediction-plot.py": "313064b4ffd68247ed2876e8c276b7268e2baf1f8b8feff59ecddaf566639122",
+  "verification/published-delivery-verification.json": "f14cb536dc70c78678983a79ddc51f41a7214d9d4ba5ed7a4153e41c933673bf",
   "verification/published-source-sha256.json": "5b1d9cd19f870f821fcf001238d1f50bbf72b3e13b81324d5ee72606ca76d02b",
   "verification/test-analysis30.py": "fa4679acb44097fc73468f9eee7034abcea8976502e3bda0b39de6630ca7c566",
   "verification/test-track38.py": "63d37e2a9c6ba8441d38471409df7e33c553b59298ede2b0a1f4e65b5c3ac50b",
   "verification/track38-results.json": "cf210f29c8a095155fdd621e97be597fad89268357bcd11e0ec15461a29ad37e",
-  "verification/user-entry-checks.json": "aa82ee013e2cdc796c808aeff911303c410f3b3028c64c614670914df3d398c5"
+  "verification/user-entry-checks.json": "aa82ee013e2cdc796c808aeff911303c410f3b3028c64c614670914df3d398c5",
+  "zotero-delivery.json": "7a66f8f1bd83612861752bfc2130b2733e1db7156501a3318020bedaaf1100c7",
+  "ZOTERO_EXPLANATION.md": "73d2b7622564784fe951c8b3b233fcc97d4c5bce387719e67c081be5208cc2e2",
+  "ZOTERO_INPUT_EXPLANATION.md": "9070f03173a0cf96f9b517cdcc6951901aeeb00b9a831a2522d47ee5bea30374"
 }

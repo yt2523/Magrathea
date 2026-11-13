@@ -17,3 +17,5 @@
 开发与新猜想只在yt2523/Magrathea的research/composition-constraints-20261112。cid02399021手动仓库及master/run本轮未动。原始结果按新目录归档，保留旧失败。204次任务启动中199模型、5旧失败；DeepSeek调用43次已记账，用户取消任务调用上限。**本轮计算已停止**，不因为剩余额度自动补扫。
 
 English: coarse conditional delivery, not a posterior. Wet and both dry controls have real native matches. Three mass knots propagate conditional sensitivity; local centreline checks pass, full-area edges remain approximate. Follow run guide and handoff before changes. Preserve all old bytes; never silently change TP, EOS or interpolation assumptions.
+
+[Zotero归档与回执](research/composition-constraints-20261112/delivery/zotero-delivery.json)：输入、数值摘要和图已分流到对应新子目录，三个stored附件MD5验证通过。

@@ -1,0 +1,32 @@
+{
+  "group": "6595176",
+  "source_commit": "b41ff6344b4a6928ac1c011ec6a54b3fb587273f",
+  "date": "2026-11-13",
+  "input_collection": "K3VH6S6R",
+  "input_item": "8K9JZ7VX",
+  "input_note": "ZXP54RSK",
+  "input_attachment": {
+    "key": "ARKG74E8",
+    "md5": "bc23106143655b9644fb7ce9d3500d74",
+    "stored": true
+  },
+  "data_collection": "X43W8E4D",
+  "data_item": "HTSM4I87",
+  "data_note": "H9MIAE2D",
+  "data_attachment": {
+    "key": "2JCUWI9D",
+    "md5": "86e97f0de337e2ac4a0de00c88fff6dd",
+    "stored": true
+  },
+  "graph_collection": "UXA543K4",
+  "graph_item": "SGAXXDF9",
+  "graph_note": "QSEXEMID",
+  "graph_attachment": {
+    "key": "9E3SMX5Z",
+    "md5": "4ca5f0431e6b7fb4d880a065f908a6cb",
+    "stored": true
+  },
+  "source_index": "TA6RVZGT",
+  "aqua_new_diagnostic_note": "6AWB89K9",
+  "verified_readback": true
+}

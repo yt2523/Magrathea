@@ -65,3 +65,5 @@ AQUA公用轴子表保留原始T≤50000K行，实际Tmax48978K，793×270；原
 ## English handoff
 
 Coarse conditional delivery complete. Three masses are forward-integrated; observed radius is compared only afterwards. Wet and both dry families have real native matches.175 scan/validation fits pass stored-state audit;150 enter interpolation and25 remain validation only. Six fresh local centreline tests are within.00311 Earth radii; padding-edge error reaches.01142, so no whole-area precision, posterior or physical certification. Thermal boundaries are test350K/.1bar/prescribed100bar. Phase gating uses outer-water boundary groups only. No more native computations are authorized automatically by this handoff. Follow the root README and run guide; preserve archived output bytes.
+
+Zotero已按规则分类归档：Theoretical data/K3VH6S6R、Output data/X43W8E4D、Output graphs/UXA543K4（均为Composition constraints wet+dry —2026-11-13）。[Data顶层/代码协作索引](https://www.zotero.org/groups/6595176/items/TA6RVZGT)；三份stored附件MD5和HTML笔记回读验证见zotero-delivery.json。旧条目/笔记未改。
