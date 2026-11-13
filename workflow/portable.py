@@ -11,11 +11,12 @@ Usage:
     python workflow/portable.py doctor|run|status --config CONFIG \
         [--credentials EXTERNAL] [--offline] [--allow-tests]
 
-Only workflow/portable.py is imported by fixed acceptance tests; the module is
-standalone and uses no third-party packages.
+The runner and its daily-budget helper use only the Python standard library.
+The bundled London timezone data supports systems without a system IANA database.
 """
 from __future__ import annotations
 
+from deepseek_daily_budget import reserve_call, DailyLimitExceeded, BudgetStateError
 import argparse
 import hashlib
 import json
@@ -430,7 +431,7 @@ class Runner:
         self.reviewer = config.get("reviewer", {})
         self._reject_config_secrets()
         limits = config.get("limits", {})
-        self.max_model_calls = int(limits.get("max_model_calls", 24))
+        self.max_model_calls = None if limits.get("max_model_calls") is None else int(limits["max_model_calls"])
         self.max_seconds = float(limits.get("max_seconds", 7200))
         self.max_fix_rounds = int(limits.get("max_fix_rounds", 5))
         self.call_timeout = float(limits.get("call_timeout", 180))
@@ -722,6 +723,8 @@ class Runner:
         self._persist()
 
     def _call_budget_exhausted(self):
+        if self.max_model_calls is None:
+            return False
         return self.state.get("model_calls", 0) >= self.max_model_calls
 
     def _record_call(self, role, usage):
@@ -836,6 +839,13 @@ class Runner:
             if timeout <= 0:
                 raise _Pause("deadline_reached")
             opener = urllib.request.build_opener(_NoRedirectHandler)
+            if key_name == "DEEPSEEK_API_KEY":
+                try:
+                    reserve_call()
+                except DailyLimitExceeded:
+                    raise _Pause('deepseek_daily_limit_reached')
+                except BudgetStateError:
+                    raise _Pause('deepseek_daily_ledger_review')
             with opener.open(req, timeout=timeout) as r:
                 return json.loads(r.read().decode("utf-8"))
         except urllib.error.HTTPError as e:

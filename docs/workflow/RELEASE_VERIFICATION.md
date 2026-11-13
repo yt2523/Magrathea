@@ -1,3 +1,5 @@
+> 历史记录，仅保留当时证据/哈希；不再作为新窗口交接或当前额度依据。先读Zotero group6595176/keyVDGBVMRW《TOI-732 c 输入与 TP 交付核查》，再读docs/workflow/YEAR4_PROJECT_RULES.md。当前唯一额度为每日100次共享DeepSeek，无项目累计cap；不按本文件旧任务自动开算。
+
 # Release verification — 2026-10-27
 
 Final portable runner SHA256: `3cc1bc4f213c1d2ff9fc47055daed7679d1415b55dbb457389cd42733cd190b3`.

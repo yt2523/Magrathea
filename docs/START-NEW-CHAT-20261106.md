@@ -1,10 +1,7 @@
-请接手TOI-732 c主程序开发。先只读以下交接文件，并按其中要求最少量读取开工规则：
-D:/Codex/downloads/subneptune-research-workflow/docs/HANDOFF-LITE-20261106.md
+请接手year4project / TOI-732 c，固定仓库D:/Codex/downloads/subneptune-research-workflow。
 
-这是全新空白聊天，不读取旧聊天历史，不创建或分叉其他聊天，不一开始加载完整研究报告/历史实验。
+新窗口先用LR-assistant官方API读取Zotero group6595176、keyVDGBVMRW《TOI-732 c 输入与 TP 交付核查》（标题无日期），再读仓库docs/workflow/YEAR4_PROJECT_RULES.md和AGENTS.md。只按需读其它文件；不自动读取旧聊天，不创建/分叉聊天。
 
-固定工作仓库D:/Codex/downloads/subneptune-research-workflow，所有新文件放D盘。先核对Git状态，保护现有改动。
+本条Zotero是双方AI唯一进度/交接日志。每次按日期与执行者追加完成项、固定证据、限制、下一步/待对方回复；不新建并行HANDOFF。无法访问就明确说明，不能冒充同步。
 
-同学的TP/完整参数尚未交付；先复用现有代码，用标明SYNTHETIC_FIXTURE的输入和MOCK_SOLVER，逐段实现。你先简述最小架构及复用点，随后让DeepSeek实现第一段：配置校验→可替换solver接口→单案例执行→独立检查→新目录存档。Codex负责决策和独立验收。
-
-本轮只做这个离线工程闭环，不调用真实行星solver，不跑grid/拟合，不改物理EOS，不重跑历史实验。跑通并独立验收、演示和存档后，给我看第一段成果及下一段最小改动，再逐步增加复杂度。
+DeepSeek编程，Codex协调与独立验收。每天Europe/London自然日共享最多100次DeepSeek尝试，没有项目/任务累计总cap；使用D:/Codex/usage/deepseek-daily.json请求前占位，旧44/88/12/16/默认24不再作为额度。数据与图按任务目录复用，日期/run_id放条目和文件元数据。新文件D盘，保护已有改动；仅yt2523开发，不在cid手动库测试。当前具体任务以用户这次请求与共享日志为准，不自动恢复已关闭科学计算。

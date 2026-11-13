@@ -1,6 +1,8 @@
 # Research workflow operating contract
 
-Coordinator: read this file, docs/PROJECT_STATUS.md and docs/workflow/SHORT_RULES.md; then only the task-relevant acceptance document. Bounded builders/reviewers: use the supplied task contract and relevant acceptance criteria; do not load project history unless it is needed for that task. Keep chat concise. User directions override defaults. Do not load every skill or every historical report.
+Current user policy (2026-11-13): first read Zotero group6595176 noteVDGBVMRW “TOI-732 c 输入与 TP 交付核查”, then docs/workflow/YEAR4_PROJECT_RULES.md. That single undated note is the only shared progress/handoff; append dated attributed entries, preserve prior text, no parallelhandoffs. User expressly authorizes updating this existing note and task-based Zotero organization. All current rules below defer to YEAR4_PROJECT_RULES; dated old budgets/plans are historical, not current caps.
+
+DeepSeek programming: shared100 attempts per Europe/London day at D:/Codex/usage/deepseek-daily.json, NO project/lifetime/task cumulative cap. Reserve beforeHTTP via dailyguard, failedrequests count, old44/88/12/16/default24 must not stop currentproject. Active live configs use null cumulative cap; offline0 and failure/time safety remain. Reuse task collections, not dates/runcounts. No live/native science resumes merely to update rules.
 
 ## Roles
 
@@ -36,14 +38,20 @@ Use GitHub Issues in this repository. Prepare a minimal reproduction with commit
 
 ## 2026-11-02 operator budget update
 
+> Historical dated contract: DeepSeek cap/epoch language below is superseded by the 2026-11-13 shared100/day policy. Scientific evidence and closed-run scope remain historical; no automatic rerun.
+
 The operator doubled the tracked project DeepSeek ceiling44→88; see [workflow/project-budget.json](workflow/project-budget.json). Historical TP implementation44/44 records describe that closed phase; they are not the current global authorization gate. This conversation’s authorized work may use DeepSeek without per-call confirmation; do not ask repeatedly about the superseded44-call ceiling. Generic per-run max_model_calls values were doubled (fallback12→24, live example6→12, offline demo12→24); that counter includes coder and reviewer logical launches, not DeepSeek-only billing. Project88 policy does not automatically aggregate independent operators/portable runs. Scientific fit ceiling20 and closed historical contracts remain unchanged; no new physics experiment is authorized by increasing API budget.
 
 
 ## 2026-11-12 operator routing and quota reset
 
+> Historical dated contract: DeepSeek cap/epoch language below is superseded by the 2026-11-13 shared100/day policy. Scientific evidence and closed-run scope remain historical; no automatic rerun.
+
 Use yt2523/Magrathea for development, tests and new hypotheses. cid02399021/Magrathea is the manual release repository; do not push test/development changes there in this task. Read branch README and research/100bar-control-20261112/INTERFACE_NOTES.md before coding. User reset DeepSeek quota; preserve prior88-call epoch and track a new epoch in local .runs/project-budget-latest.json. This task initially allows2 repair calls and at most4 native launches; no automatic grid expansion. DeepSeek remains the programmer.
 
 
 ## Unified HHe100bar milestone,2026-11-12
+
+> Historical dated contract: DeepSeek cap/epoch language below is superseded by the 2026-11-13 shared100/day policy. Scientific evidence and closed-run scope remain historical; no automatic rerun.
 
 Read current branch README and research/unified-hhe-100bar-20261112/README.md before coding. This milestone has4 completed native runs and must not be restarted automatically. New mode0 selector is gas_hhe_iso_adiabatic100, no externalTP, strictaudit before integration. Force make -B for clean builds; reusing old object caches was associated with allocator failure in a test harness; fresh rebuilding resolved it. DeepSeek remains programmer; gas seam fixed, water seams/RCB/oldTPinitializer remain open.

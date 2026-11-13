@@ -1,13 +1,18 @@
 {
-  "schema_version": 2,
-  "epoch": "2026-11-12-user-reset",
-  "authorization": "User explicitly reset DeepSeek quota and requested continued calculation in yt2523/Magrathea, preserving cid02399021 manual release. Retain previous epoch separately.",
-  "max_deepseek_calls": 88,
-  "tracked_calls_total": 16,
-  "recorded_tp_implementation_calls": 0,
-  "current_report_calls": 16,
-  "lifetime_calls_before_epoch": 88,
-  "previous_epoch_ledger": "D:\\Codex\\downloads\\toi732c-100bar-control-20261112-resume01\\previous-budget-epoch.json",
-  "updated": "2026-11-12",
-  "scope": "accepted composition constraints wet+dry max12newcalls/180native"
+  "schema_version": 3,
+  "effective": "2026-11-13",
+  "provider": "DeepSeek",
+  "scope": "year4project shared across agents/windows",
+  "project_total_limit": null,
+  "max_deepseek_calls": null,
+  "daily_limit": 100,
+  "timezone": "Europe/London",
+  "daily_ledger": "D:/Codex/usage/deepseek-daily.json",
+  "reservation": "before each request attempt; failures count, no refunds",
+  "handoff_note": {
+    "group": "6595176",
+    "key": "VDGBVMRW"
+  },
+  "rules": "docs/workflow/YEAR4_PROJECT_RULES.md",
+  "historical_caps": "44/88/12/16/default24 superseded; old snapshots are historical only"
 }
