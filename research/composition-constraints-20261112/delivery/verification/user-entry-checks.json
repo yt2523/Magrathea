@@ -1,0 +1,16 @@
+{
+  "example_cases": 9,
+  "all_rawcfg_sha_match": true,
+  "published_source_exact_accepted_copy": true,
+  "completed96case_resume": {
+    "new_native_launches": 0,
+    "exit": 0,
+    "status_counts": [
+      96,
+      0,
+      0
+    ]
+  },
+  "compressed_AQUA_raw_sha_matches": true,
+  "no_AI_dependency_in_entrypoints": true
+}

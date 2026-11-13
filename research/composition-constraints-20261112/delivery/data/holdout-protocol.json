@@ -1,0 +1,10 @@
+{
+  "role": "Predictions frozen before seven native launches",
+  "plot_source_sha256": "c06b8ed5886f78bc8fe02e0d0371ea0357aa472513e6576b95e5446c162a7673",
+  "interpolate_track_AST_sha256": "86a5bf59826ca9967b180a0b02b35e011137df8257e7a15383421e70e1cf1ff5",
+  "predictions_sha256": "a671a78d2174674c4be46f737c245fb506d985bbf8bcf27a1f3481fea7f49e51",
+  "cases": 7,
+  "prior_attempts": 173,
+  "planning_total": 180,
+  "threshold_radius_error_RE": 0.01
+}

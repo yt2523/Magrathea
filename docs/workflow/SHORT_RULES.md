@@ -1,3 +1,7 @@
+## 2026-11-13 交付并停止计算
+
+粗组成任务完成：204次任务启动199模型5旧失败；175新扫描模型全通过保存状态独立验收，150插值/25验证分离。6新局部中心线误差.00311R⊕，边缘.01142仍近似，physical_acceptancefalse，非后验。三个用户入口在run，使用docs/TOI732C_RUN_GUIDE.md。正式TP、蒸气边界、干燥低铁区为下一段，不能按历史条目自动开算。最新说明research/composition-constraints-20261112/delivery/README.md和HANDOFF.md。DeepSeek43次、用户取消调用上限；程序与EOS选择不能静默替换。仅yt2523开发分支，cid手动库不动。下文是历史记录。
+
 ## 2026-11-13 当前任务更新
 
 用户取消DeepSeek本任务调用上限，保留逐次记账；勿按下文历史12/16/88上限暂停。29次行星启动，final17 TP初始化已通过限定独立验收并合入根src，固定回归重新通过。96点配置已生成但未执行；扫描器还在合成协议验收，不得声称已扫网格。开发与试验只推yt2523/Magrathea，此任务不动cid02399021手动仓库。DeepSeek继续编程，Codex独立验收。见根README与research/composition-constraints-20261112/stageB/README.md。

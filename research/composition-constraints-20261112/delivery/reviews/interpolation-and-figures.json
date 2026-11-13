@@ -1,0 +1,12 @@
+{
+  "reviewer": "/root/composition_stageb_review",
+  "status": "PASS_COARSE_CONDITIONAL_DELIVERY",
+  "fresh_holdout_count": 6,
+  "fresh_nominal_max_error_RE": 0.0031067000000000178,
+  "exact_recomputed_prediction_target_difference_max": 1.8e-06,
+  "padding_edge_max_error_RE": 0.011423377255515899,
+  "fit_overlap_with_25_validation_cases": 0,
+  "all_three_final_figures_visual_review": "PASS",
+  "scope": "local centreline and visual/metadata pass; NOT global whole-area accuracy or physical certification",
+  "physical_acceptance": false
+}

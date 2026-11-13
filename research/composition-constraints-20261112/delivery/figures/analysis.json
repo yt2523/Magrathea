@@ -1,0 +1,2799 @@
+{
+  "source_hashes": {
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv": "d633481a287e8ef1d7a50c77354e885aee81934f8ec7ab711501c4d1fd4af281",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv": "e3fc78d101dbe3d9c36ef8be020786300af549005e055a182d456f8606907153",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv": "9167d28f1217aafe37f7bcafbc56575c71351e37a7f7fc463247d01f65bafdf0",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv": "0f399c2a8faf1063bdb997e83ff18d05186a0ba9e8d07c626e641cd019f71c2f",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv": "f326d8582ef9fab89c7b089f660d625f6ab697de1ac08e0f6b1c266e674681b2",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M7.56\\summary.csv": "9ab607680516126f25158e187c6c810a86974ab29aa51d056c32e0adaf0a7879",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.04\\summary.csv": "cf55d91d028fb67071ec243dc5bdf35e3a57b12abf8c8d13e1648dfe8b103ef5",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.54\\summary.csv": "71768f4572e36477fd95252ec98a5e1c251dbb22fb9bc890010436435ebbd989"
+  },
+  "samples": [
+    {
+      "M": 7.56,
+      "fFe": 0.49995,
+      "fSi": 0.0,
+      "fWater": 0.49995,
+      "fGas": 0.0001,
+      "R_RE": 2.085415,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.124932997",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.32999999999999996,
+      "fSi": 0.66,
+      "fWater": 0.0,
+      "fGas": 0.01,
+      "R_RE": 2.1003926,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.632192323000002",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.99,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.01,
+      "R_RE": 1.7080414,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g0.01",
+        "dry_iron_g0.01"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "10.970350750000001",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.099999,
+      "fSi": 0.0,
+      "fWater": 0.8999910000000001,
+      "fGas": 1e-05,
+      "R_RE": 2.3991635,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.894265149999999",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.09999000000000001,
+      "fSi": 0.0,
+      "fWater": 0.89991,
+      "fGas": 0.0001,
+      "R_RE": 2.4520719,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.838206791000001",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.0999,
+      "fSi": 0.0,
+      "fWater": 0.8991,
+      "fGas": 0.001,
+      "R_RE": 2.58583,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.419213796000001",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.099,
+      "fSi": 0.0,
+      "fWater": 0.891,
+      "fGas": 0.01,
+      "R_RE": 2.8492064,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.333902985999998",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.299997,
+      "fSi": 0.0,
+      "fWater": 0.699993,
+      "fGas": 1e-05,
+      "R_RE": 2.2208571,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.399237449000005",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.29997,
+      "fSi": 0.0,
+      "fWater": 0.6999299999999999,
+      "fGas": 0.0001,
+      "R_RE": 2.273896,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.166211143999995",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.29969999999999997,
+      "fSi": 0.0,
+      "fWater": 0.6992999999999999,
+      "fGas": 0.001,
+      "R_RE": 2.3968001,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.696273548999997",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.297,
+      "fSi": 0.0,
+      "fWater": 0.693,
+      "fGas": 0.01,
+      "R_RE": 2.644708,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.949405560999992",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.499995,
+      "fSi": 0.0,
+      "fWater": 0.499995,
+      "fGas": 1e-05,
+      "R_RE": 2.0322821,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.258220577000003",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.4995,
+      "fSi": 0.0,
+      "fWater": 0.4995,
+      "fGas": 0.001,
+      "R_RE": 2.193859,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.133665231000009",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.495,
+      "fSi": 0.0,
+      "fWater": 0.495,
+      "fGas": 0.01,
+      "R_RE": 2.433924,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.342987303000001",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.699993,
+      "fSi": 0.0,
+      "fWater": 0.29999700000000007,
+      "fGas": 1e-05,
+      "R_RE": 1.8197477,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.074729207000004",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.6999299999999999,
+      "fSi": 0.0,
+      "fWater": 0.29997000000000007,
+      "fGas": 0.0001,
+      "R_RE": 1.8720486,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.461778643999992",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.6992999999999999,
+      "fSi": 0.0,
+      "fWater": 0.2997,
+      "fGas": 0.001,
+      "R_RE": 1.9700782,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.630526761999988",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.693,
+      "fSi": 0.0,
+      "fWater": 0.29700000000000004,
+      "fGas": 0.01,
+      "R_RE": 2.2040129,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.429664822000007",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.8999910000000001,
+      "fSi": 0.0,
+      "fWater": 0.09999899999999998,
+      "fGas": 1e-05,
+      "R_RE": 1.5534129,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.225611014000009",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.89991,
+      "fSi": 0.0,
+      "fWater": 0.09998999999999998,
+      "fGas": 0.0001,
+      "R_RE": 1.6004851,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.782880218000003",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.8991,
+      "fSi": 0.0,
+      "fWater": 0.09989999999999997,
+      "fGas": 0.001,
+      "R_RE": 1.6854605,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.301368556",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.891,
+      "fSi": 0.0,
+      "fWater": 0.09899999999999998,
+      "fGas": 0.01,
+      "R_RE": 1.9240445,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.99626995700001",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.99999,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 1e-05,
+      "R_RE": 1.3322958,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g1e-05",
+        "dry_iron_g1e-05"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.070621632000012",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.9999,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.0001,
+      "R_RE": 1.3590375,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g0.0001",
+        "dry_iron_g0.0001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "8.377661547999992",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.999,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.001,
+      "R_RE": 1.4326157,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g0.001",
+        "dry_iron_g0.001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "8.90553091000001",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.33333,
+      "fSi": 0.6666600000000001,
+      "fWater": 0.0,
+      "fGas": 1e-05,
+      "R_RE": 1.7441097,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.430323336000015",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.3333,
+      "fSi": 0.6666000000000001,
+      "fWater": 0.0,
+      "fGas": 0.0001,
+      "R_RE": 1.7747565,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.103296622999977",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.33299999999999996,
+      "fSi": 0.666,
+      "fWater": 0.0,
+      "fGas": 0.001,
+      "R_RE": 1.8522665,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.696321103999992",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.66666,
+      "fSi": 0.33333000000000007,
+      "fWater": 0.0,
+      "fGas": 1e-05,
+      "R_RE": 1.571175,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "8.764649514000013",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.6666,
+      "fSi": 0.33330000000000004,
+      "fWater": 0.0,
+      "fGas": 0.0001,
+      "R_RE": 1.6000779,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.887090755999964",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.6659999999999999,
+      "fSi": 0.333,
+      "fWater": 0.0,
+      "fGas": 0.001,
+      "R_RE": 1.6751594,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.294780710000055",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.6599999999999999,
+      "fSi": 0.33,
+      "fWater": 0.0,
+      "fGas": 0.01,
+      "R_RE": 1.9303319,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.423696466000024",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.099999,
+      "fSi": 0.0,
+      "fWater": 0.8999910000000001,
+      "fGas": 1e-05,
+      "R_RE": 2.4324603,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.340791058999969",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.09999000000000001,
+      "fSi": 0.0,
+      "fWater": 0.89991,
+      "fGas": 0.0001,
+      "R_RE": 2.4853029,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.527824331000033",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.0999,
+      "fSi": 0.0,
+      "fWater": 0.8991,
+      "fGas": 0.001,
+      "R_RE": 2.6175572,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.336429402000022",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.099,
+      "fSi": 0.0,
+      "fWater": 0.891,
+      "fGas": 0.01,
+      "R_RE": 2.8771097,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.804501241000025",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.299997,
+      "fSi": 0.0,
+      "fWater": 0.699993,
+      "fGas": 1e-05,
+      "R_RE": 2.2507861,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.718311819000007",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.29997,
+      "fSi": 0.0,
+      "fWater": 0.6999299999999999,
+      "fGas": 0.0001,
+      "R_RE": 2.3041945,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.147098601999971",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.29969999999999997,
+      "fSi": 0.0,
+      "fWater": 0.6992999999999999,
+      "fGas": 0.001,
+      "R_RE": 2.4251107,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.873433162000026",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.297,
+      "fSi": 0.0,
+      "fWater": 0.693,
+      "fGas": 0.01,
+      "R_RE": 2.6708003,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.449105873999997",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.499995,
+      "fSi": 0.0,
+      "fWater": 0.499995,
+      "fGas": 1e-05,
+      "R_RE": 2.0594922,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.667866757000013",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.49995,
+      "fSi": 0.0,
+      "fWater": 0.49995,
+      "fGas": 0.0001,
+      "R_RE": 2.1129118,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.977111949999994",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.4995,
+      "fSi": 0.0,
+      "fWater": 0.4995,
+      "fGas": 0.001,
+      "R_RE": 2.2195552,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.639545763000001",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.495,
+      "fSi": 0.0,
+      "fWater": 0.495,
+      "fGas": 0.01,
+      "R_RE": 2.4583623,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.109245266000016",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.699993,
+      "fSi": 0.0,
+      "fWater": 0.29999700000000007,
+      "fGas": 1e-05,
+      "R_RE": 1.8444175,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.55533758599995",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.6999299999999999,
+      "fSi": 0.0,
+      "fWater": 0.29997000000000007,
+      "fGas": 0.0001,
+      "R_RE": 1.8966364,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.375031835000016",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.6992999999999999,
+      "fSi": 0.0,
+      "fWater": 0.2997,
+      "fGas": 0.001,
+      "R_RE": 1.9937553,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.803371201999994",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.693,
+      "fSi": 0.0,
+      "fWater": 0.29700000000000004,
+      "fGas": 0.01,
+      "R_RE": 2.2265724,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.26057356900003",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.8999910000000001,
+      "fSi": 0.0,
+      "fWater": 0.09999899999999998,
+      "fGas": 1e-05,
+      "R_RE": 1.5747219,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.290398638",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.89991,
+      "fSi": 0.0,
+      "fWater": 0.09998999999999998,
+      "fGas": 0.0001,
+      "R_RE": 1.6210417,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.145571899999993",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.8991,
+      "fSi": 0.0,
+      "fWater": 0.09989999999999997,
+      "fGas": 0.001,
+      "R_RE": 1.7053643,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.488235954999993",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.891,
+      "fSi": 0.0,
+      "fWater": 0.09899999999999998,
+      "fGas": 0.01,
+      "R_RE": 1.9441618,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.260705681000047",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.99999,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 1e-05,
+      "R_RE": 1.3500326,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g1e-05",
+        "dry_iron_g1e-05"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "7.965370210999993",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.9999,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.0001,
+      "R_RE": 1.3765717,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g0.0001",
+        "dry_iron_g0.0001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.213089119000017",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.999,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.001,
+      "R_RE": 1.4500168,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g0.001",
+        "dry_iron_g0.001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.028607678000014",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.99,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.01,
+      "R_RE": 1.726368,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g0.01",
+        "dry_iron_g0.01"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.699018642999988",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.33333,
+      "fSi": 0.6666600000000001,
+      "fWater": 0.0,
+      "fGas": 1e-05,
+      "R_RE": 1.7683003,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "8.577169666000032",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.3333,
+      "fSi": 0.6666000000000001,
+      "fWater": 0.0,
+      "fGas": 0.0001,
+      "R_RE": 1.7987584,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.098872925000023",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.33299999999999996,
+      "fSi": 0.666,
+      "fWater": 0.0,
+      "fGas": 0.001,
+      "R_RE": 1.8759448,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.54745790000004",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.32999999999999996,
+      "fSi": 0.66,
+      "fWater": 0.0,
+      "fGas": 0.01,
+      "R_RE": 2.1243309,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.234662105999973",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.66666,
+      "fSi": 0.33333000000000007,
+      "fWater": 0.0,
+      "fGas": 1e-05,
+      "R_RE": 1.5929317,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "8.74253482100005",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.6666,
+      "fSi": 0.33330000000000004,
+      "fWater": 0.0,
+      "fGas": 0.0001,
+      "R_RE": 1.621635,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "8.480995343000018",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.6659999999999999,
+      "fSi": 0.333,
+      "fWater": 0.0,
+      "fGas": 0.001,
+      "R_RE": 1.6963965,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "8.677498644000025",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.6599999999999999,
+      "fSi": 0.33,
+      "fWater": 0.0,
+      "fGas": 0.01,
+      "R_RE": 1.9520713,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.360407856000052",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.099999,
+      "fSi": 0.0,
+      "fWater": 0.8999910000000001,
+      "fGas": 1e-05,
+      "R_RE": 2.4651908,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.080739828999981",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.09999000000000001,
+      "fSi": 0.0,
+      "fWater": 0.89991,
+      "fGas": 0.0001,
+      "R_RE": 2.5182583,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.610129398999902",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.0999,
+      "fSi": 0.0,
+      "fWater": 0.8991,
+      "fGas": 0.001,
+      "R_RE": 2.6489515,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.140607734000014",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.099,
+      "fSi": 0.0,
+      "fWater": 0.891,
+      "fGas": 0.01,
+      "R_RE": 2.9049769,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.1_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.046622696999975",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.299997,
+      "fSi": 0.0,
+      "fWater": 0.699993,
+      "fGas": 1e-05,
+      "R_RE": 2.2803084,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.023775759000046",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.29997,
+      "fSi": 0.0,
+      "fWater": 0.6999299999999999,
+      "fGas": 0.0001,
+      "R_RE": 2.3340427,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.811458142999982",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.29969999999999997,
+      "fSi": 0.0,
+      "fWater": 0.6992999999999999,
+      "fGas": 0.001,
+      "R_RE": 2.4529773,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.46923330200002",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.297,
+      "fSi": 0.0,
+      "fWater": 0.693,
+      "fGas": 0.01,
+      "R_RE": 2.6968943,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.3_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.861243843000011",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.499995,
+      "fSi": 0.0,
+      "fWater": 0.499995,
+      "fGas": 1e-05,
+      "R_RE": 2.0861999,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.62538645099994",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.49995,
+      "fSi": 0.0,
+      "fWater": 0.49995,
+      "fGas": 0.0001,
+      "R_RE": 2.1399753,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.02113439599998",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.4995,
+      "fSi": 0.0,
+      "fWater": 0.4995,
+      "fGas": 0.001,
+      "R_RE": 2.2451777,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.150647283000012",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.495,
+      "fSi": 0.0,
+      "fWater": 0.495,
+      "fGas": 0.01,
+      "R_RE": 2.482769,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.5_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.622573368000076",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.699993,
+      "fSi": 0.0,
+      "fWater": 0.29999700000000007,
+      "fGas": 1e-05,
+      "R_RE": 1.8687316,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.995102870999972",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.6999299999999999,
+      "fSi": 0.0,
+      "fWater": 0.29997000000000007,
+      "fGas": 0.0001,
+      "R_RE": 1.9210527,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.309852737000028",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.6992999999999999,
+      "fSi": 0.0,
+      "fWater": 0.2997,
+      "fGas": 0.001,
+      "R_RE": 2.016838,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.247165346999964",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.693,
+      "fSi": 0.0,
+      "fWater": 0.29700000000000004,
+      "fGas": 0.01,
+      "R_RE": 2.2490311,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.7_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.864060062000021",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.8999910000000001,
+      "fSi": 0.0,
+      "fWater": 0.09999899999999998,
+      "fGas": 1e-05,
+      "R_RE": 1.5957596,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g1e-05"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.334451532999992",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.89991,
+      "fSi": 0.0,
+      "fWater": 0.09998999999999998,
+      "fGas": 0.0001,
+      "R_RE": 1.641418,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g0.0001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.435131652999985",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.8991,
+      "fSi": 0.0,
+      "fWater": 0.09989999999999997,
+      "fGas": 0.001,
+      "R_RE": 1.7250023,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g0.001"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.445936302000064",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.891,
+      "fSi": 0.0,
+      "fWater": 0.09899999999999998,
+      "fGas": 0.01,
+      "R_RE": 1.9641828,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u0.9_g0.01"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.863271555999972",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.99999,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 1e-05,
+      "R_RE": 1.3675293,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g1e-05",
+        "dry_iron_g1e-05"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "8.747208157000046",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.9999,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.0001,
+      "R_RE": 1.3938679,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g0.0001",
+        "dry_iron_g0.0001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.237971425999945",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.999,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.001,
+      "R_RE": 1.4672245,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g0.001",
+        "dry_iron_g0.001"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.958386573999974",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.99,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.01,
+      "R_RE": 1.7444967,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_u1.0_g0.01",
+        "dry_iron_g0.01"
+      ],
+      "families": [
+        "dry_iron",
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.456069912000089",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.33333,
+      "fSi": 0.6666600000000001,
+      "fWater": 0.0,
+      "fGas": 1e-05,
+      "R_RE": 1.7921689,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "8.62677803300005",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.3333,
+      "fSi": 0.6666000000000001,
+      "fWater": 0.0,
+      "fGas": 0.0001,
+      "R_RE": 1.8224653,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "8.97096563599996",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.33299999999999996,
+      "fSi": 0.666,
+      "fWater": 0.0,
+      "fGas": 0.001,
+      "R_RE": 1.8993762,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "8.779964934999953",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.32999999999999996,
+      "fSi": 0.66,
+      "fWater": 0.0,
+      "fGas": 0.01,
+      "R_RE": 2.1480698,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.3333333333333333_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.330108160999998",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.66666,
+      "fSi": 0.33333000000000007,
+      "fWater": 0.0,
+      "fGas": 1e-05,
+      "R_RE": 1.6144145,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g1e-05"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "8.362239621999947",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.6666,
+      "fSi": 0.33330000000000004,
+      "fWater": 0.0,
+      "fGas": 0.0001,
+      "R_RE": 1.6429283,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.0001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.381573009000022",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.6659999999999999,
+      "fSi": 0.333,
+      "fWater": 0.0,
+      "fGas": 0.001,
+      "R_RE": 1.7173984,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.001"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.015805182000008",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.6599999999999999,
+      "fSi": 0.33,
+      "fWater": 0.0,
+      "fGas": 0.01,
+      "R_RE": 1.9736467,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dry_rocky_u0.6666666666666666_g0.01"
+      ],
+      "families": [
+        "dry_rocky"
+      ],
+      "reason": "",
+      "elapsed": "9.293474698000068",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.45,
+      "fSi": 0.0,
+      "fWater": 0.45,
+      "fGas": 0.1,
+      "R_RE": 3.3543598,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u0.5"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.39071414700004",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.63,
+      "fSi": 0.0,
+      "fWater": 0.2700000000000001,
+      "fGas": 0.1,
+      "R_RE": 3.1735566,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u0.7"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.27948160699998",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.81,
+      "fSi": 0.0,
+      "fWater": 0.08999999999999998,
+      "fGas": 0.1,
+      "R_RE": 2.9627765,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u0.9"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.620543304999956",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.9,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.1,
+      "R_RE": 2.821882,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u1"
+      ],
+      "families": [
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.93489506100002",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.3,
+      "fSi": 0.6000000000000001,
+      "fWater": 0.0,
+      "fGas": 0.1,
+      "R_RE": 3.1170199,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_highgas_u0.33333333"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.311862954000048",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.6,
+      "fSi": 0.30000000000000004,
+      "fWater": 0.0,
+      "fGas": 0.1,
+      "R_RE": 2.9859377,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_highgas_u0.66666667"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.438949198000046",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.0,
+      "fSi": 0.0,
+      "fWater": 0.9999999,
+      "fGas": 1e-07,
+      "R_RE": 2.7636492,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_lowgas_u0_g1e-07"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.227067526999917",
+      "phase_group": "vapor"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.09999999000000001,
+      "fSi": 0.0,
+      "fWater": 0.89999991,
+      "fGas": 1e-07,
+      "R_RE": 2.6471365,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_lowgas_u0.1_g1e-07"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.173746797000035",
+      "phase_group": "vapor"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.04999995,
+      "fSi": 0.0,
+      "fWater": 0.94999905,
+      "fGas": 1e-06,
+      "R_RE": 2.4080437,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_lowgas_u0.05_g1e-06"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.162526244999981",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.45,
+      "fSi": 0.0,
+      "fWater": 0.45,
+      "fGas": 0.1,
+      "R_RE": 3.3788689,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u0.5"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.708168139000009",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.63,
+      "fSi": 0.0,
+      "fWater": 0.2700000000000001,
+      "fGas": 0.1,
+      "R_RE": 3.195879,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u0.7"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.945095028999958",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.81,
+      "fSi": 0.0,
+      "fWater": 0.08999999999999998,
+      "fGas": 0.1,
+      "R_RE": 2.982192,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u0.9"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.263713183999926",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.9,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.1,
+      "R_RE": 2.8394183,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u1"
+      ],
+      "families": [
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.32734574999995",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.3,
+      "fSi": 0.6000000000000001,
+      "fWater": 0.0,
+      "fGas": 0.1,
+      "R_RE": 3.1406968,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_highgas_u0.33333333"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.84593569599997",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.6,
+      "fSi": 0.30000000000000004,
+      "fWater": 0.0,
+      "fGas": 0.1,
+      "R_RE": 3.0071181,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_highgas_u0.66666667"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "8.513145809999969",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.0,
+      "fSi": 0.0,
+      "fWater": 0.9999999,
+      "fGas": 1e-07,
+      "R_RE": 2.7933967,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_lowgas_u0_g1e-07"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "7.9496396660001665",
+      "phase_group": "vapor"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.09999999000000001,
+      "fSi": 0.0,
+      "fWater": 0.89999991,
+      "fGas": 1e-07,
+      "R_RE": 2.6758347,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_lowgas_u0.1_g1e-07"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.889109295000026",
+      "phase_group": "vapor"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.04999995,
+      "fSi": 0.0,
+      "fWater": 0.94999905,
+      "fGas": 1e-06,
+      "R_RE": 2.4434403,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_lowgas_u0.05_g1e-06"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.285076673000049",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.45,
+      "fSi": 0.0,
+      "fWater": 0.45,
+      "fGas": 0.1,
+      "R_RE": 3.4034588,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u0.5"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.015113544000087",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.63,
+      "fSi": 0.0,
+      "fWater": 0.2700000000000001,
+      "fGas": 0.1,
+      "R_RE": 3.218216,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u0.7"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "7.270092952999903",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.81,
+      "fSi": 0.0,
+      "fWater": 0.08999999999999998,
+      "fGas": 0.1,
+      "R_RE": 3.0014959,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u0.9"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.534315707999895",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.9,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.1,
+      "R_RE": 2.8568586,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_highgas_u1"
+      ],
+      "families": [
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.973962117999918",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.3,
+      "fSi": 0.6000000000000001,
+      "fWater": 0.0,
+      "fGas": 0.1,
+      "R_RE": 3.164298,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_highgas_u0.33333333"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "8.945057014999975",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.6,
+      "fSi": 0.30000000000000004,
+      "fWater": 0.0,
+      "fGas": 0.1,
+      "R_RE": 3.028172,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_highgas_u0.66666667"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "10.09000461200003",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.0,
+      "fSi": 0.0,
+      "fWater": 0.9999999,
+      "fGas": 1e-07,
+      "R_RE": 2.8229902,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_lowgas_u0_g1e-07"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.290552511999977",
+      "phase_group": "vapor"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.09999999000000001,
+      "fSi": 0.0,
+      "fWater": 0.89999991,
+      "fGas": 1e-07,
+      "R_RE": 2.7043694,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_lowgas_u0.1_g1e-07"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.214597491999939",
+      "phase_group": "vapor"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.04999995,
+      "fSi": 0.0,
+      "fWater": 0.94999905,
+      "fGas": 1e-06,
+      "R_RE": 2.4782781,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_lowgas_u0.05_g1e-06"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.235060148000002",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.29973588519239347,
+      "fSi": 0.0,
+      "fWater": 0.6993837321155848,
+      "fGas": 0.0008803826920217742,
+      "R_RE": 2.3879745,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M7.56_u0.3_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.204149904000001",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.49671902522625266,
+      "fSi": 0.0,
+      "fWater": 0.49671902522625266,
+      "fGas": 0.006561949547494717,
+      "R_RE": 2.3703339,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M7.56_u0.5_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.319787215999998",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.6891125153091882,
+      "fSi": 0.0,
+      "fWater": 0.2953339351325093,
+      "fGas": 0.015553549558302604,
+      "R_RE": 2.2969551,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M7.56_u0.7_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.608979192",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.8747172932207812,
+      "fSi": 0.0,
+      "fWater": 0.09719081035786456,
+      "fGas": 0.028091896421354273,
+      "R_RE": 2.2152014,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M7.56_u0.9_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.158926475999998",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.9590495477868636,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.04095045221313645,
+      "R_RE": 2.2032588,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M7.56_u1_secant"
+      ],
+      "families": [
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.270926725999999",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.32691016189790434,
+      "fSi": 0.6538203237958088,
+      "fWater": 0.0,
+      "fGas": 0.019269514306287015,
+      "R_RE": 2.2605041,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_M7.56_u0.33333333_secant"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "8.890575408999993",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.6484963265995942,
+      "fSi": 0.32424816329979717,
+      "fWater": 0.0,
+      "fGas": 0.02725551010060856,
+      "R_RE": 2.2176796,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_M7.56_u0.66666667_secant"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.035160797000003",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.299846273379578,
+      "fSi": 0.0,
+      "fWater": 0.6996413045523485,
+      "fGas": 0.0005124220680734848,
+      "R_RE": 2.380401,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M8.04_u0.3_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.646366631000006",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.4974135491648838,
+      "fSi": 0.0,
+      "fWater": 0.4974135491648838,
+      "fGas": 0.0051729016702324595,
+      "R_RE": 2.3654058,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M8.04_u0.5_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.515304220999994",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.6896795026504745,
+      "fSi": 0.0,
+      "fWater": 0.2955769297073463,
+      "fGas": 0.014743567642179205,
+      "R_RE": 2.3068693,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M8.04_u0.7_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.635351374999999",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.875803832426874,
+      "fSi": 0.0,
+      "fWater": 0.0973115369363193,
+      "fGas": 0.026884630636806683,
+      "R_RE": 2.2191614,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M8.04_u0.9_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "8.915913853999996",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.9605335357026145,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.03946646429738553,
+      "R_RE": 2.202547,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M8.04_u1_secant"
+      ],
+      "families": [
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "8.180735959999993",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.3272482021796552,
+      "fSi": 0.6544964043593106,
+      "fWater": 0.0,
+      "fGas": 0.018255393461034223,
+      "R_RE": 2.2688055,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_M8.04_u0.33333333_secant"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.731740571000003",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.6493290809287875,
+      "fSi": 0.3246645404643938,
+      "fWater": 0.0,
+      "fGas": 0.02600637860681873,
+      "R_RE": 2.2220158,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_M8.04_u0.66666667_secant"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.78879778000001",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.29991136418605513,
+      "fSi": 0.0,
+      "fWater": 0.6997931831007953,
+      "fGas": 0.0002954527131496225,
+      "R_RE": 2.3805705,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M8.54_u0.3_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.159157336000021",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.4979652372047997,
+      "fSi": 0.0,
+      "fWater": 0.4979652372047997,
+      "fGas": 0.004069525590400681,
+      "R_RE": 2.3638952,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M8.54_u0.5_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "11.046631190999989",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.6902152659336583,
+      "fSi": 0.0,
+      "fWater": 0.2958065425429965,
+      "fGas": 0.013978191523345087,
+      "R_RE": 2.3171293,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M8.54_u0.7_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "10.12498033700001",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.8768397802544938,
+      "fSi": 0.0,
+      "fWater": 0.0974266422504993,
+      "fGas": 0.025733577495006824,
+      "R_RE": 2.223491,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M8.54_u0.9_secant"
+      ],
+      "families": [
+        "wet"
+      ],
+      "reason": "",
+      "elapsed": "9.655813942999998",
+      "phase_group": "dense_fluid"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.9619548132004467,
+      "fSi": 0.0,
+      "fWater": 0.0,
+      "fGas": 0.03804518679955324,
+      "R_RE": 2.2022062,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "wet_M8.54_u1_secant"
+      ],
+      "families": [
+        "dry_iron"
+      ],
+      "reason": "",
+      "elapsed": "9.658653533999995",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.3275663917851583,
+      "fSi": 0.6551327835703167,
+      "fWater": 0.0,
+      "fGas": 0.01730082464452514,
+      "R_RE": 2.2775342,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_M8.54_u0.33333333_secant"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.537843389000017",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.650119102594335,
+      "fSi": 0.32505955129716757,
+      "fWater": 0.0,
+      "fGas": 0.024821346108497365,
+      "R_RE": 2.2267901,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "dryrocky_M8.54_u0.66666667_secant"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.85001145999999",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.32414321452206585,
+      "fSi": 0.6482864290441318,
+      "fWater": 0.0,
+      "fGas": 0.0275703564338023,
+      "R_RE": 2.3800834,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "drytrack_correction_M7.56_u0.333333333"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.932107049",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 7.56,
+      "fFe": 0.6400273672522218,
+      "fSi": 0.32001368362611093,
+      "fWater": 0.0,
+      "fGas": 0.03995894912166734,
+      "R_RE": 2.3840042,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "drytrack_correction_M7.56_u0.666666667"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.858719314000002",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.32473747187524393,
+      "fSi": 0.649474943750488,
+      "fWater": 0.0,
+      "fGas": 0.025787584374268042,
+      "R_RE": 2.3799843,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "drytrack_correction_M8.04_u0.333333333"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "10.021666478",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.04,
+      "fFe": 0.6412600923937734,
+      "fSi": 0.32063004619688673,
+      "fWater": 0.0,
+      "fGas": 0.03810986140933989,
+      "R_RE": 2.3834681,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "drytrack_correction_M8.04_u0.666666667"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "10.853980422",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.3253094898838096,
+      "fSi": 0.6506189797676193,
+      "fWater": 0.0,
+      "fGas": 0.024071530348571152,
+      "R_RE": 2.3800063,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "drytrack_correction_M8.54_u0.333333333"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "10.410566955",
+      "phase_group": "no_water"
+    },
+    {
+      "M": 8.54,
+      "fFe": 0.6424608767409268,
+      "fSi": 0.32123043837046344,
+      "fWater": 0.0,
+      "fGas": 0.0363086848886097,
+      "R_RE": 2.3829678,
+      "status": "STORED_STATE_CHECKED",
+      "aliases": [
+        "drytrack_correction_M8.54_u0.666666667"
+      ],
+      "families": [
+        "dryrocky"
+      ],
+      "reason": "",
+      "elapsed": "9.280790930000002",
+      "phase_group": "no_water"
+    }
+  ],
+  "masses": [
+    7.56,
+    8.04,
+    8.54
+  ],
+  "observational_box": {
+    "R0": 2.39,
+    "Rminus": 0.11,
+    "Rplus": 0.1,
+    "central_mass": 8.04
+  },
+  "interpolation_assumptions": "PCHIP first loggas then nongasFe on continuous valid same-boundary-group tracks, noextrapolation; common-valid min/max sampledR envelope; intermediate masses assume continuous piecewise-linear branch; 3 samples do not bound unsampled extrema; not posterior; independent native holdouts still required",
+  "thermal_parameters": {
+    "surface_temperature": 350.0,
+    "surface_bar": 0.1,
+    "transition_bar": 100.0
+  },
+  "physical_acceptance": false,
+  "success_count": 150,
+  "fail_count": 0,
+  "notrun_count": 0,
+  "family_band_touch": {
+    "wet": {
+      "umin": false,
+      "umax": true,
+      "vmin": false,
+      "vmax": false,
+      "bounds": {
+        "umin": 0.0,
+        "umax": 1.0,
+        "vmin": -7.0,
+        "vmax": -1.0,
+        "gasmin": 1e-07,
+        "gasmax": 0.1
+      },
+      "note": "Physical simplex edge (u=0 or u=1) touch, not unresolved",
+      "metadata_explanation": "white unassessed incl phase-crossing/missingcoverage; not physicalexclusion"
+    },
+    "dryrocky": {
+      "umin": true,
+      "umax": true,
+      "vmin": false,
+      "vmax": false,
+      "bounds": {
+        "umin": 0.3333333333333333,
+        "umax": 1.0,
+        "vmin": -5.0,
+        "vmax": -1.0,
+        "gasmin": 1e-05,
+        "gasmax": 0.1
+      },
+      "note": "UNRESOLVED DOMAIN EDGE",
+      "metadata_explanation": "white unassessed incl phase-crossing/missingcoverage; not physicalexclusion"
+    }
+  },
+  "phase_audit_provenance": {
+    "enabled": true,
+    "path": "D:/Codex/downloads/toi732c-composition-constraints-20261112/water-boundary-diagnostic-v2.json",
+    "sha": "5d4256dec9dd2c74b4d1df2cfc183c18b7e294a7e4312cb0753863e9019b54e4",
+    "constraint": "Vapor/dense-water crossing cells withheld when phase audit supplied"
+  }
+}

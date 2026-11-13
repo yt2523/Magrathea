@@ -1,0 +1,401 @@
+[
+  {
+    "mass": 7.56,
+    "kind": "wet",
+    "u": 0.3,
+    "gas": 0.0008803826920217742,
+    "bracket": [
+      [
+        0.0001,
+        2.273896,
+        "f6cc98c55c8a73d2"
+      ],
+      [
+        0.001,
+        2.3968001,
+        "ed63177229308aa0"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 7.56,
+    "kind": "wet",
+    "u": 0.5,
+    "gas": 0.006561949547494717,
+    "bracket": [
+      [
+        0.001,
+        2.193859,
+        "3125845d495c8803"
+      ],
+      [
+        0.01,
+        2.433924,
+        "171ef7e8c970eeb6"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 7.56,
+    "kind": "wet",
+    "u": 0.7,
+    "gas": 0.015553549558302604,
+    "bracket": [
+      [
+        0.01,
+        2.2040129,
+        "b3c2f9920a17485e"
+      ],
+      [
+        0.1,
+        3.1735566,
+        "c85282e3361bb2e8"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 7.56,
+    "kind": "wet",
+    "u": 0.9,
+    "gas": 0.028091896421354273,
+    "bracket": [
+      [
+        0.01,
+        1.9240445,
+        "132b1df524fc502c"
+      ],
+      [
+        0.1,
+        2.9627765,
+        "e1bb89906a543c50"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 7.56,
+    "kind": "wet",
+    "u": 1,
+    "gas": 0.04095045221313645,
+    "bracket": [
+      [
+        0.01,
+        1.7080414,
+        "128a7a96125c75c1"
+      ],
+      [
+        0.1,
+        2.821882,
+        "b4f418661d47889d"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 7.56,
+    "kind": "dryrocky",
+    "u": 0.3333333333333333,
+    "gas": 0.019269514306287015,
+    "bracket": [
+      [
+        0.01,
+        2.1003926,
+        "aee4f3cba0d1b2ab"
+      ],
+      [
+        0.1,
+        3.1170199,
+        "26b29482eee9a81b"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 7.56,
+    "kind": "dryrocky",
+    "u": 0.6666666666666666,
+    "gas": 0.02725551010060856,
+    "bracket": [
+      [
+        0.01,
+        1.9303319,
+        "32e829251cba0b94"
+      ],
+      [
+        0.1,
+        2.9859377,
+        "c52180836212d455"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.04,
+    "kind": "wet",
+    "u": 0.3,
+    "gas": 0.0005124220680734848,
+    "bracket": [
+      [
+        0.0001,
+        2.3041945,
+        "cdb158e7c241b47c"
+      ],
+      [
+        0.001,
+        2.4251107,
+        "2a271075e8b808f3"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.04,
+    "kind": "wet",
+    "u": 0.5,
+    "gas": 0.0051729016702324595,
+    "bracket": [
+      [
+        0.001,
+        2.2195552,
+        "cd23f1c7429c3ddc"
+      ],
+      [
+        0.01,
+        2.4583623,
+        "201f63a56970d23c"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.04,
+    "kind": "wet",
+    "u": 0.7,
+    "gas": 0.014743567642179205,
+    "bracket": [
+      [
+        0.01,
+        2.2265724,
+        "cbf74897b0b83149"
+      ],
+      [
+        0.1,
+        3.195879,
+        "5c5af75add7edd3c"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.04,
+    "kind": "wet",
+    "u": 0.9,
+    "gas": 0.026884630636806683,
+    "bracket": [
+      [
+        0.01,
+        1.9441618,
+        "c899cf3d5c0975e3"
+      ],
+      [
+        0.1,
+        2.982192,
+        "11c33df7d809b23f"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.04,
+    "kind": "wet",
+    "u": 1,
+    "gas": 0.03946646429738553,
+    "bracket": [
+      [
+        0.01,
+        1.726368,
+        "247e07c0c06d9df2"
+      ],
+      [
+        0.1,
+        2.8394183,
+        "7920502f5131885c"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.04,
+    "kind": "dryrocky",
+    "u": 0.3333333333333333,
+    "gas": 0.018255393461034223,
+    "bracket": [
+      [
+        0.01,
+        2.1243309,
+        "50b0c3be3db4eb19"
+      ],
+      [
+        0.1,
+        3.1406968,
+        "57858cdf03a02e39"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.04,
+    "kind": "dryrocky",
+    "u": 0.6666666666666666,
+    "gas": 0.02600637860681873,
+    "bracket": [
+      [
+        0.01,
+        1.9520713,
+        "f9901caa87fc98e5"
+      ],
+      [
+        0.1,
+        3.0071181,
+        "f4aff3eda47ff6dd"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.54,
+    "kind": "wet",
+    "u": 0.3,
+    "gas": 0.0002954527131496225,
+    "bracket": [
+      [
+        0.0001,
+        2.3340427,
+        "d08e217e26840d3f"
+      ],
+      [
+        0.001,
+        2.4529773,
+        "4e9443853a393a41"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.54,
+    "kind": "wet",
+    "u": 0.5,
+    "gas": 0.004069525590400681,
+    "bracket": [
+      [
+        0.001,
+        2.2451777,
+        "1e4faaa4ee190426"
+      ],
+      [
+        0.01,
+        2.482769,
+        "880fcdb87ad27125"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.54,
+    "kind": "wet",
+    "u": 0.7,
+    "gas": 0.013978191523345087,
+    "bracket": [
+      [
+        0.01,
+        2.2490311,
+        "928c0aeb7edbcbac"
+      ],
+      [
+        0.1,
+        3.218216,
+        "88ce9581daa8dcf1"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.54,
+    "kind": "wet",
+    "u": 0.9,
+    "gas": 0.025733577495006824,
+    "bracket": [
+      [
+        0.01,
+        1.9641828,
+        "465b10c7404b4ead"
+      ],
+      [
+        0.1,
+        3.0014959,
+        "2f44359279ba6550"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.54,
+    "kind": "wet",
+    "u": 1,
+    "gas": 0.03804518679955324,
+    "bracket": [
+      [
+        0.01,
+        1.7444967,
+        "824b154aefe3f385"
+      ],
+      [
+        0.1,
+        2.8568586,
+        "fe66da1eeec4771c"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.54,
+    "kind": "dryrocky",
+    "u": 0.3333333333333333,
+    "gas": 0.01730082464452514,
+    "bracket": [
+      [
+        0.01,
+        2.1480698,
+        "759fbae5e8730c3f"
+      ],
+      [
+        0.1,
+        3.164298,
+        "2754e5a18fee454b"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  },
+  {
+    "mass": 8.54,
+    "kind": "dryrocky",
+    "u": 0.6666666666666666,
+    "gas": 0.024821346108497365,
+    "bracket": [
+      [
+        0.01,
+        1.9736467,
+        "6ed03ff88632fd9d"
+      ],
+      [
+        0.1,
+        3.028172,
+        "884e9ae50ad81948"
+      ]
+    ],
+    "method": "one loggas secant based on actual forward radii, new radius not constrained to observed target"
+  }
+]

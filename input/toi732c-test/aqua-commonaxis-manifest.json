@@ -1,0 +1,7 @@
+{
+  "raw_sha256": "c493e0fb214bef945dacb3abf076c4f11b8c27b58aa9d174c293947236db5768",
+  "canonical_repo_sha256": "b205a5e8fe6ad1dcda3f3810d9ae0129f51624e42fd040820a470d55b33dd625",
+  "rule": "Exact original data rows T<=50000 K, verified common T axis across793 pressureblocks,270T rows, actualmax48978K. No values changed. Canonical repository table untouched.",
+  "source": "MAGRATHEA tabulated/AQUA.txt; Haldemann etal2020 DOI10.1051/0004-6361/202038367",
+  "license": "Retain original repository license and citation."
+}

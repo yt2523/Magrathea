@@ -1,0 +1,98 @@
+[
+  {
+    "M": 7.56,
+    "kind": "wet",
+    "u": 0.4,
+    "gas": 0.00031235262796349143,
+    "proposal_R": 2.23,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 7.56,
+    "kind": "wet",
+    "u": 0.4,
+    "gas": 0.00995057186512176,
+    "proposal_R": 2.54,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 7.56,
+    "kind": "dryrocky",
+    "u": 0.5,
+    "gas": 0.022202650976454463,
+    "proposal_R": 2.23,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 7.56,
+    "kind": "dryrocky",
+    "u": 0.5,
+    "gas": 0.04493145129916679,
+    "proposal_R": 2.54,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 8.04,
+    "kind": "wet",
+    "u": 0.4,
+    "gas": 0.00017071988661955786,
+    "proposal_R": 2.23,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 8.04,
+    "kind": "wet",
+    "u": 0.4,
+    "gas": 0.008458816134598817,
+    "proposal_R": 2.54,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 8.04,
+    "kind": "dryrocky",
+    "u": 0.5,
+    "gas": 0.020690441857147628,
+    "proposal_R": 2.23,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 8.04,
+    "kind": "dryrocky",
+    "u": 0.5,
+    "gas": 0.04282829071517206,
+    "proposal_R": 2.54,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 8.54,
+    "kind": "wet",
+    "u": 0.4,
+    "gas": 7.429219552070504e-05,
+    "proposal_R": 2.23,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 8.54,
+    "kind": "wet",
+    "u": 0.4,
+    "gas": 0.007029888845181897,
+    "proposal_R": 2.54,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 8.54,
+    "kind": "dryrocky",
+    "u": 0.5,
+    "gas": 0.01923822795548286,
+    "proposal_R": 2.23,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  },
+  {
+    "M": 8.54,
+    "kind": "dryrocky",
+    "u": 0.5,
+    "gas": 0.04077766464851884,
+    "proposal_R": 2.54,
+    "purpose": "expand singleton diagnostic u track to span comparison interval; outputs not forced"
+  }
+]

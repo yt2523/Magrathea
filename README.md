@@ -1,11 +1,19 @@
-# TOI-732 c：有水与无水组成约束（进行中）
+# TOI-732 c：有水与两种无水粗组成约束
 
-开发分支research/composition-constraints-20261112，仅发布yt2523/Magrathea。DeepSeek编程，Codex定义检查/执行，独立Codex验收；cid02399021手动仓库及master/run本轮不变。
+2026-11-13交付，可重复运行的开发版。**当前350K/.1bar/100bar测试热结构下，有水、铁＋硅酸盐＋气体、纯铁＋气体均有真实匹配点；不能说必须含水。** 正式TP/气候结构与组成后验尚未完成。
 
-- 已通过：[AQUA来源/接缝与两种无水代表](research/composition-constraints-20261112/README.md)。用户已选AQUA为有水主方案，旧拼接有限对照。
-- 已通过：[三质量代表切片](research/composition-constraints-20261112/mass-slices/README.md)，有水/无水岩石/无水铁端元都保留。
-- 已通过：[外部TP初始化修复](research/composition-constraints-20261112/stageB/README.md)，最终版已合入根src；零根、反向斜率、无效屏障和极小区间回归全部通过。
+[手动运行指南](docs/TOI732C_RUN_GUIDE.md) · [结果、方程与问题解释](research/composition-constraints-20261112/delivery/README.md) · [协作交接](research/composition-constraints-20261112/delivery/HANDOFF.md)
 
-截至2026-11-13，29次行星启动。用户取消本次任务的DeepSeek调用次数上限，仍逐次记账，不代表无限购买。质量向量生成器已生成96个唯一组成配置，尚未启动此网格；扫描执行器正在用明确标记的假求解器验收。检查通过后继续有水、无水岩石和无水铁端元的组成扫描与图。已有三质量图仅为固定组成敏感性，不是组成后验。[长程计划](docs/superpowers/plans/2026-11-12-composition-constraints-long-task.md)保留180次行星启动规划。
+三个质量7.56/8.04/8.54 M⊕分别正向计算m_i=f_iM，再比较观测R；没有把观测半径强设成计算结果。175次扫描/验证模型通过独立保存状态审核（170542行、最大密度误差1.36e-7），最终150点插值＋25点验证分开。6个新局部中心线误差≤.00311R⊕；边缘仍有.01142，不声称整片面积精度、物理认证或后验。
 
-示范350K/.1bar/100bar热分界不等于正式TOI-732c气候模型，physical_acceptance=false。水AQUA比较使用验证公用轴的逐行子表；仓库原表不改。构建用make -B，新输出路径；原生exit0不代表有解。已有[统一HHe里程碑](research/unified-hhe-100bar-20261112/README.md)封存。
+![有水/无水气体比例粗约束](research/composition-constraints-20261112/delivery/figures/gas-fractions.png)
+
+[三元图](research/composition-constraints-20261112/delivery/figures/ternary.png) · [质量切片图](research/composition-constraints-20261112/delivery/figures/mass-slices.png)，均有同名PDF。蓝色是中心质量的半径比较带，橙色是三质量条件包络；白色未评估不等于物理排除。
+
+运行入口只有run/{scan_compositions,execute_scan,plot_compositions}.py，复用C++主程序，不需AI API。前两者只用Python标准库，绘图用NumPy/Matplotlib/SciPy。输入模板和精确AQUA子表在input/toi732c-test，原始大表不改。DeepSeek编程，Codex定义验收和执行，独立Codex核验。
+
+根src已合入有外部TP时的有限域半径初始化修复；短TP仍拒绝，不外推/截断表。本轮网格使用无外部TP的统一真实H/He等温-绝热近似。详见[TP修复证据](research/composition-constraints-20261112/stageB/README.md)。
+
+开发与新猜想只在yt2523/Magrathea的research/composition-constraints-20261112。cid02399021手动仓库及master/run本轮未动。原始结果按新目录归档，保留旧失败。204次任务启动中199模型、5旧失败；DeepSeek调用43次已记账，用户取消任务调用上限。**本轮计算已停止**，不因为剩余额度自动补扫。
+
+English: coarse conditional delivery, not a posterior. Wet and both dry controls have real native matches. Three mass knots propagate conditional sensitivity; local centreline checks pass, full-area edges remain approximate. Follow run guide and handoff before changes. Preserve all old bytes; never silently change TP, EOS or interpolation assumptions.

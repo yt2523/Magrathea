@@ -1,0 +1,116 @@
+{
+  "max_abs_error": 0.0031067000000000178,
+  "all_below_0_01": true,
+  "cases": [
+    {
+      "M": 7.56,
+      "kind": "wet",
+      "u": 0.45,
+      "gas": 0.004861471876900447,
+      "fractions": [
+        0.4478123376553948,
+        0,
+        0.5473261904677048,
+        0.004861471876900447
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_wet_M7.56_u0.45",
+      "actual_R": 2.3887787,
+      "abs_error": 0.0012213000000000918,
+      "case_key": "1cbf61bcafcd5755",
+      "status": "STORED_STATE_CHECKED"
+    },
+    {
+      "M": 7.56,
+      "kind": "dryrocky",
+      "u": 0.55,
+      "gas": 0.0357758981043378,
+      "fractions": [
+        0.5303232560426142,
+        0.43390084585304795,
+        0,
+        0.0357758981043378
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_dryrocky_M7.56_u0.55",
+      "actual_R": 2.3875447,
+      "abs_error": 0.002455300000000271,
+      "case_key": "da2dd091309adddb",
+      "status": "STORED_STATE_CHECKED"
+    },
+    {
+      "M": 8.04,
+      "kind": "wet",
+      "u": 0.45,
+      "gas": 0.0038802887659685256,
+      "fractions": [
+        0.44825387005531414,
+        0,
+        0.5478658411787173,
+        0.0038802887659685256
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_wet_M8.04_u0.45",
+      "actual_R": 2.389738,
+      "abs_error": 0.0002620000000002065,
+      "case_key": "a9c4624a6fa626b8",
+      "status": "STORED_STATE_CHECKED"
+    },
+    {
+      "M": 8.04,
+      "kind": "dryrocky",
+      "u": 0.55,
+      "gas": 0.03393508015622055,
+      "fractions": [
+        0.5313357059140787,
+        0.4347292139297007,
+        0,
+        0.03393508015622055
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_dryrocky_M8.04_u0.55",
+      "actual_R": 2.387186,
+      "abs_error": 0.0028140000000003162,
+      "case_key": "5b476c27d57b6474",
+      "status": "STORED_STATE_CHECKED"
+    },
+    {
+      "M": 8.54,
+      "kind": "wet",
+      "u": 0.45,
+      "gas": 0.0030327587630861012,
+      "fractions": [
+        0.4486352585566113,
+        0,
+        0.5483319826803027,
+        0.0030327587630861012
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_wet_M8.54_u0.45",
+      "actual_R": 2.3907182,
+      "abs_error": 0.0007181999999996691,
+      "case_key": "34b21bf1b2f121cb",
+      "status": "STORED_STATE_CHECKED"
+    },
+    {
+      "M": 8.54,
+      "kind": "dryrocky",
+      "u": 0.55,
+      "gas": 0.0321408672885833,
+      "fractions": [
+        0.5323225229912792,
+        0.43553660972013747,
+        0,
+        0.0321408672885833
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_dryrocky_M8.54_u0.55",
+      "actual_R": 2.3868933,
+      "abs_error": 0.0031067000000000178,
+      "case_key": "7567fcc55c1133a2",
+      "status": "STORED_STATE_CHECKED"
+    }
+  ],
+  "scope": "Independent new local centreline checks only, no global error bound; excluded from final fit",
+  "physical_acceptance": false
+}

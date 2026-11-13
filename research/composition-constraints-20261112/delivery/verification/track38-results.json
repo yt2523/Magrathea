@@ -1,0 +1,11 @@
+{
+  "SYNTHETIC_ONLY": true,
+  "tests_passed": [
+    "affine analytic answer",
+    "exact M separation",
+    "failed gas point barrier",
+    "out of domain masked",
+    "vapor/dense crossing withheld",
+    "grids optionalmethod integrated"
+  ]
+}

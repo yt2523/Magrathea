@@ -2,9 +2,9 @@
   "task": "composition-constraints-wet-and-dry",
   "base": "10dc38e9ebe19722f6a4a12c1cffa7497935f7d1",
   "branch": "research/composition-constraints-20261112",
-  "status": "D96_E27_F21_ALL_STORED_CHECKED_INTERPOLATION_HOLDOUTS_NEXT",
+  "status": "COARSE_CONDITIONAL_DELIVERY_VERIFIED_NO_MORE_NATIVE_RUNS",
   "authorization": "User: continue; wet and dry ternary/gas/mass plots all required",
-  "max_native_attempts": 180,
+  "max_native_attempts": 204,
   "native_attempts": [
     {
       "case": "grid14-aqua",
@@ -7364,10 +7364,1312 @@
         "checker_returncode": 0
       },
       "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54"
+    },
+    {
+      "case": "H:424a0f34da01ab6c",
+      "stage": "H",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "424a0f34da01ab6c",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.3988247206952907,
+          0.0,
+          0.5982370810429359,
+          0.002938198261773294
+        ],
+        "aliases": [
+          "HOLDOUT_wet_M7.56_u0.4"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "6b27630eda8610383e2916b72836f1d261db1de88c6e4c71d26968614c3b98c9",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3877296,
+        "residual_RE": -0.0022704000000000057,
+        "artifacts": {
+          "checked.csv": "c424a9d8c9ba0eb74c205fd464083db1b1896be0f64514334dda4f75e083b419",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "e16512b489e9d2bc0d1fdf38019c429095f6d7797f0c9a00aa8a4d72bb07412f",
+          "runtime.json": "1d5118951158c8285fa365d60bffbeb05073b709f218fd314755d5847799eefd",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "458cdd36a3b56d8b2abaa0e188596474986670e1399ba894e6d95c6a2d42e169"
+        },
+        "physical_acceptance": false,
+        "elapsed": 8.786234711,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-holdout-M7.56"
+    },
+    {
+      "case": "H:4712265b3d34d0d7",
+      "stage": "H",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "4712265b3d34d0d7",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.4833224544212354,
+          0.4833224544212354,
+          0.0,
+          0.03335509115752919
+        ],
+        "aliases": [
+          "HOLDOUT_dryrocky_M7.56_u0.5"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "9d51bebd416d655606b744b956fedce35b00d89aa3aa0347250db470601f9c17",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3801897,
+        "residual_RE": -0.009810300000000272,
+        "artifacts": {
+          "checked.csv": "8807a80ad220b2f9b7b350fd901be55aed96e4133c1c3725d2be67bd6f588be6",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "708f074ed732014ce6d94744e0c1a709f36846f802e1c73c33fd1fae653a54a4",
+          "runtime.json": "0844db1ccec92239ee80643ca38a2df4dfd874e90544b2547029c99277e6f9c9",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "5bf53ef222311f954b4fa4edb293e4cebc9f85fac2c1b1a46dd0bd2cadc07d3d"
+        },
+        "physical_acceptance": false,
+        "elapsed": 8.769485757000002,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-holdout-M7.56"
+    },
+    {
+      "case": "H:dd44a6a70adcd3e8",
+      "stage": "H",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "dd44a6a70adcd3e8",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.3991087507689586,
+          0.0,
+          0.5986631261534378,
+          0.0022281230776037136
+        ],
+        "aliases": [
+          "HOLDOUT_wet_M8.04_u0.4"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "75539ca2b3508da2b6e3b4c9628e6ae146f5b3fac52c491308beb5e98c1ae322",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3879867,
+        "residual_RE": -0.0020133000000002177,
+        "artifacts": {
+          "checked.csv": "1c546d282ca2d4b36170feed1ec21fc62ee6be11b8c62f55956eef5b14cd0a02",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "c340b42054eda00acceb82a85b89c245384d39ccd4d3c72d5ce39ebb6e22410c",
+          "runtime.json": "ea3a67d0066fd01f91281edfe72eb3fd324628b5323728c26beaa0e82e87dc5c",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "d606ddcafc734125326f129ad95a05d06510a92c6d2406d40000be2b5cc1d5b6"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.242435524000001,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-holdout-M8.04"
+    },
+    {
+      "case": "H:d8130ddfd3e41842",
+      "stage": "H",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "d8130ddfd3e41842",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.48424744517691054,
+          0.48424744517691054,
+          0.0,
+          0.031505109646178864
+        ],
+        "aliases": [
+          "HOLDOUT_dryrocky_M8.04_u0.5"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "407954e37002a73759d4b5494d214243716b82e54bc4af702dfdbdfd03b5eec5",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3795224,
+        "residual_RE": -0.010477600000000198,
+        "artifacts": {
+          "checked.csv": "89d91dc93defb77e5d3e3376a74d5ae5c21161037d71980024f57d2cd34e5f31",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "37bc3097da22829d645cfa1b4b1a835175094257333713e43a9e1baa823edc1a",
+          "runtime.json": "3428c9a60992b492cb4ca8ce24bdfcb55212a2b929600870705cfd883039a600",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "0f10d962bdd38e83679bdbe53a3d569a099026a8292039743dccab4ea1c61232"
+        },
+        "physical_acceptance": false,
+        "elapsed": 8.564664848,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-holdout-M8.04"
+    },
+    {
+      "case": "H:448de12cb81771f0",
+      "stage": "H",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "448de12cb81771f0",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.9450034472263816,
+          0.0,
+          0.0,
+          0.05499655277361833
+        ],
+        "aliases": [
+          "HOLDOUT_dryFe_M8.04_u1.0"
+        ],
+        "families": [
+          "dryFe"
+        ],
+        "config_sha256": "09febfb4e78b10ac26d2c60b6a3dc41edcd4b0c8851a2c0303f067c12aeaf11b",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3896619,
+        "residual_RE": -0.00033810000000000784,
+        "artifacts": {
+          "checked.csv": "1acad55582c83e0b39e0c3d3ef0df1caa8607faebc0fe37474a8bff694d09253",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "2bee139023ac36b66b19b5f34aadb27b1503cc3657b31dcc1bb33bb9819a3ccf",
+          "runtime.json": "4b6ab63948a0d92ce3296c8286af804a0e350e9ab986018fe4ed77347f855bab",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "b1a24fd0c341aef9851391743504fddc3221dabef57614bddf1b06f6fdd359e1"
+        },
+        "physical_acceptance": false,
+        "elapsed": 8.970209673,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-holdout-M8.04"
+    },
+    {
+      "case": "H:a062008161c935c0",
+      "stage": "H",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "a062008161c935c0",
+        "mass_earth": 8.54,
+        "fractions": [
+          0.39933177056479774,
+          0.0,
+          0.5989976558471966,
+          0.0016705735880057151
+        ],
+        "aliases": [
+          "HOLDOUT_wet_M8.54_u0.4"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "415e751ebfc332199dd98a538062bae88a5d630680592ae483afee1729ccb69d",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3894387,
+        "residual_RE": -0.0005613000000002089,
+        "artifacts": {
+          "checked.csv": "3e65422dfca8f193bb17297129b5917359a55b8778df19946c9d72a3fb2270e9",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "65dceff3251a8e9a7ca1649ab63d9e4e0ad572821a8e2ad22a584d3c5759702a",
+          "runtime.json": "40386e4e120cd9b7b00384bba149457bc6f7658a231c8135c1f9ac500179ec7e",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "75bba16767c628a305b22d33c011a1a78ff36182804f4a05cdc5a4e11e9034f6"
+        },
+        "physical_acceptance": false,
+        "elapsed": 7.814507635000005,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-holdout-M8.54"
+    },
+    {
+      "case": "H:18cf7271cad71acd",
+      "stage": "H",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "18cf7271cad71acd",
+        "mass_earth": 8.54,
+        "fractions": [
+          0.4851436198757219,
+          0.4851436198757219,
+          0.0,
+          0.029712760248556194
+        ],
+        "aliases": [
+          "HOLDOUT_dryrocky_M8.54_u0.5"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "615980b25366d29ae4b2e9983aedf1b3696978e7727dec0a6eea18824b7553bd",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3789279,
+        "residual_RE": -0.011072100000000251,
+        "artifacts": {
+          "checked.csv": "6c5a3d7d2949652c8f071d9d67d49ac35c919f233e730da59b41f9858eb4e332",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "cd4735e912636a3a7eaa05cc6f22877fea143ef1dda13b6549f78219c958f48d",
+          "runtime.json": "30cf42f9b6228ca42396bd52dbddb655088d7be36d04172fd68d563ba7f6794d",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "12655875d8566d87173121f2c0110852f03a32fe273b98eaab32d7740b023ff4"
+        },
+        "physical_acceptance": false,
+        "elapsed": 8.183768168000007,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-holdout-M8.54"
+    },
+    {
+      "case": "P:bf09843e13e7a17e",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "bf09843e13e7a17e",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.39987505894881464,
+          0.0,
+          0.5998125884232219,
+          0.00031235262796349143
+        ],
+        "aliases": [
+          "pad_wet_M7.56_Rproposal2.23"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "b86f6eec4a42641f56b34711ec1dc03e7b746949d6b2d9dea570ff14efdb30a4",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.2293601,
+        "residual_RE": -0.16063990000000006,
+        "artifacts": {
+          "checked.csv": "b84d5dcf7edf8c7dfc510c5fd982b57efe3405a1883b5bdccb59a0c570bf0be0",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "ff3ee5fe0470a6c3cd8c9b81eaf02ec277878a396b76a5c246577d92b901c4ec",
+          "runtime.json": "70677cadfea73c683524d5996baf9716aea87e19a550c7968d7ee0558b72495c",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "333ce7d9afd59edba1edd3dbaf999501b000eb03544d24b724b839f65a3c96dd"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.748006391,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M7.56"
+    },
+    {
+      "case": "P:1af8c9bfbd73ece1",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "1af8c9bfbd73ece1",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.3960197712539513,
+          0.0,
+          0.5940296568809269,
+          0.00995057186512176
+        ],
+        "aliases": [
+          "pad_wet_M7.56_Rproposal2.54"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "0dc8c644ae8f7af425385b56e85333be2e0a7f860b3e9ba76f9c28316cf10482",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.539937,
+        "residual_RE": 0.149937,
+        "artifacts": {
+          "checked.csv": "723bce88356949758a40222b237e9dbbc405358ccdd9804e65100e73d074b66b",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "cbf005872e99854c2485d79485569ef88f794db3cfc0863c956c34333947b745",
+          "runtime.json": "3238e13860046d09d5478f00c75950e305c2d026c21f8d20edb4f926c809399d",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "668f9ed81ec05b05f979eecb2b0c10cb84ab3f45f88bb16cf76faba8e5dc58af"
+        },
+        "physical_acceptance": false,
+        "elapsed": 7.881574620999999,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M7.56"
+    },
+    {
+      "case": "P:28a11502f095557c",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "28a11502f095557c",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.48889867451177277,
+          0.48889867451177277,
+          0.0,
+          0.022202650976454463
+        ],
+        "aliases": [
+          "pad_dryrocky_M7.56_Rproposal2.23"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "4fe175bac220d057f607b33855d46ea802a73334a12ecf2f9aaa4288f53f6749",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.2265338,
+        "residual_RE": -0.16346620000000023,
+        "artifacts": {
+          "checked.csv": "e2a3fb51f608099e9c62c94298f5800be485b564c762cf9f6a82f418ab24552e",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "d1ac37fe88ca13ad657f78c2842ce90607467aceac3613f1bdaabda57478b3ea",
+          "runtime.json": "74211662544b0494f7f8d6b0fec640822d6cfa214917ee70d6c35bd366469d7c",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "89c630185a9eaf7ae44793695cff381bd5bc0a7f068f82dfbb5a057965c4b152"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.725417494999999,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M7.56"
+    },
+    {
+      "case": "P:c45cd7b14fb1ec23",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "c45cd7b14fb1ec23",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.4775342743504166,
+          0.4775342743504166,
+          0.0,
+          0.04493145129916679
+        ],
+        "aliases": [
+          "pad_dryrocky_M7.56_Rproposal2.54"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "0b2c5baddb10911d04bcc649a7422a6dec84cb2e741b3c398ac37b83c8a883a5",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.5200082,
+        "residual_RE": 0.1300081999999998,
+        "artifacts": {
+          "checked.csv": "c1638c707d5cbee1c85e477ee966235cbcc38522ff53e9b7a7bad11e2dd49601",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "0df5d6f99b413c2642a8f817360684cce1d5588281017a14bb519775c3c08aed",
+          "runtime.json": "e08b81a1b2d80c10bc0d68c9bf60f9d5a85fe538581f1c94e1b4178b29cccc3b",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "521b3a35d9c2e410d898383245f4e393be745061ec805a6629cb669bae989030"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.447841548999996,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M7.56"
+    },
+    {
+      "case": "P:812a2b9b56ff4ed5",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "812a2b9b56ff4ed5",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.3999317120453522,
+          0.0,
+          0.5998975680680283,
+          0.00017071988661955786
+        ],
+        "aliases": [
+          "pad_wet_M8.04_Rproposal2.23"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "e4aa8b3e06c5855b134144f9a619b57462b1133dc8d3dbe46ef09405cb8fccfb",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.2331651,
+        "residual_RE": -0.15683490000000022,
+        "artifacts": {
+          "checked.csv": "5f3a4a770fafa1a8f8ddcb044ea9627cc7d65603549b41a4038ade8ffbc596a7",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "c5ca9e10df51c71183cbffac86995b8e5c8455be25ce36ada66868c9c0146ffc",
+          "runtime.json": "3a7883f257b43b032d0265361499d66c87fb2b6e2063db4dcdbaebc62122874e",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "86ee51bd9f65f755c031dc922bb5b85a0a31d05b675d2fa36d9ad633caf913b2"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.535328309,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M8.04"
+    },
+    {
+      "case": "P:2eb9f5b50dc6e4d5",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "2eb9f5b50dc6e4d5",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.3966164735461605,
+          0.0,
+          0.5949247103192407,
+          0.008458816134598817
+        ],
+        "aliases": [
+          "pad_wet_M8.04_Rproposal2.54"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "bd9ded51f97184a7c8b436e8ffacfa63e159d97291bed78c0a9128e3e824eca8",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.5392807,
+        "residual_RE": 0.14928069999999982,
+        "artifacts": {
+          "checked.csv": "d14a9ffeba7eb98d3a11e290448320b3240e73e2c698670bfaae20165667adec",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "6a6db62e406181b64362a5af3f532928f90dc3b1289030cbebe06aae12152f40",
+          "runtime.json": "de3bccbe785d83cfeb42a2f0d3a12bc4adc7e678fe8afd6947d12a0f25558717",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "c9ecfc8cf018e42e3e6937eaea4b58fd10d9e504ab01a24f57637083f004a955"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.565599640000002,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M8.04"
+    },
+    {
+      "case": "P:f1a572b06e15ce4d",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "f1a572b06e15ce4d",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.4896547790714262,
+          0.4896547790714262,
+          0.0,
+          0.020690441857147628
+        ],
+        "aliases": [
+          "pad_dryrocky_M8.04_Rproposal2.23"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "8a155f043e6a66a8d77e0de63fd2c5757d208d6177cf1f8b72f46ec95475bda0",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.2268235,
+        "residual_RE": -0.16317650000000006,
+        "artifacts": {
+          "checked.csv": "72fe546a68a2d442b06e9af1eeb6f6aad27d1801793eeadde9168b5f80380d79",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "ff333bbd3ba5d6dbb174bec1798672dda935daae8d5ead202a5dd5daadd1f795",
+          "runtime.json": "7f0f63a32e09dc0bfa38d3d65e9cf8d13c7a75bbbec25515d90b325fb375b24c",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "9614a31f5c434527643882dbfe78a40466d7df15c8ae5efb60e8e5fc108977cc"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.894662750999998,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M8.04"
+    },
+    {
+      "case": "P:c666344df16b42b6",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "c666344df16b42b6",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.478585854642414,
+          0.478585854642414,
+          0.0,
+          0.04282829071517206
+        ],
+        "aliases": [
+          "pad_dryrocky_M8.04_Rproposal2.54"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "c3fc18ed0e144e1e9df439752dfedabc246bc03acb833a75af1a5036ad5203b8",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.5191004,
+        "residual_RE": 0.1291004,
+        "artifacts": {
+          "checked.csv": "d1e6bd74649e039e529055e021ea7e056725e4e5a4d365b777a003cb1135ba13",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "f0b9fe9988fd7895c65e0456062164272a17560e4119e52bfb07985611a4760f",
+          "runtime.json": "bcefa7abe9b1f48b32871496aa890109a81eb83786644ab017e7f3ffc1ad54bf",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "3cae892e962cf01c2ed8eebc5243ea9bf30c99417e290de417f05194a931be7b"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.436830948999997,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M8.04"
+    },
+    {
+      "case": "P:d0afe12a55036c20",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "d0afe12a55036c20",
+        "mass_earth": 8.54,
+        "fractions": [
+          0.3999702831217917,
+          0.0,
+          0.5999554246826876,
+          7.429219552070504e-05
+        ],
+        "aliases": [
+          "pad_wet_M8.54_Rproposal2.23"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "f19787c57b11b6cc4e606850263581e2e4efd640ec1c960579026495fd5a89d0",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.2275543,
+        "residual_RE": -0.16244570000000014,
+        "artifacts": {
+          "checked.csv": "f23d613ebfec1b0fe20385ee4d06d4cbfe955d33beb75ce7f862ae6ec2d02b33",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "279236399c54644142a34e81ef08a98c70fa6cd00af8d60f31e38947811408bc",
+          "runtime.json": "5a03503d657c65b85040bbfea43c799658ed6aca6772214e005c5c6b71fcfe2f",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "062fa8e4f20ce8404213413ee73ab04e7a1b9a9cd232975f316e58b9d004d63d"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.088607884000012,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M8.54"
+    },
+    {
+      "case": "P:b450d89641731828",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "b450d89641731828",
+        "mass_earth": 8.54,
+        "fractions": [
+          0.3971880444619273,
+          0.0,
+          0.5957820666928909,
+          0.007029888845181897
+        ],
+        "aliases": [
+          "pad_wet_M8.54_Rproposal2.54"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "66a2c0917d78ca620e87a73024b8404be527eacc94743c74f4d3290c7c13471f",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.5379568,
+        "residual_RE": 0.14795679999999978,
+        "artifacts": {
+          "checked.csv": "f2e7a6c10ba14f8e0e48d00f1dba341559fb36b9bb47f86e683af48eabea558e",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "4c73bbaeaffa5e59cf41bbac971832d066dd014d9de8b5b12a88309ce69b0935",
+          "runtime.json": "8418e04a713e838fb81668bc231ac50ed8e37c6b0e9b50593b6ed26894b06d37",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "8ce4bdec4694359566aa11b41e418b76c091a945876249fae5a4386fe3a70766"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.690567375,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M8.54"
+    },
+    {
+      "case": "P:3b72b3514863c9ee",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "3b72b3514863c9ee",
+        "mass_earth": 8.54,
+        "fractions": [
+          0.49038088602225854,
+          0.49038088602225854,
+          0.0,
+          0.01923822795548286
+        ],
+        "aliases": [
+          "pad_dryrocky_M8.54_Rproposal2.23"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "306878459d3be49c3be9086db232de6abebd1994d6209236fbf3e30d81610d7b",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.2272096,
+        "residual_RE": -0.1627904,
+        "artifacts": {
+          "checked.csv": "7855de88cf572274b40bab848bc0076deb9dea4451f086d74220f7d67c05e0d7",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "2977de79517e59629f5e69d184bc49149a79897c0e69750e70790a6cf3a208f5",
+          "runtime.json": "a290cf6d3dfa90358cb977b06f1c2034a6853c150ac05c89f57637c31d9c5d30",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "3e2c583cb8cf8f8c6e21818aa40bdad64b7171a5bbe49983734c6489a6f389e9"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.807187187000011,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M8.54"
+    },
+    {
+      "case": "P:9ca1367197ab000c",
+      "stage": "P",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "9ca1367197ab000c",
+        "mass_earth": 8.54,
+        "fractions": [
+          0.4796111676757406,
+          0.4796111676757406,
+          0.0,
+          0.04077766464851884
+        ],
+        "aliases": [
+          "pad_dryrocky_M8.54_Rproposal2.54"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "e422bb7e3c25f23705a44a7be6999a5129ff22d7ea83a5fe0c49134e8a1bfdb6",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.5182289,
+        "residual_RE": 0.12822889999999987,
+        "artifacts": {
+          "checked.csv": "8a2a829ee3750fdecf70646a843ea9c7cb371b1053bbf2ede6b1e51323e2ecff",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "241a4dc740d3511aaa6ed742cd4974de638e1148667c756f17e87138f9df39f0",
+          "runtime.json": "d161bdeeff5a424ccb4afc799da803d5f90dcce151bd8f126b117a1e62783362",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "ef930acb945d4a1a70258f6e20516f183ebd880f858e07e1feb7272043989f32"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.416039194000007,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-padding-M8.54"
+    },
+    {
+      "case": "G:0cfb2498cfabc6a5",
+      "stage": "G",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "0cfb2498cfabc6a5",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.32414321452206585,
+          0.6482864290441318,
+          0.0,
+          0.0275703564338023
+        ],
+        "aliases": [
+          "drytrack_correction_M7.56_u0.333333333"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "d30d22f20ab10e313667fc87693007bf035035f1dc822e58cc9f5dbf91d8154d",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3800834,
+        "residual_RE": -0.009916599999999942,
+        "artifacts": {
+          "checked.csv": "adce6fd3b0913064caf58798b97ab1bda7ee9299d4e3b1cc5d59cc40ec9aa9b0",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "f62b2fbe80e693266b52f37eab1c9932b62bee937270576a75b49c143a763bec",
+          "runtime.json": "6c773ef7d8095a92e57246be9be357440fb59fe8a56492b7d5be62435f4cd6bc",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "7d5a25375233d1a64158489ecd167d8b8e797e6eb8b4a7c470d543d39e3b8f54"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.932107049,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M7.56"
+    },
+    {
+      "case": "G:9a725e3903a9ca9e",
+      "stage": "G",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "9a725e3903a9ca9e",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.6400273672522218,
+          0.32001368362611093,
+          0.0,
+          0.03995894912166734
+        ],
+        "aliases": [
+          "drytrack_correction_M7.56_u0.666666667"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "f9b6260f22be95236426205bfa38054e040680a85fd8b02747b9d2f062b3019b",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3840042,
+        "residual_RE": -0.005995799999999996,
+        "artifacts": {
+          "checked.csv": "1baa1e4abee25da1437dea66175f7c8842b2fe6f5872731a253da09d8154f48e",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "cd5dea418b0c0320d9161c35660c36793bdbcd4393e114b96ff739462a20fd5c",
+          "runtime.json": "7d1636cb6b1cf31125e6baff99a3c74b3bf58c057b6617e52d030fc3e0037ee9",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "d5acac7f8aac24f7170ffa80c2babc99fac56f68f079864bdf449feef2e6374e"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.858719314000002,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M7.56"
+    },
+    {
+      "case": "G:fc5b6d0d399a95c0",
+      "stage": "G",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "fc5b6d0d399a95c0",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.32473747187524393,
+          0.649474943750488,
+          0.0,
+          0.025787584374268042
+        ],
+        "aliases": [
+          "drytrack_correction_M8.04_u0.333333333"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "889f5cf41f5ab2a3027a97a3ad83ab89ee076e9ffe755ae37e32159c2f847e7d",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3799843,
+        "residual_RE": -0.010015700000000294,
+        "artifacts": {
+          "checked.csv": "ad1343abb1c5888d446c057863f17ae88417ce15d503c47363d63b77b13896de",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "a4c51e88e515cbaa2b3a3a4b93e9af5f58641afb83b9991c35171217ffebb37e",
+          "runtime.json": "1b8e58c7ce172d4984d92eba81e747170ab6598d039fbd870990f555eab8e35a",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "80153c2ad858675fdeefbbb91f0026ea76fa73bacb7568a87af8c3b4b81833f0"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.021666478,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.04"
+    },
+    {
+      "case": "G:8b0ba30674d475a3",
+      "stage": "G",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "8b0ba30674d475a3",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.6412600923937734,
+          0.32063004619688673,
+          0.0,
+          0.03810986140933989
+        ],
+        "aliases": [
+          "drytrack_correction_M8.04_u0.666666667"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "f70bef9fffb93ac1f414489975cd08dc41d87e4ed11644c1311ae7afe6370506",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3834681,
+        "residual_RE": -0.006531900000000146,
+        "artifacts": {
+          "checked.csv": "c01b033fe03a8dbee34db2ba4cde1488b8bff8649c67a8b46ea1818d30ba545c",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "bec8ffe7a8a3e9810b268088070e173b99bac21c4403ff2aa7dde0564089a867",
+          "runtime.json": "00e1e36e0cf0c751ae50894a1a2f517e47fe35a04db942974fc1f0292b8bbd65",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "fa7ccf8196314f30f6aa5c27d235489fc2c78d64767f4b8deb6fe19208435c6e"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.853980422,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.04"
+    },
+    {
+      "case": "G:6eaf46a1c0c1250a",
+      "stage": "G",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "6eaf46a1c0c1250a",
+        "mass_earth": 8.54,
+        "fractions": [
+          0.3253094898838096,
+          0.6506189797676193,
+          0.0,
+          0.024071530348571152
+        ],
+        "aliases": [
+          "drytrack_correction_M8.54_u0.333333333"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "96f3ace4aa4774dbc49620b8c22e97863c462786a3208dbecdab518ffe7da285",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3800063,
+        "residual_RE": -0.009993700000000327,
+        "artifacts": {
+          "checked.csv": "74b9812b507d4eeff7ca61e6c167cb759f5e31248c45025a9d39ff212dfef7fd",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "6b95df16ed9112cfb1adb24822a5678b31708b91a5555617c41921c06256bb55",
+          "runtime.json": "77f92ce8918a28693e31c61c841d3ed434aad60269cf5ce6b86654720794289f",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "9e93fdd07c2fba1a68ec64a2b32b9156381b4c086b95d1c8b1220c1fce674e41"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.410566955,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.54"
+    },
+    {
+      "case": "G:a9fd1b083d16f55c",
+      "stage": "G",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "a9fd1b083d16f55c",
+        "mass_earth": 8.54,
+        "fractions": [
+          0.6424608767409268,
+          0.32123043837046344,
+          0.0,
+          0.0363086848886097
+        ],
+        "aliases": [
+          "drytrack_correction_M8.54_u0.666666667"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "1f66c267004bab3d4922cc404f87142aa176c5fed1cf503ecd9b000ad1ac1b11",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3829678,
+        "residual_RE": -0.007032200000000266,
+        "artifacts": {
+          "checked.csv": "592e03115078be1eae80c68cb196e5d1549bf9fba6572f4542626d528ab0dd1c",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "dc968fb534d19269d56ef52744d1ee12b1687228cb9cbfbd371eb504cd3d833a",
+          "runtime.json": "c7906697213f84b10e287a4e0ff323ecfad7130d49904a2e8b28d208d98ed177",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "715f4e425f892175b0642bad99da3ebf96402781ab131dc210f43434f088b226"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.280790930000002,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.54"
+    },
+    {
+      "case": "V:1cbf61bcafcd5755",
+      "stage": "V",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "1cbf61bcafcd5755",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.4478123376553948,
+          0.0,
+          0.5473261904677048,
+          0.004861471876900447
+        ],
+        "aliases": [
+          "FRESH_HOLDOUT_wet_M7.56_u0.45"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "a44f220fa66dfeee2b1e3d4ce0b71af318fc0a92622a6b947df98ee70ce44385",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3887787,
+        "residual_RE": -0.0012213000000000918,
+        "artifacts": {
+          "checked.csv": "3f822fbe8b706d1c0cac758280a6bd0425766a9c68cb4e16ff21cd6bf1e0dd02",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "6c00b6763e5a0ccde387347ad2cab5cbc9d214d290bf43589f1a88a5030e75ab",
+          "runtime.json": "3c60d74ed88c84ffad0dfe7605103242b431a2723e3c0b00ee0cbb8b8cdb046c",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "bbb5514aba5aee90a4361beb274d6edc549661dbbd31770b564a2253ee61d6cc"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.516711133,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-fresh-holdout-M7.56"
+    },
+    {
+      "case": "V:da2dd091309adddb",
+      "stage": "V",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "da2dd091309adddb",
+        "mass_earth": 7.56,
+        "fractions": [
+          0.5303232560426142,
+          0.43390084585304795,
+          0.0,
+          0.0357758981043378
+        ],
+        "aliases": [
+          "FRESH_HOLDOUT_dryrocky_M7.56_u0.55"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "d99e6898a9f37a832db237447eeb4bc4986ed89cb3f9c5ef97e78cc8f9637254",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3875447,
+        "residual_RE": -0.002455300000000271,
+        "artifacts": {
+          "checked.csv": "515675c96b267772c26615148386a764b77a7d0a917800b2be67615037fc71ac",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "f268490cd3b726c9863629a187ae840490257a11db71ef96e1176533fcab2e40",
+          "runtime.json": "2e7ef264bc942486ed6cf27f30f4d10a4a513ccb85b901235779629e22f9c5cd",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "cda574ba442240af909428f5f15d572b139f6c7288e1059eaa36689bdb38ac5e"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.516272927999998,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-fresh-holdout-M7.56"
+    },
+    {
+      "case": "V:a9c4624a6fa626b8",
+      "stage": "V",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "a9c4624a6fa626b8",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.44825387005531414,
+          0.0,
+          0.5478658411787173,
+          0.0038802887659685256
+        ],
+        "aliases": [
+          "FRESH_HOLDOUT_wet_M8.04_u0.45"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "d5d30799a2d6e02149a1f46640d37bf0a034812cb3e44f50e4e90cd8c5b38101",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.389738,
+        "residual_RE": -0.0002620000000002065,
+        "artifacts": {
+          "checked.csv": "ff4435f4bc2d9a23245c3cb1704705cf8accc4be13d1c5c1cd867fdaf02aed93",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "dee12e75a658e5a50685fe517651584b972493730300879e18ab8b8d9fc84507",
+          "runtime.json": "e341fd390e06267d9fdbf64a95c26540f2b2602b68a14efd08342f46bc8e1ed8",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "f12a641aa4a2551d51a956c556674d794effd6f20e4c825735640b9a498c6731"
+        },
+        "physical_acceptance": false,
+        "elapsed": 9.750754469999997,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-fresh-holdout-M8.04"
+    },
+    {
+      "case": "V:5b476c27d57b6474",
+      "stage": "V",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "5b476c27d57b6474",
+        "mass_earth": 8.04,
+        "fractions": [
+          0.5313357059140787,
+          0.4347292139297007,
+          0.0,
+          0.03393508015622055
+        ],
+        "aliases": [
+          "FRESH_HOLDOUT_dryrocky_M8.04_u0.55"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "fc2b2148607e53e3f01eaabc91cfad678be8d160eb1d44c6b5c8774c33f066f2",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.387186,
+        "residual_RE": -0.0028140000000003162,
+        "artifacts": {
+          "checked.csv": "249c0eda0d9840f2e17bc346129c080c79d319d2791137349c5e0b30f5b890e4",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "7b739a9915062e545461e5f8306c65bbdad309ce13b639dd0d7a7ef7d17395e1",
+          "runtime.json": "5fc4465a31d5d5811770526b5da48e554fa501ad7dd8d5b63700936865f913cd",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "7e4c7bcd628451d7dd24f3cdfc10bf2a222dab4da68d3cc7a6c2c28a527e5ef7"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.168769832000002,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-fresh-holdout-M8.04"
+    },
+    {
+      "case": "V:34b21bf1b2f121cb",
+      "stage": "V",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "34b21bf1b2f121cb",
+        "mass_earth": 8.54,
+        "fractions": [
+          0.4486352585566113,
+          0.0,
+          0.5483319826803027,
+          0.0030327587630861012
+        ],
+        "aliases": [
+          "FRESH_HOLDOUT_wet_M8.54_u0.45"
+        ],
+        "families": [
+          "wet"
+        ],
+        "config_sha256": "bed5d1fcda6b2cbd2ddac28aa1adcf9d5d2070ae4cbd62b8e278a575244f5222",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3907182,
+        "residual_RE": 0.0007181999999996691,
+        "artifacts": {
+          "checked.csv": "7d1fd03e844cf8609d18fec183adca42b941835246eec6cbc8b0414a160d00e6",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "af5715bd673c313ecabb968aeaa36c471763a71f7338a7708462a1a7e3e3f75e",
+          "runtime.json": "72c74d0a0fe40f945b38ec01d0875e6a221a5b2829dbd420dbe567213a78063e",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "9d966d81d79a81afa3677942e3990bb9a4ea77cfe9131787941acb7cd094ad82"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.300924711,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-fresh-holdout-M8.54"
+    },
+    {
+      "case": "V:7567fcc55c1133a2",
+      "stage": "V",
+      "status": "STORED_STATE_CHECKED",
+      "physical_inputs": {
+        "key": "7567fcc55c1133a2",
+        "mass_earth": 8.54,
+        "fractions": [
+          0.5323225229912792,
+          0.43553660972013747,
+          0.0,
+          0.0321408672885833
+        ],
+        "aliases": [
+          "FRESH_HOLDOUT_dryrocky_M8.54_u0.55"
+        ],
+        "families": [
+          "dryrocky"
+        ],
+        "config_sha256": "aa84b3d08eedb3508054ade7bd727392345dcc3c78d3689f5e66f67f6e80e2cc",
+        "status": "GENERATED_NOT_RUN"
+      },
+      "result": {
+        "status": "STORED_STATE_CHECKED",
+        "R_RE": 2.3868933,
+        "residual_RE": -0.0031067000000000178,
+        "artifacts": {
+          "checked.csv": "013cc77277aecf096d780166d3addf5d65b9b18de5effcdad54f8e61521b07a0",
+          "checker.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checker.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "model.dat": "46167287bb9d80329505b32e243c2812ec4096dae43ee7e6f89c3d6ea6e3fe96",
+          "runtime.json": "32170e3e20380787ea0488e230550f9341647c1e837da412cc65f9f3c8bec7cf",
+          "solver.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "solver.stdout": "ed625fbbb0a08a5eaf0b28547e4fd1cd4454cdda3902c40cd74f74cb5ae9aa97"
+        },
+        "physical_acceptance": false,
+        "elapsed": 10.020815298000002,
+        "solver_returncode": 0,
+        "checker_returncode": 0
+      },
+      "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-fresh-holdout-M8.54"
     }
   ],
   "max_deepseek_calls": null,
-  "deepseek_calls": 38,
+  "deepseek_calls": 43,
   "stage_budgets": {
     "A": 6,
     "B": 11,
@@ -7454,18 +8756,25 @@
     "DS12truncatedJSON,noapply;candidateonly,notpromoted"
   ],
   "counts": {
-    "native_attempts": 173,
-    "successful_models": 27,
+    "native_attempts": 204,
+    "successful_models": 199,
+    "preserved_prior_failures": 5,
+    "new_scan_models": 175,
+    "fit_models": 150,
+    "validation_only_models": 25,
     "by_stage": {
       "A": 6,
       "C": 12,
       "B": 11,
       "D": 96,
       "E": 27,
-      "F": 21
+      "F": 21,
+      "H": 7,
+      "P": 12,
+      "G": 6,
+      "V": 6
     },
-    "deepseek_calls": 38,
-    "note": "Stable terminal accounting; active grid execution.json authoritative for newly launched points until next sync."
+    "deepseek_calls": 43
   },
   "authorization_update": "User: \u65e0\u4e0a\u9650\u5230\u5b8c\u6210\u672c\u6b21\u4efb\u52a1; remove artificial implementation-call cap for this task, continue agreeddeliverables; retain usage/compute accounting",
   "reallocation": "Move3unusedstageAattemptstostageBforfinalheaderregressions; totalplanningtarget180unchanged",
@@ -7474,7 +8783,17 @@
     "first_pilot": 3,
     "included_not_additive": true,
     "campaign": "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse",
-    "stageE_edges": 27
+    "stageE_edges": 27,
+    "local_padding": 12,
+    "fresh_holdout": 6
   },
-  "budget_reallocation_20261113": "180 total planning target unchanged; E27 domain-edge tests, F21 composition refinements+6 off-grid interpolation checks, reserve1. User removed implementation call cap."
+  "budget_reallocation_20261113": "180 total planning target unchanged; E27 domain-edge tests, F21 composition refinements+6 off-grid interpolation checks, reserve1. User removed implementation call cap.",
+  "native_planning_target_original": 180,
+  "planning_amendment_20261113": {
+    "why": "Seven frozen off-track checks all matched observationalbox but2dry errors .01048/.01107 exceed unchanged .01 acceptance. Add12 localpaddingpoints (newwet/dryu tracks spanning radiusbox) then6 fresh offtrackchecks. No EOS/thermal/modelscopechange. User explicitly removed task cap until completion and saidcontinue.180 was own planningtarget, not scientific endpoint.",
+    "additional_native": 24,
+    "threshold_unchanged": 0.01,
+    "supplement": "Keep7 initialholdouts and12 paddingpoints outof finalfit to preserve original structuredu tracks and conservative holes. Add6 original-dryu corrections; then6 completelynewoff-u holdouts. No singletonvalidationtrack fedfit. Totalplanned204."
+  },
+  "stop_reason": "Agreed wet/dry coarse-grid and threefigure deliverable completed; local centreline checks pass, fullarea edges/steam branch/formalTP remain futurework, not silently expanded"
 }

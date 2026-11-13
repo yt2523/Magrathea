@@ -80,3 +80,12 @@ research/composition-constraints-20261112/stageB/final17/results/**/*.dat -white
 src/radius_bracket.h -text whitespace=cr-at-eol
 
 research/composition-constraints-20261112/scan-driver/pilot-results/**/*.dat -whitespace
+
+# Published scientific entrypoints preserve executed source bytes.
+run/scan_compositions.py -text whitespace=cr-at-eol
+run/execute_scan.py -text whitespace=cr-at-eol
+run/plot_compositions.py -text -whitespace
+input/toi732c-test/** -text whitespace=cr-at-eol
+
+# Frozen pre-holdout source retains exact bytes used by independent prediction audit.
+research/composition-constraints-20261112/delivery/verification/frozen-fresh-prediction-plot.py -whitespace

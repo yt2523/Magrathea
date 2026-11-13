@@ -1,0 +1,28 @@
+{
+  "source_csvs": [
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M7.56\\summary.csv",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.04\\summary.csv",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.54\\summary.csv"
+  ],
+  "source_sha256": {
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv": "d633481a287e8ef1d7a50c77354e885aee81934f8ec7ab711501c4d1fd4af281",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv": "e3fc78d101dbe3d9c36ef8be020786300af549005e055a182d456f8606907153",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv": "9167d28f1217aafe37f7bcafbc56575c71351e37a7f7fc463247d01f65bafdf0",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv": "0f399c2a8faf1063bdb997e83ff18d05186a0ba9e8d07c626e641cd019f71c2f",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv": "f326d8582ef9fab89c7b089f660d625f6ab697de1ac08e0f6b1c266e674681b2",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M7.56\\summary.csv": "9ab607680516126f25158e187c6c810a86974ab29aa51d056c32e0adaf0a7879",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.04\\summary.csv": "cf55d91d028fb67071ec243dc5bdf35e3a57b12abf8c8d13e1648dfe8b103ef5",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.54\\summary.csv": "71768f4572e36477fd95252ec98a5e1c251dbb22fb9bc890010436435ebbd989"
+  },
+  "excluded_diagnostic_data": [
+    "grid-holdout-*",
+    "grid-padding-*",
+    "grid-fresh-holdout-*"
+  ],
+  "note": "excluded from interpolator fit, all raw outputs retained as validation; preserves original u-grid"
+}

@@ -1,0 +1,41 @@
+{
+  "description": "REAL EOS / TEST THERMAL BOUNDARY:350K,.1bar,100barbreak;9forwardcases,notformalposterior. Referencecentralradii documented separately, never imposed.",
+  "masses_earth": [
+    7.56,
+    8.04,
+    8.54
+  ],
+  "compositions": [
+    {
+      "id": "example_wet",
+      "family": "wet",
+      "fractions": [
+        0.44825387005531414,
+        0,
+        0.5478658411787173,
+        0.0038802887659685256
+      ]
+    },
+    {
+      "id": "example_dryrocky",
+      "family": "dryrocky",
+      "fractions": [
+        0.32473747187524393,
+        0.649474943750488,
+        0.0,
+        0.025787584374268042
+      ]
+    },
+    {
+      "id": "example_dryFe",
+      "family": "dryFe",
+      "fractions": [
+        0.9450034472263816,
+        0,
+        0,
+        0.05499655277361833
+      ]
+    }
+  ],
+  "template_cfg": "template.cfg"
+}

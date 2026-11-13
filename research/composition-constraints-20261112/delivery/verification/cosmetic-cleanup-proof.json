@@ -1,0 +1,6 @@
+{
+  "operation": "remove COMMENT tokens and AST-equivalent excess blank lines only; no implementation changes",
+  "before_lines": 984,
+  "after_lines": 935,
+  "AST_equal": true
+}

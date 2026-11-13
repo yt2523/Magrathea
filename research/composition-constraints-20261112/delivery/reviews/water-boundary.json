@@ -1,0 +1,11 @@
+{
+  "reviewer": "/root/water_source_review",
+  "status": "PASS_BOUNDED_BOUNDARY_CLASSIFICATION",
+  "independent_original_records": 78,
+  "vapor": 6,
+  "liquid": 30,
+  "supercritical_or_superionic": 42,
+  "mismatches": 0,
+  "limits": "outer-water boundary classification only, not whole-profile phase/stability/uniqueness certification; different boundary entropy plausibly explains nonmonotonicR; mixed groups withheld in interpolation",
+  "physical_acceptance": false
+}

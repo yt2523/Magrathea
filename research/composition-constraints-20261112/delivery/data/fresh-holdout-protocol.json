@@ -1,0 +1,102 @@
+{
+  "role": "Six genuinely fresh off-track predictions; exclude first7diagnostic holdouts and12padding outputs from fit",
+  "source_csv_sha256": {
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv": "d633481a287e8ef1d7a50c77354e885aee81934f8ec7ab711501c4d1fd4af281",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv": "e3fc78d101dbe3d9c36ef8be020786300af549005e055a182d456f8606907153",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv": "9167d28f1217aafe37f7bcafbc56575c71351e37a7f7fc463247d01f65bafdf0",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv": "0f399c2a8faf1063bdb997e83ff18d05186a0ba9e8d07c626e641cd019f71c2f",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv": "f326d8582ef9fab89c7b089f660d625f6ab697de1ac08e0f6b1c266e674681b2",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M7.56\\summary.csv": "9ab607680516126f25158e187c6c810a86974ab29aa51d056c32e0adaf0a7879",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.04\\summary.csv": "cf55d91d028fb67071ec243dc5bdf35e3a57b12abf8c8d13e1648dfe8b103ef5",
+    "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-track-correction-M8.54\\summary.csv": "71768f4572e36477fd95252ec98a5e1c251dbb22fb9bc890010436435ebbd989"
+  },
+  "plot_source_sha256": "313064b4ffd68247ed2876e8c276b7268e2baf1f8b8feff59ecddaf566639122",
+  "phase_audit_sha256": "5d4256dec9dd2c74b4d1df2cfc183c18b7e294a7e4312cb0753863e9019b54e4",
+  "predictions": [
+    {
+      "M": 7.56,
+      "kind": "wet",
+      "u": 0.45,
+      "gas": 0.004861471876900447,
+      "fractions": [
+        0.4478123376553948,
+        0,
+        0.5473261904677048,
+        0.004861471876900447
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_wet_M7.56_u0.45"
+    },
+    {
+      "M": 7.56,
+      "kind": "dryrocky",
+      "u": 0.55,
+      "gas": 0.0357758981043378,
+      "fractions": [
+        0.5303232560426142,
+        0.43390084585304795,
+        0,
+        0.0357758981043378
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_dryrocky_M7.56_u0.55"
+    },
+    {
+      "M": 8.04,
+      "kind": "wet",
+      "u": 0.45,
+      "gas": 0.0038802887659685256,
+      "fractions": [
+        0.44825387005531414,
+        0,
+        0.5478658411787173,
+        0.0038802887659685256
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_wet_M8.04_u0.45"
+    },
+    {
+      "M": 8.04,
+      "kind": "dryrocky",
+      "u": 0.55,
+      "gas": 0.03393508015622055,
+      "fractions": [
+        0.5313357059140787,
+        0.4347292139297007,
+        0,
+        0.03393508015622055
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_dryrocky_M8.04_u0.55"
+    },
+    {
+      "M": 8.54,
+      "kind": "wet",
+      "u": 0.45,
+      "gas": 0.0030327587630861012,
+      "fractions": [
+        0.4486352585566113,
+        0,
+        0.5483319826803027,
+        0.0030327587630861012
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_wet_M8.54_u0.45"
+    },
+    {
+      "M": 8.54,
+      "kind": "dryrocky",
+      "u": 0.55,
+      "gas": 0.0321408672885833,
+      "fractions": [
+        0.5323225229912792,
+        0.43553660972013747,
+        0,
+        0.0321408672885833
+      ],
+      "prediction_R": 2.39,
+      "id": "FRESH_HOLDOUT_dryrocky_M8.54_u0.55"
+    }
+  ],
+  "radius_error_threshold_RE": 0.01
+}

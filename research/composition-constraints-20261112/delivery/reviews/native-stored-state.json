@@ -1,0 +1,15 @@
+{
+  "reviewer": "/root/composition_stagea_review",
+  "status": "PASS_STORED_STATE_ONLY",
+  "new_native_models": 175,
+  "checked_rows": 170542,
+  "artifact_hashes": 1225,
+  "validator_calls": 700,
+  "max_density_relative": 1.357686079e-07,
+  "dry_cases": 73,
+  "dry_water_density_and_gradient_calls": 0,
+  "zero_silicate_cases": 121,
+  "zero_silicate_calls": 0,
+  "source_identity": "B17 binaries, runner28, commonaxisAQUA unchanged",
+  "physical_acceptance": false
+}

@@ -1,0 +1,11 @@
+{
+  "SYNTHETIC_ONLY": true,
+  "passed": [
+    "pureFe shared edge included in both families",
+    "independent affine answer and exact mass separation",
+    "failed vertex masked rather than bridged",
+    "outside sampled domain masked",
+    "mass envelope uses common valid mask, central band independent",
+    "mass uncertainty compatibility beyond central radius band"
+  ]
+}

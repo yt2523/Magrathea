@@ -1,0 +1,163 @@
+[
+  {
+    "M": 7.56,
+    "kind": "wet",
+    "u": 0.4,
+    "gas": 0.002938198261773294,
+    "predicted_R": 2.39,
+    "fractions": [
+      0.3988247206952907,
+      0,
+      0.5982370810429359,
+      0.002938198261773294
+    ],
+    "composition_id": "HOLDOUT_wet_M7.56_u0.4",
+    "role": "independent native holdout; not used for previous interpolator",
+    "method": "track-pchip38 with sourcecsv identity",
+    "source_csv_sha256": {
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv": "d633481a287e8ef1d7a50c77354e885aee81934f8ec7ab711501c4d1fd4af281",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv": "e3fc78d101dbe3d9c36ef8be020786300af549005e055a182d456f8606907153",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv": "9167d28f1217aafe37f7bcafbc56575c71351e37a7f7fc463247d01f65bafdf0",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv": "0f399c2a8faf1063bdb997e83ff18d05186a0ba9e8d07c626e641cd019f71c2f",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv": "f326d8582ef9fab89c7b089f660d625f6ab697de1ac08e0f6b1c266e674681b2"
+    }
+  },
+  {
+    "M": 7.56,
+    "kind": "dryrocky",
+    "u": 0.5,
+    "gas": 0.03335509115752919,
+    "predicted_R": 2.39,
+    "fractions": [
+      0.4833224544212354,
+      0.4833224544212354,
+      0,
+      0.03335509115752919
+    ],
+    "composition_id": "HOLDOUT_dryrocky_M7.56_u0.5",
+    "role": "independent native holdout; not used for previous interpolator",
+    "method": "track-pchip38 with sourcecsv identity",
+    "source_csv_sha256": {
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv": "d633481a287e8ef1d7a50c77354e885aee81934f8ec7ab711501c4d1fd4af281",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv": "e3fc78d101dbe3d9c36ef8be020786300af549005e055a182d456f8606907153",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv": "9167d28f1217aafe37f7bcafbc56575c71351e37a7f7fc463247d01f65bafdf0",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv": "0f399c2a8faf1063bdb997e83ff18d05186a0ba9e8d07c626e641cd019f71c2f",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv": "f326d8582ef9fab89c7b089f660d625f6ab697de1ac08e0f6b1c266e674681b2"
+    }
+  },
+  {
+    "M": 8.04,
+    "kind": "wet",
+    "u": 0.4,
+    "gas": 0.0022281230776037136,
+    "predicted_R": 2.39,
+    "fractions": [
+      0.3991087507689586,
+      0,
+      0.5986631261534378,
+      0.0022281230776037136
+    ],
+    "composition_id": "HOLDOUT_wet_M8.04_u0.4",
+    "role": "independent native holdout; not used for previous interpolator",
+    "method": "track-pchip38 with sourcecsv identity",
+    "source_csv_sha256": {
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv": "d633481a287e8ef1d7a50c77354e885aee81934f8ec7ab711501c4d1fd4af281",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv": "e3fc78d101dbe3d9c36ef8be020786300af549005e055a182d456f8606907153",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv": "9167d28f1217aafe37f7bcafbc56575c71351e37a7f7fc463247d01f65bafdf0",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv": "0f399c2a8faf1063bdb997e83ff18d05186a0ba9e8d07c626e641cd019f71c2f",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv": "f326d8582ef9fab89c7b089f660d625f6ab697de1ac08e0f6b1c266e674681b2"
+    }
+  },
+  {
+    "M": 8.04,
+    "kind": "dryrocky",
+    "u": 0.5,
+    "gas": 0.031505109646178864,
+    "predicted_R": 2.39,
+    "fractions": [
+      0.48424744517691054,
+      0.48424744517691054,
+      0,
+      0.031505109646178864
+    ],
+    "composition_id": "HOLDOUT_dryrocky_M8.04_u0.5",
+    "role": "independent native holdout; not used for previous interpolator",
+    "method": "track-pchip38 with sourcecsv identity",
+    "source_csv_sha256": {
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv": "d633481a287e8ef1d7a50c77354e885aee81934f8ec7ab711501c4d1fd4af281",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv": "e3fc78d101dbe3d9c36ef8be020786300af549005e055a182d456f8606907153",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv": "9167d28f1217aafe37f7bcafbc56575c71351e37a7f7fc463247d01f65bafdf0",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv": "0f399c2a8faf1063bdb997e83ff18d05186a0ba9e8d07c626e641cd019f71c2f",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv": "f326d8582ef9fab89c7b089f660d625f6ab697de1ac08e0f6b1c266e674681b2"
+    }
+  },
+  {
+    "M": 8.54,
+    "kind": "wet",
+    "u": 0.4,
+    "gas": 0.0016705735880057151,
+    "predicted_R": 2.39,
+    "fractions": [
+      0.39933177056479774,
+      0,
+      0.5989976558471966,
+      0.0016705735880057151
+    ],
+    "composition_id": "HOLDOUT_wet_M8.54_u0.4",
+    "role": "independent native holdout; not used for previous interpolator",
+    "method": "track-pchip38 with sourcecsv identity",
+    "source_csv_sha256": {
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv": "d633481a287e8ef1d7a50c77354e885aee81934f8ec7ab711501c4d1fd4af281",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv": "e3fc78d101dbe3d9c36ef8be020786300af549005e055a182d456f8606907153",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv": "9167d28f1217aafe37f7bcafbc56575c71351e37a7f7fc463247d01f65bafdf0",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv": "0f399c2a8faf1063bdb997e83ff18d05186a0ba9e8d07c626e641cd019f71c2f",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv": "f326d8582ef9fab89c7b089f660d625f6ab697de1ac08e0f6b1c266e674681b2"
+    }
+  },
+  {
+    "M": 8.54,
+    "kind": "dryrocky",
+    "u": 0.5,
+    "gas": 0.029712760248556194,
+    "predicted_R": 2.39,
+    "fractions": [
+      0.4851436198757219,
+      0.4851436198757219,
+      0,
+      0.029712760248556194
+    ],
+    "composition_id": "HOLDOUT_dryrocky_M8.54_u0.5",
+    "role": "independent native holdout; not used for previous interpolator",
+    "method": "track-pchip38 with sourcecsv identity",
+    "source_csv_sha256": {
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv": "d633481a287e8ef1d7a50c77354e885aee81934f8ec7ab711501c4d1fd4af281",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv": "e3fc78d101dbe3d9c36ef8be020786300af549005e055a182d456f8606907153",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv": "9167d28f1217aafe37f7bcafbc56575c71351e37a7f7fc463247d01f65bafdf0",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv": "0f399c2a8faf1063bdb997e83ff18d05186a0ba9e8d07c626e641cd019f71c2f",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv": "f326d8582ef9fab89c7b089f660d625f6ab697de1ac08e0f6b1c266e674681b2"
+    }
+  },
+  {
+    "M": 8.04,
+    "kind": "dryFe",
+    "u": 1.0,
+    "gas": 0.05499655277361833,
+    "predicted_R": 2.39,
+    "fractions": [
+      0.9450034472263816,
+      0,
+      0,
+      0.05499655277361833
+    ],
+    "composition_id": "HOLDOUT_dryFe_M8.04_u1.0",
+    "role": "independent native holdout; not used for previous interpolator",
+    "method": "track-pchip38 with sourcecsv identity",
+    "source_csv_sha256": {
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-coarse\\summary.csv": "d633481a287e8ef1d7a50c77354e885aee81934f8ec7ab711501c4d1fd4af281",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-edges\\summary.csv": "e3fc78d101dbe3d9c36ef8be020786300af549005e055a182d456f8606907153",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M7.56\\summary.csv": "9167d28f1217aafe37f7bcafbc56575c71351e37a7f7fc463247d01f65bafdf0",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.04\\summary.csv": "0f399c2a8faf1063bdb997e83ff18d05186a0ba9e8d07c626e641cd019f71c2f",
+      "D:\\Codex\\downloads\\toi732c-composition-constraints-20261112\\grid-refine-M8.54\\summary.csv": "f326d8582ef9fab89c7b089f660d625f6ab697de1ac08e0f6b1c266e674681b2"
+    }
+  }
+]
