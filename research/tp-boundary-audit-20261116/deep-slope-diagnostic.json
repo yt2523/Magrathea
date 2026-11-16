@@ -1,0 +1,24 @@
+[
+  {
+    "P_bar": 98.2836333277001,
+    "T_K": 368.3901779280366,
+    "tabulated_adiabatic_log_slope_approx": 0.2987037526755892,
+    "diagnostic_only": "raw-axis bilinear point query; not certified RCB or transport model",
+    "profile_log_secant": 0.1449009013244871
+  },
+  {
+    "P_bar": 1017.4634027476043,
+    "T_K": 692.5382187143417,
+    "tabulated_adiabatic_log_slope_approx": 0.2800692669386727,
+    "diagnostic_only": "raw-axis bilinear point query; not certified RCB or transport model",
+    "profile_log_secant": 0.28711684013925354
+  },
+  {
+    "P_bar": 10000.0,
+    "T_K": 1258.359116298232,
+    "tabulated_adiabatic_log_slope_approx": 0.39984523996539423,
+    "diagnostic_only": "raw-axis bilinear point query; not certified RCB or transport model",
+    "profile_log_secant": 0.2397943339017333,
+    "actual_T_lnP_endpoint_tangent": 0.23830726173199773
+  }
+]

@@ -1,0 +1,1 @@
+{"search_old": "find_radius_bracket(lambda, Rp, 10)", "search_new": "find_radius_bracket(lambda, Rp, 40)", "return_old": "return valid ? v : NaN;", "return_new": "fprintf(stderr, \"TP_DIAGNOSTIC_RESIDUAL radius=%.17g v=%.17g valid=%d\\n\", radius, v, (int)valid);\nreturn valid ? v : NaN;"}

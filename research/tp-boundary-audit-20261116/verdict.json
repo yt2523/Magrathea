@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "scope": "TEST legacy water, exact old mass/composition/TP; initializer-only control",
+  "native_launches": 12,
+  "old_failures": 8,
+  "recovered_old_failures": [
+    "grid-20"
+  ],
+  "unresolved_bracket": [
+    "grid-17",
+    "grid-18",
+    "grid-21",
+    "grid-22",
+    "grid-23",
+    "grid-24"
+  ],
+  "later_fit_failure": [
+    "grid-19"
+  ],
+  "verified_models": [
+    "grid-14",
+    "grid-20",
+    "grid-20-tight"
+  ],
+  "control_radius_delta": 2.7634016408484285e-08,
+  "tight_radius_delta": 9.255048283307588e-09,
+  "no_extrapolation": true,
+  "physical_coverage_proven_insufficient": false,
+  "next_decision": "Need physical deep-TP scenario definition; no silent extension based solely on failed brackets."
+}

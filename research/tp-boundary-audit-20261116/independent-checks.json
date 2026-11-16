@@ -1,0 +1,57 @@
+{
+  "grid-20": {
+    "status": "PASS_CONDITIONAL_NUMERICAL",
+    "radius_earth": 2.5470246531826537,
+    "layer_rows": 13546,
+    "gas_rows": 12761,
+    "phase_counts": {
+      "Fe_hcp": 563,
+      "Water_sc_Mazevet": 119,
+      "Water_Brown": 103,
+      "Gas_hhe": 12761
+    },
+    "local_phase_boundary_rows": 0,
+    "max_native_density_relative": 6.04593543280908e-16,
+    "max_independent_hhe_density_relative": 5.716900644968642e-16,
+    "max_external_temperature_relative": 2.2192327608740452e-16,
+    "rejected_numerical_table_trials": 0,
+    "physical_acceptance": false
+  },
+  "grid-14": {
+    "status": "PASS_CONDITIONAL_NUMERICAL",
+    "radius_earth": 2.373594789407534,
+    "layer_rows": 12731,
+    "gas_rows": 11698,
+    "phase_counts": {
+      "Fe_hcp": 561,
+      "Water_sc_Mazevet": 90,
+      "IceX": 73,
+      "Water_Brown": 309,
+      "Gas_hhe": 11698
+    },
+    "local_phase_boundary_rows": 0,
+    "max_native_density_relative": 7.11380850504845e-16,
+    "max_independent_hhe_density_relative": 4.532361050114133e-16,
+    "max_external_temperature_relative": 2.1880963864029185e-16,
+    "rejected_numerical_table_trials": 0,
+    "physical_acceptance": false
+  },
+  "grid-20-tight": {
+    "status": "PASS_CONDITIONAL_NUMERICAL",
+    "radius_earth": 2.547024662437702,
+    "layer_rows": 13992,
+    "gas_rows": 12795,
+    "phase_counts": {
+      "Fe_hcp": 863,
+      "Water_sc_Mazevet": 179,
+      "Water_Brown": 155,
+      "Gas_hhe": 12795
+    },
+    "local_phase_boundary_rows": 0,
+    "max_native_density_relative": 6.222524995134995e-16,
+    "max_independent_hhe_density_relative": 5.327373988543941e-16,
+    "max_external_temperature_relative": 2.2190509824185427e-16,
+    "rejected_numerical_table_trials": 0,
+    "physical_acceptance": false
+  }
+}

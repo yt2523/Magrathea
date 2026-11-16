@@ -1,0 +1,6 @@
+Loaded 29 settings.
+Error: Multiroot solver failed to set up. The initial guesses of Rp=1.75848e+09 Pc=4.91992e+12 Tc=2323.49. Component masses 0.801588, 0, 7.21429, 0.02412, 
+Error code: problem with user-supplied function 9
+# of shots 18, # of total steps 222595
+run time 2.69732s
+0.801588, 0, 7.21429, 0.02412, 	 No solution found.

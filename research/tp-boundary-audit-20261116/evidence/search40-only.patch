@@ -1,0 +1,19 @@
+--- cap10/hydro.cpp
+
++++ diagnostic-cap40/hydro.cpp
+
+@@ -1910,10 +1910,11 @@
+
+     double v = R_hydro(radius, &params);
+     bool valid = std::isfinite(v) && params.x[1] >= 0 && params.tp_error.empty();
+     fprintf(stderr, "TP_INIT_TRIAL radius=%.17g valid=%d error=%s\n", radius, (int)valid, params.tp_error.c_str());
+-    return valid ? v : NaN;
++    fprintf(stderr, "TP_DIAGNOSTIC_RESIDUAL radius=%.17g v=%.17g valid=%d\n", radius, v, (int)valid);
++return valid ? v : NaN;
+   };
+   if (tp) {
+-    RadiusBracket bracket = find_radius_bracket(lambda, Rp, 10);
++    RadiusBracket bracket = find_radius_bracket(lambda, Rp, 40);
+     if (!bracket.found) {
+       if (bracket.ambiguous) {
+         fprintf(stderr, "TP_INIT_AMBIGUOUS: %s (trials=%d)\n", bracket.reason.c_str(), bracket.trials);

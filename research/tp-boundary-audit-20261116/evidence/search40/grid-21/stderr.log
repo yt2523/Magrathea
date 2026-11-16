@@ -1,0 +1,97 @@
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=1343100699.5356627 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=1343100699.5356627 v=nan valid=0
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=1510988286.9776204 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=1510988286.9776204 v=nan valid=0
+TP_INIT_TRIAL radius=1678875874.4195781 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1678875874.4195781 v=785235000.20495081 valid=1
+TP_INIT_TRIAL radius=1846763461.861536 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1846763461.861536 v=1084038985.8935344 valid=1
+TP_INIT_TRIAL radius=2014651049.3034935 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=2014651049.3034935 v=1298444218.6608109 valid=1
+TP_INIT_TRIAL radius=1594932080.6985993 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1594932080.6985993 v=609140900.17382193 valid=1
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=1074480559.6285303 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=1074480559.6285303 v=nan valid=0
+TP_INIT_TRIAL radius=1552960183.83811 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1552960183.83811 v=496967494.1549564 valid=1
+TP_INIT_TRIAL radius=2417581259.1641922 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=2417581259.1641922 v=1792778896.557476 valid=1
+TP_INIT_TRIAL radius=1531974235.407865 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1531974235.407865 v=427777391.09084815 valid=1
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=859584447.70282423 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=859584447.70282423 v=nan valid=0
+TP_INIT_TRIAL radius=1521481261.1927428 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1521481261.1927428 v=387169051.27396494 valid=1
+TP_INIT_TRIAL radius=2901097510.9970307 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=2901097510.9970307 v=2339796997.5544362 valid=1
+TP_INIT_TRIAL radius=1516234774.0851817 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1516234774.0851817 v=364570196.19805217 valid=1
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=687667558.16225946 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=687667558.16225946 v=nan valid=0
+TP_INIT_TRIAL radius=1513611530.5314012 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1513611530.5314012 v=352519023.27957159 valid=1
+TP_INIT_TRIAL radius=3481317013.1964369 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=3481317013.1964369 v=2921245081.7818694 valid=1
+TP_INIT_TRIAL radius=1512299908.7545109 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1512299908.7545109 v=346273365.8274942 valid=1
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=550134046.52980757 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=550134046.52980757 v=nan valid=0
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=1511644097.8660655 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=1511644097.8660655 v=nan valid=0
+TP_INIT_TRIAL radius=4177580415.8357239 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=4177580415.8357239 v=3575824673.3779402 valid=1
+TP_INIT_TRIAL radius=1511972003.3102882 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1511972003.3102882 v=344687112.49030602 valid=1
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=440107237.22384608 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000120 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=440107237.22384608 v=nan valid=0
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=1511808050.5881767 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=1511808050.5881767 v=nan valid=0
+TP_INIT_TRIAL radius=5013096499.0028687 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=5013096499.0028687 v=4322604552.8126945 valid=1
+TP_INIT_TRIAL radius=1511890026.9492326 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1511890026.9492326 v=344288955.78409046 valid=1
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=352085789.77907687 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=352085789.77907687 v=nan valid=0
+TP_INIT_TRIAL radius=1511849038.7687047 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1511849038.7687047 v=344089620.29057097 valid=1
+TP_INIT_TRIAL radius=6015715798.803442 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=6015715798.803442 v=5190740895.4911909 valid=1
+TP_INIT_TRIAL radius=1511828544.6784406 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1511828544.6784406 v=343989899.84779507 valid=1
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=281668631.8232615 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=281668631.8232615 v=nan valid=0
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=1511818297.6333086 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=1511818297.6333086 v=nan valid=0
+TP_INIT_TRIAL radius=7218858958.5641298 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=7218858958.5641298 v=6218655533.791501 valid=1
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=1511823421.1558747 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=1511823421.1558747 v=nan valid=0
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=225334905.45860922 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=225334905.45860922 v=nan valid=0
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=1511825982.9171576 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=1511825982.9171576 v=nan valid=0
+TP_INIT_TRIAL radius=8662630750.2769547 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=8662630750.2769547 v=7451226795.3090668 valid=1
+TP_INIT_TRIAL radius=1511827263.7977991 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1511827263.7977991 v=343983668.05916965 valid=1
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=180267924.36688739 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_DIAGNOSTIC_RESIDUAL radius=180267924.36688739 v=nan valid=0
+TP_INIT_TRIAL radius=1511826623.3574784 valid=1 error=
+TP_DIAGNOSTIC_RESIDUAL radius=1511826623.3574784 v=343980548.81744069 valid=1
+TP_INIT_NO_VALID_BRACKET: insufficient samples (trials=40)

@@ -1,0 +1,8 @@
+TP diagnostic error in radius trial constructor: TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=1509144847.0882225 valid=0 error=TP profile evaluation failed at pressure: 10000000000.000118 (error: TPProfile::at_cgs: pressure out of range [10.000000, 10000000000.000000])
+TP_INIT_TRIAL radius=1697787952.9742503 valid=1 error=
+TP_INIT_TRIAL radius=1886431058.8602781 valid=1 error=
+TP_INIT_TRIAL radius=2075074164.7463062 valid=1 error=
+TP_INIT_TRIAL radius=2263717270.6323338 valid=1 error=
+TP_INIT_TRIAL radius=1792109505.9172642 valid=1 error=
+TP diagnostic error in fitting_error: Inner integration did not land on fitting mass
