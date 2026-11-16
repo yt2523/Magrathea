@@ -1,0 +1,15 @@
+{
+  "assumption": "TEST_CONDITIONAL_HHE_ADIABATIC_EXTENSION",
+  "join_is_RCB": false,
+  "join_pressure_bar": 10000,
+  "join_T_K": 1258.359116298232,
+  "end_pressure_bar": 100000,
+  "original_profile_sha256": "304680f64db554b665bc9fbc1563b5814cef435d1da58ad1c03deed3565281bf",
+  "hhe_table_sha256": "6ccb48b3070fd0045a4dffd410d96bdf228df356d13a12537ad38f1613ee6fcb",
+  "native_globals_source": "frozen-source/src/main.cpp compiled with -Dmain=unused_planet_main; only globals linked, original main not executed",
+  "tool_sha256": "f9141dd0fcc68a3e76290c388425419121c31d962ac43eed626b0337b84dfb27",
+  "planet_launches": 3,
+  "grid_launched": false,
+  "original_nodes_preserved": true,
+  "stop_after_single_case_validation": true
+}

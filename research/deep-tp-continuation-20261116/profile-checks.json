@@ -1,0 +1,15 @@
+{
+  "extended.csv": {
+    "rows": 631,
+    "T_at_100000": 2005.5675234880703,
+    "original_prefix_preserved": true,
+    "join_once": true
+  },
+  "extended-fine.csv": {
+    "rows": 861,
+    "T_at_100000": 2005.56873667504,
+    "original_prefix_preserved": true,
+    "join_once": true
+  },
+  "endpoint_T_relative_difference": 6.049091949567043e-07
+}

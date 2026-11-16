@@ -1,0 +1,58 @@
+{
+  "case17": {
+    "status": "PASS_CONDITIONAL_NUMERICAL",
+    "radius_earth": 1.7151876277707623,
+    "layer_rows": 14415,
+    "gas_rows": 13729,
+    "phase_counts": {
+      "Fe_hcp": 608,
+      "Water_sc_Mazevet": 78,
+      "Gas_hhe": 13729
+    },
+    "local_phase_boundary_rows": 0,
+    "max_native_density_relative": 6.79435810330872e-16,
+    "max_independent_hhe_density_relative": 4.970494712850617e-16,
+    "max_external_temperature_relative": 2.2190492893210316e-16,
+    "rejected_numerical_table_trials": 0,
+    "physical_acceptance": false
+  },
+  "case17-tight": {
+    "status": "PASS_CONDITIONAL_NUMERICAL",
+    "radius_earth": 1.7151876666389796,
+    "layer_rows": 15380,
+    "gas_rows": 14330,
+    "phase_counts": {
+      "Fe_hcp": 933,
+      "Water_sc_Mazevet": 117,
+      "Gas_hhe": 14330
+    },
+    "local_phase_boundary_rows": 0,
+    "max_native_density_relative": 6.327921509442564e-16,
+    "max_independent_hhe_density_relative": 5.954852132247059e-16,
+    "max_external_temperature_relative": 3.6066143143371083e-16,
+    "rejected_numerical_table_trials": 0,
+    "physical_acceptance": false
+  },
+  "control20": {
+    "status": "PASS_CONDITIONAL_NUMERICAL",
+    "radius_earth": 2.5470246531826537,
+    "layer_rows": 13546,
+    "gas_rows": 12761,
+    "phase_counts": {
+      "Fe_hcp": 563,
+      "Water_sc_Mazevet": 119,
+      "Water_Brown": 103,
+      "Gas_hhe": 12761
+    },
+    "local_phase_boundary_rows": 0,
+    "max_native_density_relative": 6.04593543280908e-16,
+    "max_independent_hhe_density_relative": 5.716900644968642e-16,
+    "max_external_temperature_relative": 2.2192327608740452e-16,
+    "rejected_numerical_table_trials": 0,
+    "physical_acceptance": false
+  },
+  "comparisons": {
+    "tight_radius_delta_RE": 3.886821731136081e-08,
+    "control_radius_delta_RE": 0.0
+  }
+}

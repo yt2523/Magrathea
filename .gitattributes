@@ -92,3 +92,5 @@ research/composition-constraints-20261112/delivery/verification/frozen-fresh-pre
 
 # Frozen same-EOS TP boundary audit retains native output bytes.
 research/tp-boundary-audit-20261116/evidence/** -text -whitespace
+
+research/deep-tp-continuation-20261116/evidence/** -text -whitespace

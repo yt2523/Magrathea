@@ -1,0 +1,27 @@
+{
+  "nan": {
+    "exit": 1,
+    "stderr": "bad numeric arg\n",
+    "no_overwrite_or_partial_file": true
+  },
+  "badstep": {
+    "exit": 1,
+    "stderr": "max_dlnP out of range\n",
+    "no_overwrite_or_partial_file": true
+  },
+  "belowjoin": {
+    "exit": 1,
+    "stderr": "Pmax <= join\n",
+    "no_overwrite_or_partial_file": true
+  },
+  "domain": {
+    "exit": 1,
+    "stderr": "domain fail k4\n",
+    "no_overwrite_or_partial_file": true
+  },
+  "overwrite": {
+    "exit": 1,
+    "stderr": "output exists or cannot create\n",
+    "no_overwrite_or_partial_file": true
+  }
+}
