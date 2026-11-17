@@ -98,3 +98,6 @@ research/deep-tp-continuation-20261116/evidence/** -text -whitespace
 # Preserve exact generated TP prefix/source bytes and archived hashes.
 research/deep-tp-continuation-20261116/** -text -whitespace
 tools/extend_tp.cpp -text whitespace=cr-at-eol
+
+# Preserve authored observation-review artifacts and recorded hashes.
+research/mass-radius-observation-review-20261117/** -text whitespace=cr-at-eol
