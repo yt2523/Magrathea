@@ -1,0 +1,22 @@
+[
+  {
+    "file": "bonfanti2024.pdf",
+    "sha256": "86aff2b1269566a95f11dd9ba8c13a1fe6d19524b2b3e11479df1dbb9ec45d06",
+    "bytes": 2568682
+  },
+  {
+    "file": "cloutier2020.pdf",
+    "sha256": "d6fb7d8f4425781dda271704c4ffc22a8e0c8da11b85ccec28bb3213bd771a45",
+    "bytes": 5155140
+  },
+  {
+    "file": "nowak2020.pdf",
+    "sha256": "58e037abb0c89b52367ea3dcd3b1e2d989481a0de2b56560ec499419237c4f70",
+    "bytes": 5858762
+  },
+  {
+    "file": "weisserman2026.pdf",
+    "sha256": "59b19c0118b136f730930649883b2d7975dae77858c32709ff55f256d9f251ee",
+    "bytes": 9879284
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "stellar_mass_only_C20_vs_N20_factor": 1.0383332827091734,
+  "planet_mass_C20_vs_N20_factor": 1.3672496025437202,
+  "B24_vs_N20_mass_difference": 1.7499999999999991,
+  "C20_vs_N20_radius_fractional_difference": 0.052173913043478404,
+  "C20_to_B24_mass_sigma_fraction_approx": 0.0609452736318408,
+  "W26_mass_sigma_fraction": 0.032953105196451206,
+  "B24_K_sigma_fraction": 0.037914691943127965,
+  "W26_K_sigma_fraction": 0.02988505747126437,
+  "independent_normalized_difference_ONLY_HEURISTIC": {
+    "C20_N20_mass": 1.5990467475163843,
+    "B24_N20_mass": 2.2095325556458287,
+    "W26_B24_mass": 0.27477873954274096
+  },
+  "warning": "Differences normalized by independent Gaussian error are illustrative only; asymmetric errors and shared data mean these are NOT formal tension significances."
+}
